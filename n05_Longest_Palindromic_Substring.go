@@ -43,11 +43,11 @@ func longestPalindrome(s string) string {
 	for i := 0; i < len(s); i++ {
 		len1 := expand(i, i, s)
 		len2 := expand(i, i + 1, s)
-		len := max(len1, len2)
+		length := max(len1, len2)
 
-		if len > maxLen {
-			start = i - ((len - 1) >> 1)
-			maxLen = len
+		if length > maxLen {
+			start = i - ((length - 1) >> 1)
+			maxLen = length
 		}
 	}
 	return s[start : start + maxLen]
@@ -59,11 +59,4 @@ func expand(left, right int, s string) int {
 		right++
 	}
 	return right - left - 1
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }
