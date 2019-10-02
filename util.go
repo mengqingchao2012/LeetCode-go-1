@@ -1,5 +1,11 @@
 package main
 
+//链表
+type ListNode struct {
+	Val int
+	Next *ListNode
+}
+
 //求两数的最大值
 func max(a, b int) int {
 	if a > b {
