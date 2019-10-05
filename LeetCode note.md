@@ -54,6 +54,69 @@ func differ(a, b int) int {
 
 
 
+### 61. 旋转链表
+
+>给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
+>
+>示例 1:
+>
+>输入: 1->2->3->4->5->NULL, k = 2
+>输出: 4->5->1->2->3->NULL
+>解释:
+>向右旋转 1 步: 5->1->2->3->4->NULL
+>向右旋转 2 步: 4->5->1->2->3->NULL
+>示例 2:
+>
+>输入: 0->1->2->NULL, k = 4
+>输出: 2->0->1->NULL
+>解释:
+>向右旋转 1 步: 2->0->1->NULL
+>向右旋转 2 步: 1->2->0->NULL
+>向右旋转 3 步: 0->1->2->NULL
+>向右旋转 4 步: 2->0->1->NULL
+>
+
+- 解法：构建成环
+
+```go
+type ListNode struct {
+    Val int
+    Next *ListNode
+}
+
+func rotateRight(head *ListNode, k int) *ListNode {
+    if head == nil {
+        return nil
+    }
+    if head.Next == nil {
+        return head
+    }
+    
+    oldTail := head
+    var n = 1 //注意n从1开始计数
+    for ; oldTail.Next != nil; n++ {
+        oldTail = oldTail.Next
+    }
+    oldTail.Next = head //头尾相连，构建成环
+    
+    newTail := head
+    for i := 0; i < n - k % n - 1; i++ {
+        newTail = newTail.Next
+    }
+    res := newTail.Next
+    newTail.Next = nil
+    
+    return res
+}
+```
+
+- 思路：
+  - 构建成环，则旋转操作其实就变为找到新的头结点和尾结点，然后断开链表；
+  - 新链表头的位置：`n - k % n`，链表尾的位置：`n - k % n - 1`，n是链表中结点的个数，注意n从1开始数才对；
+  - 时间复杂度：$O(n)$，空间复杂度：$O(1)$
+
+
+
 ### 66. 加一
 
 >给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
@@ -96,7 +159,8 @@ func plusOne(digits []int) []int {
   - 将求和后的结果分成两部分，保留在原位上的数值和要进位的数值；
   - 初始化时，将加一操作抽象为更低位的进位值，即令carry=1，逆序遍历数组，将数组中的值与carry值相加，和对10取余即得到当前位上的数值，和对10取商，即得到进位的数值；
   - 时间复杂度为：$O(n)$
-  - 
+  
+    
 
 ### 448.找到所有数组中消失的数字
 
