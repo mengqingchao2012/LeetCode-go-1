@@ -54,6 +54,93 @@ func differ(a, b int) int {
 
 
 
+### 17.电话号码的数字组合
+
+>给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。
+>
+>给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
+>
+>
+>
+>示例:
+>
+>输入："23"
+>输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+>说明:
+>尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
+
+- 解法一：递归法：
+
+```go
+var mapping = map[byte]string {
+	0: "abc",
+	1: "def",
+	2: "ghi",
+	3: "jkl",
+	4: "mno",
+	5: "pqrs",
+	6: "tuv",
+	7: "wxyz",
+}
+
+func letterCombinations(digits string) []string {
+	if digits == "" {
+		return nil
+	}
+
+	var result []string
+	recursion(digits, 0, "", &result)
+	return result
+
+}
+//辅助函数，用于递归求解
+func recursion(digits string, idx int, str string, result *[]string) { //注意数组要传入指针，因为最后要取到返回值
+	if idx == len(digits) { //递归的退出条件
+		*result = append(*result, str) //注意此处的解引用符号不能漏
+		return
+	}
+
+	chars := mapping[digits[idx] - '2']
+	for i := 0; i < len(chars); i++ {
+		nxtStr := str + string(chars[i])
+		recursion(digits, idx + 1, nxtStr, result)
+	}
+}
+```
+
+- 思路：
+  - 递归解法一般是DFS的，迭代解法一般是BFS的；
+  - 对于每个位置，穷举其所有可能得结果，然后回溯到下一个位置继续穷举，比如：`23`这个数字，`2` 的可能取值为 `abc`，当取`a`时，下一位 `3` 的可能取值为 `def`，即产生三个解`ad, ae, af`，回溯，然后`2`取值为`b`，继续穷举；
+  - 时间复杂度：$O(4^n)$
+    - 最坏情况：数字为`79`时，此时每一位上都有四种可能性（pqrs * wxyz），第一个位置要调用4次，第二个位置要调用 $4^2$ 次，第n个位置要调用 $4^n$ 次，则总时间为：$4 + 4^1 + ... + 4^n$ 
+  - 空间复杂度：$O(n)$：取决于最大递归深度，n个字母组合时，最大字母长度为n，递归深度也为n
+- 方法二：迭代法：
+
+```go
+func letterCombinations1(digits string) []string {
+	if digits == "" {
+		return nil
+	}
+	res := []string{""} //注意初始化，此时res的len为1
+
+	for i := 0; i < len(digits); i++ {
+		chars := mapping[digits[i] - '2']
+		var temp []string
+        //对于res中的每一个值，都将其与下一个值的所有可能值进行组合
+		for j := 0; j < len(res); j++ { 
+			for k := 0; k < len(chars); k++ {
+				temp = append(temp, res[j] + string(chars[k]))
+			}
+		}
+		res = temp
+	}
+
+	return res
+}
+```
+
+
+
 ### 61. 旋转链表
 
 >给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
