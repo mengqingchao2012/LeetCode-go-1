@@ -141,6 +141,135 @@ func letterCombinations1(digits string) []string {
 
 
 
+### 31.下一个排列
+
+>实现获取下一个排列的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
+>
+>如果不存在下一个更大的排列，则将数字重新排列成最小的排列（即升序排列）。
+>
+>必须原地修改，只允许使用额外常数空间。
+>
+>以下是一些例子，输入位于左侧列，其相应输出位于右侧列。
+>1,2,3 → 1,3,2
+>3,2,1 → 1,2,3
+>1,1,5 → 1,5,1
+>
+
+- 解法：
+
+```go
+func nextPermutation(nums []int)  {
+    if nums == nil {
+        return 
+    }
+    
+    n := len(nums)
+    p := n - 2
+    
+    for p >= 0 && nums[p] >= nums[p + 1] {
+        p--
+    }
+    
+    if p >= 0 {
+        i := n - 1
+        for i > p && nums[i] <= nums[p] {
+            i--
+        }
+        nums[p], nums[i] = nums[i], nums[p]
+    }
+    
+	j := p + 1
+	for i := n - 1; j < i; {
+		nums[j], nums[i] = nums[i], nums[j]
+		j++
+		i--
+	}
+}
+```
+
+- 思路：
+  - 由题意可得：要找的数是比当前数大的所有数中最小的那个；
+  - 因为要找最小的数，所以从低位开始找：设置指针p指向倒数第二位，依次比较当前指针所指的数和他的低一位数的大小，并前移指针，当找到第一个不满足`nums[p] >= nums[p + 1]`的数时，指针P所指的数即是需要交换位置的数。此时再从低位开始遍历数组，找到第一个比`nums[p]`大的数`nums[i]`，并将两个数交换，最后再将p + 1和i之间的所有数首尾互换（即降序排列）即可；
+  - 如数组为：`[2, 1, 8, 4, 2, 1]`，找到指针p的位置为8前面的1，找到第一个比1大的数为2，交换1和2以后，得到`[2, 2, 8, 4, 1,1]`，此时再将数字8到数组结束之间的所有数首尾两两互换，最终可得：`[2, 2, 1, 1, 4, 8]`
+  - 时间复杂度：$O(n)$， 空间复杂度：$O(1)$
+
+
+
+### 47.全排列II
+
+>给定一个可包含重复数字的序列，返回所有不重复的全排列。
+>
+>示例:
+>
+>输入: [1,1,2]
+>输出:
+>[
+>  [1,1,2],
+>  [1,2,1],
+>  [2,1,1]
+>]
+>
+
+- 解法：
+
+```go
+import "sort"
+
+func permuteUnique(nums []int) [][]int {
+	if nums == nil {
+		return [][]int{}
+	}
+
+	var res [][]int
+
+	sort.Ints(nums)
+	res = append(res, nums)
+	for isFind, num := nextPermutations(nums); isFind == true;{
+		res = append(res, num)
+		isFind, num = nextPermutations(num)
+	}
+	return res
+}
+
+//注意不要传切片指针进来，切片指针共享底层数组，在辅助函数中改写切片指针会导致所有结果都受到影响
+func nextPermutations(num []int) (bool, []int) {
+	n := len(num)
+	p := n - 2
+
+	nums := make([]int, n)
+	copy(nums, num)
+
+	for p >= 0 && nums[p] >= nums[p + 1] {
+		p--
+	}
+
+	if p >= 0 {
+		i := n - 1
+		for i > p && nums[i] <= nums[p] {
+			i--
+		}
+		nums[p], nums[i] = nums[i], nums[p]
+	}
+
+	j := p + 1
+	for i := n - 1; j < i; {
+		nums[j], nums[i] = nums[i], nums[j]
+		j++
+		i--
+	}
+
+	return p != -1, nums
+}
+```
+
+- 思路：
+  - 基于第31题，下一个排列的解法求解；
+  - 对数组按升序排序，然后把数组转换成字典序中下一个更大的排列，并把生成的结果加入结果集中，这样一来就完全避免了重复结果的出现；
+  - 如：`[1, 1, 2]`这个数组生成的最终结果为：`[[1, 1, 2], [1, 2, 1], [2, 1, 1]]`;
+  - 时间复杂度：$O(n * n!)$，空间复杂度：$O(1)$
+
+
+
 ### 61. 旋转链表
 
 >给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
