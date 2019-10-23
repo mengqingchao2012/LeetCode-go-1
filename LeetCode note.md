@@ -195,6 +195,79 @@ func nextPermutation(nums []int)  {
 
 
 
+### 39. 组合总和
+
+>给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
+>
+>candidates 中的数字可以无限制重复被选取。
+>
+>说明：
+>
+>所有数字（包括 target）都是正整数。
+>解集不能包含重复的组合。 
+>示例 1:
+>
+>输入: candidates = [2,3,6,7], target = 7,
+>所求解集为:
+>[
+>  [7],
+>  [2,2,3]
+>]
+>示例 2:
+>
+>输入: candidates = [2,3,5], target = 8,
+>所求解集为:
+>[
+>  [2,2,2,2],
+>  [2,3,3],
+>  [3,5]
+>]
+>
+
+- 解法：
+
+```go
+import "sort"
+
+func combinationSum(candidates []int, target int) [][]int {
+	sort.Ints(candidates)
+	var result [][]int
+	var solution []int
+
+	combsum(candidates, solution, target, &result)
+	return result
+}
+
+func combsum(candidates, solution []int, target int, result *[][]int) {
+	if target == 0 {
+		*result = append(*result, solution)
+		return
+	}
+
+	if len(candidates) == 0 || target < candidates[0] {
+		return
+	}
+
+	solution = solution[: len(solution) : len(solution)]
+
+	combsum(candidates, append(solution, candidates[0]), target - candidates[0], result)
+	combsum(candidates[1:], solution, target, result)
+}
+```
+
+- 思路：
+  - 思路来源sicp的1.2.2中，换零钱问题：
+  - 将总数为a的现金换成n种不同种类硬币的不同方式的总数为：
+    - 将现金a换成除第一种硬币之外的所有其他硬币的不同的方式的数目，加上
+    - 将现金a-d换成所有种类的硬币的不同方式数目，其中d是第一种硬币的币值；
+  - 算法正确的理由：将换零钱分成两组：第一组全都没有使用第一种硬币，第二组都是用了第一种硬币。由此，换成零钱的全部方式的数目，等于完全不用第一种硬币的方式的数目，加上用了第一种硬币的换零钱方式的数目。后者的数目就等于去掉一个第一种硬币值后，剩下的现金数的换零钱方式的数目；
+  - 递归终止条件：
+    - 如果a的值为0，算作是找到了一种换零钱的方式；
+    - 如果a小于0，说明没有找到换零钱的方式；
+    - 如果n是0，说明也没有找到换零钱的方式；
+
+
+
 ### 47.全排列II
 
 >给定一个可包含重复数字的序列，返回所有不重复的全排列。
