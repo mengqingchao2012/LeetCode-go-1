@@ -756,3 +756,91 @@ func minFunc(a, b int) int {
     - 如果 count 已经大于 k，则直接返回即可不用再往后遍历；
   - 时间复杂度：$O(mlog(m * n))$，空间复杂度：$O(1)$
 - 同类题：378
+
+
+
+### 786. 第K个最小的素数分数
+
+>一个已排序好的表 A，其包含 1 和其他一些素数.  当列表中的每一个 p<q 时，我们可以构造一个分数 p/q 。
+>
+>那么第 k 个最小的分数是多少呢?  以整数数组的形式返回你的答案, 这里 answer[0] = p 且 answer[1] = q.
+>
+>示例:
+>输入: A = [1, 2, 3, 5], K = 3
+>输出: [2, 5]
+>解释:
+>已构造好的分数,排序后如下所示:
+>1/5, 1/3, 2/5, 1/2, 3/5, 2/3.
+>很明显第三个最小的分数是 2/5.
+>
+>输入: A = [1, 7], K = 1
+>输出: [1, 7]
+>注意:
+>
+>A 的取值范围在 2 — 2000.
+>每个 A[i] 的值在 1 —30000.
+>K 取值范围为 1 —A.length * (A.length - 1) / 2
+>
+
+- 解法：
+
+```go
+func kthSmallestPrimeFraction(A []int, K int) []int {
+	var left float64= 0.0
+	var right float64= 1.0
+	size := len(A)
+
+	for left < right {
+		var mid = float64(left+right) / 2 //此处是float64，left + right不会溢出
+		var max float64 = 0
+		p, q, j, count := 0, 0, 1, 0
+
+		for i := 0; i < size - 1; i++ { //注意i,j的取值，i比j要小1
+			for j < size && float64(A[i]) > float64(A[j]) * mid {
+				j++
+			}
+			if size == j {
+				break
+			}
+			count += size - j
+
+			temp := float64(A[i]) / float64(A[j])
+			if temp > max {
+				max = temp
+				p = i
+				q = j
+			}
+		}
+
+		if count == K {
+			return []int{A[p], A[q]}
+		} else if count > K {
+			right = mid
+		} else {
+			left = mid
+		}
+	}
+	return []int{}
+}
+```
+
+- 思路：
+
+  - 构造虚拟数组，A[i]为分子，A[j]为分母
+
+    >1/2 | 1/3 | 1/5 |
+    >
+    >NA | 2/3 | 2/5 |
+    >
+    >NA | NA | 3/5 |
+
+  - 规律为：
+
+    - 同一行从左往右值依次减小；
+    - 同一列从下往上值依次减小；
+
+  - 遍历每一行，找到第一个比 mid 小的元素，统计出每行比 mid 大的元素的个数，并将这个元素与 max 进行比较，更新 max 和坐标；
+
+  - j 下标可以复用，上一行定位到的 j 对应到该行中第一个小于 mid 的元素，转到下一行时，由虚拟数组的构造规律可知，恰好是下一个位置的起点；
+
+  - 当计数 count 
