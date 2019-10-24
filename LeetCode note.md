@@ -248,6 +248,7 @@ func combsum(candidates, solution []int, target int, result *[][]int) {
 		return
 	}
 
+    //注意这里重新再切切片是为了保证下一次append的时候，solution产生一个新的底层数组，如果不执行这一步的话，由于切片共享底层数组会导致最终得出错误的答案
 	solution = solution[: len(solution) : len(solution)]
 
 	combsum(candidates, append(solution, candidates[0]), target - candidates[0], result)
@@ -533,6 +534,63 @@ func findDuplicate(nums []int) int {
 
 
 
+### 378.有序矩阵中第k小的元素
+
+>给定一个 n x n 矩阵，其中每行和每列元素均按升序排序，找到矩阵中第k小的元素。
+>请注意，它是排序后的第k小元素，而不是第k个元素。
+>
+>示例:
+>
+>matrix = [
+>   [ 1,  5,  9],
+>   [10, 11, 13],
+>   [12, 13, 15]
+>],
+>k = 8,
+>
+>返回 13。
+>说明:
+>你可以假设 k 的值永远是有效的, 1 ≤ k ≤ n^2 。
+
+- 解法：
+
+```go
+func kthSmallest(matrix [][]int, k int) int {
+	n := len(matrix) - 1
+	left, right := matrix[0][0], matrix[n][n] + 1
+    for left < right { //log(right - left)次
+		mid := left + ((right - left) >> 1)
+        if nLessMids(&matrix, n, mid) >= k { // nlog(n)
+			right = mid
+		} else  {
+			left = mid + 1
+		}
+	}
+	return left
+}
+
+func nLessMids(matrix *[][]int, row, mid int) int {
+	count := 0
+	for i := 0; i <= row; i++ {
+		if (*matrix)[i][row] <= mid {
+			count += row + 1
+		} else {
+			for j:=0; j <= row && (*matrix)[i][j] <= mid; j++{
+				count++
+			}
+		}
+	}
+	return count
+}
+```
+
+- 思路：二分法：
+  - 思路类似第668题；
+  - 与第668题的区别：不能剪枝，矩阵只是在行和列上各自有序，并不是整体都有序，要依次判断每一行是否存在比 mid 小的值存入 count中；
+  - 时间复杂度：$O(log(max - min) * nlog(n))$，空间复杂度：$O(1)$
+
+
+
 ### 448.找到所有数组中消失的数字
 
 >给定一个范围在  1 ≤ a[i] ≤ n ( n = 数组大小 ) 的 整型数组，数组中的元素一些出现了两次，另一些只出现一次。
@@ -616,3 +674,85 @@ func abs(a int) int {
   - 要想利用原数组的空间存储数字是否出现的信息，同时又要保证能够取到原来的数值信息，考虑使用相反数；
   - 遍历数组，将取到的元素值取绝对值后减1，当做数组的下标，访问该下标，并将下标对应的值改为负数，遍历完成后，数组中，元素值依旧为正的值所对应的下标+1即是缺失的数；
   - 时间复杂度：$O(n)$，空间复杂度：$O(1)$
+
+
+
+### 668.乘法表中第k小的数
+
+>几乎每一个人都用 乘法表。但是你能在乘法表中快速找到第k小的数字吗？
+>
+>给定高度m 、宽度n 的一张 m * n的乘法表，以及正整数k，你需要返回表中第k 小的数字。
+>
+>例 1：
+>
+>输入: m = 3, n = 3, k = 5
+>输出: 3
+>解释: 
+>乘法表:
+>1	2	3
+>2	4	6
+>3	6	9
+>
+>第5小的数字是 3 (1, 2, 2, 3, 3).
+>例 2：
+>
+>输入: m = 2, n = 3, k = 6
+>输出: 6
+>解释: 
+>乘法表:
+>1	2	3
+>2	4	6
+>
+>第6小的数字是 6 (1, 2, 2, 3, 4, 6).
+>注意：
+>
+>m 和 n 的范围在 [1, 30000] 之间。
+>k 的范围在 [1, m * n] 之间。
+>
+
+- 解法：
+
+```go
+func findKthNumber(m int, n int, k int) int {
+	left, right := 1, m * n + 1 //注意，此处的left和right是实际的值，不是下标，right是右边界，左闭右开原则，所以要加1
+
+	for left < right {
+		mid := left + ((right - left) >> 1)
+		if nLessMid(m, n, mid, k) >= k { //求出比mid值小的元素的个数，与k进行比较
+			right = mid //不能写成 mid - 1，因为有可能count的值刚好就等于k
+		} else {
+			left = mid + 1 //这里的加1不能漏
+		}
+	}
+	return left
+}
+
+func nLessMid(m, n, mid, k int) int {
+	count := 0
+	for i := 1; i <= minFunc(m, mid); i++ {
+		count += minFunc(n, mid / i)
+		if count >= k {
+			return count
+		}
+	}
+	return count
+}
+
+func minFunc(a, b int) int {
+	if a < b {
+		return a
+	}
+
+	return b
+}
+```
+
+- 思路：二分法
+  - left，right分别代表矩阵中的最小值和最大值，即矩阵的左上角和右下角的值；
+  - 根据 left 和 right 的值求出 mid，计算矩阵中值小于 mid 的元素个数 count，比较 count 和目标值 k 就可知晓，要查找的元素到底落在了矩阵中的哪个区间内，修正 left 和 right；
+  - 统计 count 的方法：第 i 行的最后一个数是 i * n，如果最后一个数小于等于中间数，则该行所有数都应该被统计进 count。即 $i * n \le mid$，两边除以 i，结果是一样的
+  - 在统计 count 的时候存在两种可以剪枝的情况：
+    - 如果行数 i 远大于mid，即 mid / i 的结果为0，则说明已经越过了mid，后续count相加都等于 count + 0，故不用遍历m行，只需遍历到 min(m, mid) 即可；
+    - 如果 count 已经大于 k，则直接返回即可不用再往后遍历；
+  - 时间复杂度：$O(mlog(m * n))$，空间复杂度：$O(1)$
+- 同类题：378
