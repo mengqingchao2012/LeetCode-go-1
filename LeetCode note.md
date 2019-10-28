@@ -195,6 +195,74 @@ func nextPermutation(nums []int)  {
 
 
 
+### 34. 在排序数组中查找元素的第一个和最后一个位置
+
+>给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
+>
+>你的算法时间复杂度必须是 O(log n) 级别。
+>
+>如果数组中不存在目标值，返回 [-1, -1]。
+>
+>示例 1:
+>
+>输入: nums = [5,7,7,8,8,10], target = 8
+>输出: [3,4]
+>示例 2:
+>
+>输入: nums = [5,7,7,8,8,10], target = 6
+>输出: [-1,-1]
+
+- 解法：
+
+```go
+func searchRange(nums []int, target int) []int {
+    size := len(nums)
+    if size == 0 {
+        return []int{-1, -1}
+    }
+    
+    end := findLastIndex(&nums, target)
+    begin := findLastIndex(&nums, target - 1) + 1
+    
+    if begin >= 0 && begin <=end && end < size {
+        return []int{begin, end}
+    }
+    
+    return []int{-1, -1}
+}
+
+func findLastIndex(nums *[]int, target int) int {
+    size := len(*nums)
+    low, high := 0, size - 1
+    
+    for low <= high {
+        mid := low + (high - low >> 1)
+        if (*nums)[mid] > target {
+            high = mid - 1
+        } else {
+            low = mid + 1
+        }
+    }
+    return high
+}
+```
+
+- 思路：
+
+  - 二分法的变体；
+
+  - 结束位置的找法：二分法找到等于目标值的一个下标后，继续向右查找，即，high不变，low每次加1，直到循环条件不再满足退出，此时的high的值即是要查找的目标的结束位置；
+
+    - 实现也很简单，只需修改循环更新条件，只分 `nums[mid] > target` 和 小于等于 target 的情况来写即可；
+
+  - 开始位置的找法：找值比目标值小1的数的结束位置，再加1即可；
+
+    - 原理：即便比目标值小1的数在数组中不存在，使用`findLastIndex`函数在目标值不存在时，返回的 high 的值是数组中小于目标值的所有数中最大的那一个，因此在得到的这个下标上加1即可得到目标值的开始位置；
+
+  - 时间复杂度：$O(logn)$，空间复杂度：$O(1)$
+
+    
+
 ### 39. 组合总和
 
 >给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
