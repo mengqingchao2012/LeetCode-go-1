@@ -21,3 +21,11 @@ func differ(a, b int) int {
 	}
 	return b - a
 }
+//求两数的最小值
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+
+	return b
+}
