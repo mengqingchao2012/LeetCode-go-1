@@ -518,7 +518,64 @@ func plusOne(digits []int) []int {
   - 初始化时，将加一操作抽象为更低位的进位值，即令carry=1，逆序遍历数组，将数组中的值与carry值相加，和对10取余即得到当前位上的数值，和对10取商，即得到进位的数值；
   - 时间复杂度为：$O(n)$
   
+
+
+
+### 86.分隔链表
+
+>给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于 x 的节点都在大于或等于 x 的节点之前。
+>
+>你应当保留两个分区中每个节点的初始相对位置。
+>
+>示例:
+>
+>输入: head = 1->4->3->2->5->2, x = 3
+>输出: 1->2->2->4->3->5
+>
+
+- 解法：
+
+```go
+/**
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func partition(head *ListNode, x int) *ListNode {
+    if head == nil {
+        return nil
+    }
     
+    smaller := &ListNode{}
+    greater := &ListNode{}
+    ps := smaller
+    pg := greater
+    
+    for cur := head; cur != nil; cur = cur.Next {
+        if cur.Val < x {
+            ps.Next = cur
+            ps = ps.Next
+        } else {
+            pg.Next = cur
+            pg = pg.Next
+        }
+    }
+    ps.Next = greater.Next
+    pg.Next = nil
+    
+    return smaller.Next
+}
+```
+
+- 思路：
+  - 链表的插入和删除都是O(1)的复杂度；
+  - 分别定义两个新链表，一个用来存储小于目标值的节点，另一个用来存储大于或等于目标值的节点；
+  - 遍历原始链表，比较当前节点的值与目标值的大小，根据结果将节点分别插入两条链表中；
+  - 完成遍历后，需要将smaller链表的尾部连接到greater链表的头部，合并成一条链表，并将greater链表的最后一个节点的next指针置空，防止成环；
+  - 时间复杂度：$O(n)$，空间复杂度：$O(1)$
+
+
 
 ### 153.寻找旋转排序数组中的最小值
 
