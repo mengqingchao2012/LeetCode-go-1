@@ -514,10 +514,81 @@ func plusOne(digits []int) []int {
 
 - 思路：
   - 关键点：进位会导致相关位上的数值变化，数组的长度也可能会发生变化；
+  
   - 将求和后的结果分成两部分，保留在原位上的数值和要进位的数值；
+  
   - 初始化时，将加一操作抽象为更低位的进位值，即令carry=1，逆序遍历数组，将数组中的值与carry值相加，和对10取余即得到当前位上的数值，和对10取商，即得到进位的数值；
+  
   - 时间复杂度为：$O(n)$
   
+    
+  
+
+### 74.搜索二维矩阵
+
+>编写一个高效的算法来判断 m x n 矩阵中，是否存在一个目标值。该矩阵具有如下特性：
+>
+>每行中的整数从左到右按升序排列。
+>每行的第一个整数大于前一行的最后一个整数。
+>示例 1:
+>
+>输入:
+>matrix = [
+>  [1,   3,  5,  7],
+>  [10, 11, 16, 20],
+>  [23, 30, 34, 50]
+>]
+>target = 3
+>输出: true
+>示例 2:
+>
+>输入:
+>matrix = [
+>  [1,   3,  5,  7],
+>  [10, 11, 16, 20],
+>  [23, 30, 34, 50]
+>]
+>target = 13
+>输出: false
+>
+
+- 解法：
+
+```go
+func searchMatrix(matrix [][]int, target int) bool {
+	m := len(matrix)
+	if m == 0 {
+		return false
+	}
+
+	n := len(matrix[0])
+
+	left, right := 0, m * n - 1
+	for left <= right {
+		mid := left + ((right - left) >> 1)
+		row := mid / n
+		col := mid % n
+		if target < matrix[row][col] {
+			right = mid - 1
+		} else if target > matrix[row][col] {
+			left = mid + 1
+		} else {
+			return true
+		}
+	}
+
+	return false
+}
+
+```
+
+- 思路：
+  - 二分法；
+  - 关键点，将mid的值转换为行，列坐标的形式：
+    - 求出二维数组的列数n
+    - 行：row = mid / n
+    - 列：col = mid % n
+  - 时间复杂度：$O(log(m * n))$，空间复杂度：$O(1)$
 
 
 
