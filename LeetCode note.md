@@ -702,9 +702,125 @@ func findMin(nums []int) int {
 
   - 时间复杂度：$O(logn)$，空间复杂度：$O(1)$
 
+
+
+
+### 215. 数组中的第K个最大元素
+
+>在未排序的数组中找到第 k 个最大的元素。请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
+>
+>示例 1:
+>
+>输入: [3,2,1,5,6,4] 和 k = 2
+>输出: 5
+>示例 2:
+>
+>输入: [3,2,3,1,2,4,5,5,6] 和 k = 4
+>输出: 4
+>说明:
+>
+>你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。
+>
+
+- 解法一：最小堆
+
+```go
+func findKthLargest(nums []int, k int) int {
+	temp := new(minheap) //初始化，new（）返回的是指针，因为heap.Init（）传入的是指针
+	heap.Init(temp)
+
+	for _, v := range nums {
+		if temp.Len() < k {
+			heap.Push(temp, v)
+		} else if v > (*temp)[0] { //注意temp是指针类型
+			heap.Pop(temp)
+			heap.Push(temp, v)
+		}
+	}
+    return heap.Pop(temp).(int) //注意返回值，heap.Pop()的返回值是接口类型，要做断言
+}
+
+type minheap []int
+
+func (h minheap) Len() int {
+	return len(h)
+}
+
+func (h minheap) Less(i, j int) bool {
+	return h[i] < h[j]
+}
+
+func (h minheap) Swap(i, j int) {
+	h[i], h[j] = h[j], h[i]
+}
+
+func (h *minheap) Push(x interface{}) {
+	*h = append(*h, x.(int))
+}
+
+func (h *minheap) Pop() interface{} {
+	n := len(*h)
+	res := (*h)[n - 1]
+	*h = (*h)[: n - 1]
+	return res
+} 
+```
+
+- 思路：
+  - 维护一个大小为k的最小堆，遍历数组，向堆中依次加入元素；
+  - 如果堆的大小小于k，则直接将元素加入其中；如果堆的大小大于等于k，则比较堆顶元素与当前元素的大小，如果当前元素小于堆顶元素，则不加入，如果当前元素大于等于堆顶元素，则将堆顶元素移除，并将当前元素放入堆中。则最终，留在堆中的元素是数组中前k大的数，而堆顶放的就是这k个数中最小的那个，即整个数组中第k大的数；
+  - 时间复杂度：$O(nlog(k))$，空间复杂度：$O(k)$
+  - 如果换成大顶堆，则加入所有元素直接堆排序，然后移除k - 1次，最终的堆顶元素就是第k大的数
+- 方法二：快速选择法：
+
+```go
+func findKthLargest(nums []int, k int) int {
+	left, right := 0, len(nums) - 1
+	for left <= right {
+		p := partitionFind(&nums, left, right)
+		if p == k - 1 {
+			return nums[p]
+		} else if p > k - 1 {
+			right = p - 1
+		} else {
+			left = p + 1
+		}
+	}
+	return -1
+}
+
+func partitionFind(nums *[]int, left, right int) int {
+	pivot := (*nums)[left]
+	low, high := left, right
+	for low < high {
+		for low < high && (*nums)[high] < pivot {
+			high --
+		}
+		if low < high {
+			(*nums)[low], (*nums)[high] = (*nums)[high], (*nums)[low]
+		}
+		for low < high && (*nums)[low] >= pivot {
+			low++
+		}
+		if low < high {
+			(*nums)[low], (*nums)[high] = (*nums)[high], (*nums)[low]
+		}
+	}
+	return low //返回时，low=high，指向的值刚好就是pivot
+}
+```
+
+- 思路：
+
+  - 快排思路的变种；
+
+  - 任选一个值作为分隔点，双指针从头，尾向中间遍历数组，将大于分隔点的值放在数组左半部分，小于分隔点的值放在数组右半部分，完成排序后，返回分隔点的下标，并与 k-1 的值进行比较；（注意是与 k-1 的值进行比较，因为这种操作，最后第 k 大数的下标落在了 k-1 处）
+
+  - 平均时间复杂度：$O(n)$，最坏时间复杂度：$O(n^2)$，出现在数组已经有序的情况下；
+
+  - 空间复杂度：$O(1)$
+
     
-
-
 
 ### 287.寻找重复数
 
