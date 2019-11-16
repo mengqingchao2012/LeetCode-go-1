@@ -1,7 +1,9 @@
 package main
 
+import "LeetCode-go/utils"
+
 //Time: O(n); Space: O(1)
-func rotateRight(head *ListNode, k int) *ListNode {
+func rotateRight(head *utils.ListNode, k int) *utils.ListNode {
 	if head == nil {
 		return nil
 	}

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"LeetCode-go/utils"
 	"math"
 	"sort"
 )
@@ -21,7 +22,7 @@ func threeSumClosest(nums []int, target int) int {
 				k--
 			}
 
-			diff := differ(sum, target)
+			diff := utils.Differ(sum, target)
 
 			if diff < min {
 				min = diff

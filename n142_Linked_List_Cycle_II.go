@@ -1,6 +1,8 @@
 package main
 
-func detectCycle(head *ListNode) *ListNode {
+import "LeetCode-go/utils"
+
+func detectCycle(head *utils.ListNode) *utils.ListNode {
 	slow := head
 	fast := head
 	for fast != nil && fast.Next != nil {

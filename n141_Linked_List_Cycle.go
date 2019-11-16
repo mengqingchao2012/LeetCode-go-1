@@ -1,6 +1,8 @@
 package main
 
-func hasCycle(head *ListNode) bool {
+import "LeetCode-go/utils"
+
+func hasCycle(head *utils.ListNode) bool {
 	slow := head
 	fast := head
 

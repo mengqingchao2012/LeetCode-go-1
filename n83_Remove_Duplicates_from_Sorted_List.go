@@ -1,7 +1,9 @@
 package main
 
+import "LeetCode-go/utils"
+
 //Time：O(n)，Space：O(1)
-func deleteDuplicates(head *ListNode) *ListNode {
+func deleteDuplicates(head *utils.ListNode) *utils.ListNode {
 	if head == nil {
 		return nil
 	}

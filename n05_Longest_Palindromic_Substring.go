@@ -1,5 +1,7 @@
 package main
 
+import "LeetCode-go/utils"
+
 //解法一：Time:O(n^2)，Space:O(n^2)
 func longestPalindrome1(s string) string {
 	length := len(s)
@@ -43,7 +45,7 @@ func longestPalindrome(s string) string {
 	for i := 0; i < len(s); i++ {
 		len1 := expand(i, i, s)
 		len2 := expand(i, i + 1, s)
-		length := max(len1, len2)
+		length := utils.Max(len1, len2)
 
 		if length > maxLen {
 			start = i - ((length - 1) >> 1)

@@ -1,10 +1,12 @@
 package main
 
-func deleteDuplicates2(head *ListNode) *ListNode {
+import "LeetCode-go/utils"
+
+func deleteDuplicates2(head *utils.ListNode) *utils.ListNode {
 	if head == nil {
 		return nil
 	}
-	dummy := &ListNode{}
+	dummy := &utils.ListNode{}
 	dummy.Next = head
 
 	pre := dummy

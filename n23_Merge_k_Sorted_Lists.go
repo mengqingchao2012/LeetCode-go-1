@@ -1,11 +1,12 @@
 package main
 
 import (
+	"LeetCode-go/utils"
 	"container/heap"
 )
 
 //分治法：Time：O(nlogk), Space：O(logk), n是总节点数，k是链表的个数
-func mergeKLists(lists []*ListNode) *ListNode {
+func mergeKLists(lists []*utils.ListNode) *utils.ListNode{
 	length := len(lists)
 	if length == 0 {
 		return nil
@@ -13,7 +14,7 @@ func mergeKLists(lists []*ListNode) *ListNode {
 	return merges(&lists, 0, length - 1)
 }
 
-func merges(lists *[]*ListNode, start, end int) *ListNode{
+func merges(lists *[]*utils.ListNode, start, end int) *utils.ListNode{
 	if start == end {
 		return (*lists)[start]
 	}
@@ -28,8 +29,8 @@ func merges(lists *[]*ListNode, start, end int) *ListNode{
 	return mergeTwoSortedLists(left, right)
 }
 
-func mergeTwoSortedLists(l1, l2 *ListNode) *ListNode {
-	res := &ListNode{}
+func mergeTwoSortedLists(l1, l2 *utils.ListNode) *utils.ListNode {
+	res := &utils.ListNode{}
 	cur := res
 
 	for l1 != nil && l2 != nil {
@@ -54,12 +55,8 @@ func mergeTwoSortedLists(l1, l2 *ListNode) *ListNode {
 }
 
 //方法二：构造小顶堆，Time：O(nlogk), Space：O(k), n是总节点数，k是链表的个数
-type ListNode1 struct {
-	Val int
-	Next *ListNode1
-}
 
-func mergeKLists1(lists []*ListNode1) *ListNode1 {
+func mergeKLists1(lists []*utils.ListNode) *utils.ListNode {
 	if len(lists) == 0 {
 		return nil
 	}
@@ -72,11 +69,11 @@ func mergeKLists1(lists []*ListNode1) *ListNode1 {
 		}
 	}
 
-	res := &ListNode1{}
+	res := &utils.ListNode{}
 	cur := res
 
 	for temp.Len() != 0 {
-		min := heap.Pop(temp).(*ListNode1)
+		min := heap.Pop(temp).(*utils.ListNode)
 		cur.Next = min
 		cur = cur.Next
 		if min.Next != nil {
@@ -86,7 +83,7 @@ func mergeKLists1(lists []*ListNode1) *ListNode1 {
 	return res.Next
 }
 
-type minHeap []*ListNode1
+type minHeap []*utils.ListNode
 
 func (mp minHeap) Len() int {
 	return len(mp)
@@ -101,7 +98,7 @@ func (mp minHeap) Less(i, j int) bool {
 }
 
 func (mp *minHeap) Push(h interface{}) {
-	*mp = append(*mp, h.(*ListNode1))
+	*mp = append(*mp, h.(*utils.ListNode))
 }
 
 func (mp *minHeap) Pop() (x interface{}) {
@@ -113,26 +110,26 @@ func (mp *minHeap) Pop() (x interface{}) {
 }
 
 //func main() {
-//	a := &ListNode1{Val: 1}
-//	b := &ListNode1{Val: 4}
-//	c := &ListNode1{Val: 5}
+//	a := &utils.ListNode{Val: 1}
+//	b := &utils.ListNode{Val: 4}
+//	c := &utils.ListNode{Val: 5}
 //	a.Next = b
 //	b.Next = c
 //
-//	d := &ListNode1{Val: 1}
-//	e := &ListNode1{Val: 3}
-//	f := &ListNode1{Val: 4}
+//	d := &utils.ListNode{Val: 1}
+//	e := &utils.ListNode{Val: 3}
+//	f := &utils.ListNode{Val: 4}
 //	d.Next = e
 //	e.Next = f
 //
-//	g := &ListNode1{Val: 2}
-//	h := &ListNode1{Val: 6}
+//	g := &utils.ListNode{Val: 2}
+//	h := &utils.ListNode{Val: 6}
 //	g.Next = h
 //
-//	q := []*ListNode1{a, d, g}
+//	q := []*utils.ListNode{a, d, g}
 //
 //
-//	//q := []*ListNode1{&ListNode1{Val:1}, &ListNode1{Val:0}}
+//	//q := []*utils.ListNode{&utils.ListNode{Val:1}, &utils.ListNode{Val:0}}
 //
 //	res := mergeKLists(q)
 //

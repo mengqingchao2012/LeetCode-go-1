@@ -1,8 +1,10 @@
 package main
 
+import "LeetCode-go/utils"
+
 //Time：O(n)，Space:O(1)
-func removeNthFromEnd(head *ListNode, n int) *ListNode {
-	dummy := &ListNode{}
+func removeNthFromEnd(head *utils.ListNode, n int) *utils.ListNode {
+	dummy := &utils.ListNode{}
 	dummy.Next = head
 
 	p, q := dummy, dummy

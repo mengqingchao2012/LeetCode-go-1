@@ -1,5 +1,7 @@
 package main
 
+import "LeetCode-go/utils"
+
 //方法一：哈希表：Time：O(n)，Space:O(n)
 func lengthOfLongestSubstring(s string) int {
 	size := len(s)
@@ -11,9 +13,9 @@ func lengthOfLongestSubstring(s string) int {
 	ans := 0
 	for start, end := 0, 0; end < size; end++ {
 		if _, err := mp[s[end]]; err != false {
-			start = max(mp[s[end]], start)
+			start = utils.Max(mp[s[end]], start)
 		}
-		ans = max(end - start + 1, ans)
+		ans = utils.Max(end - start + 1, ans)
 		mp[s[end]] = end + 1
 	}
 	return ans
@@ -30,9 +32,9 @@ func lengthOfLongestSubstring1(s string) int {
 	ans := 0
 	for start, end := 0, 0; end < size; end++ {
 		if store[s[end]] != 0 {
-			start = max(store[s[end]], start)
+			start = utils.Max(store[s[end]], start)
 		}
-		ans = max(end - start + 1, ans)
+		ans = utils.Max(end - start + 1, ans)
 		store[s[end]] = end + 1
 	}
 	return ans

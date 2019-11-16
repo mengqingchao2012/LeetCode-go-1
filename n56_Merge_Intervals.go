@@ -1,6 +1,9 @@
 package main
 
-import "sort"
+import (
+	"LeetCode-go/utils"
+	"sort"
+)
 
 type Intervals struct {
 	start int
@@ -26,7 +29,7 @@ func merge1(intervals []Intervals) []Intervals {
 		if n == 0 || res[n - 1].end < v.start {
 			res = append(res, v)
 		} else { //否则，说明结果集中的最后一组数组与当前数组有包含关系，使用end元素较大的那个值更新结果集
-			res[n - 1].end = max(res[n - 1].end, v.end)
+			res[n - 1].end = utils.Max(res[n - 1].end, v.end)
 		}
 	}
 	return res
@@ -50,7 +53,7 @@ func mergeForSlice(intervals [][]int) [][]int {
 		if n == 0 || res[n - 1][1] < v[0] {
 			res = append(res, v)
 		} else {
-			res[n - 1][1] = max(res[n - 1][1], v[1])
+			res[n - 1][1] = utils.Max(res[n - 1][1], v[1])
 		}
 	}
 	return res

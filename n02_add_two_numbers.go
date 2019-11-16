@@ -1,8 +1,10 @@
 package main
 
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+import "LeetCode-go/utils"
+
+func addTwoNumbers(l1 *utils.ListNode, l2 *utils.ListNode) *utils.ListNode {
 	carry := 0
-	res := &ListNode{}
+	res := &utils.ListNode{}
 	cur := res
 
 	for l1 != nil || l2 != nil || carry > 0 {
@@ -18,7 +20,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		}
 
 		carry = sum / 10
-		cur.Next = &ListNode{Val: sum % 10}
+		cur.Next = &utils.ListNode{Val: sum % 10}
 		cur = cur.Next
 	}
 	return res.Next
