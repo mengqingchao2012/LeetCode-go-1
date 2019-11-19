@@ -25,8 +25,8 @@ func build(pre *[]int, preStart, preEnd int, inStart int, inPos *map[int]int) *u
 	return root
 }
 
-func main() {
-	pre := []int{3, 9, 20, 15, 7}
-	in := []int{9, 3, 15, 20, 7}
-	buildTree(pre, in)
-}
+//func main() {
+//	pre := []int{3, 9, 20, 15, 7}
+//	in := []int{9, 3, 15, 20, 7}
+//	buildTree(pre, in)
+//}

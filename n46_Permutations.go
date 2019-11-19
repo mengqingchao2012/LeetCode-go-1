@@ -31,7 +31,7 @@ func permuteRec(nums []int, start int, res *[][]int) {
 	}
 }
 
-func main() {
-	nums := []int{1, 2, 3}
-	permute(nums)
-}
+//func main() {
+//	nums := []int{1, 2, 3}
+//	permute(nums)
+//}

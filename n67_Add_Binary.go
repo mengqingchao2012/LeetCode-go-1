@@ -1,11 +1,14 @@
 package main
 
-import "strconv"
+import (
+	"LeetCode-go/utils"
+	"strconv"
+)
 
 func addBinary(a string, b string) string {
 	la := len(a)
 	lb := len(b)
-	temp := make([]int, 0, utils.utils.Max(la, lb) + 1)
+	temp := make([]int, 0, utils.Max(la, lb) + 1)
 	var res string
 
 	i, j := la - 1, lb - 1

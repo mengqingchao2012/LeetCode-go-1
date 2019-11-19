@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func kthSmallestPrimeFraction(A []int, K int) []int {
 	var left float64= 0.0
 	var right float64= 1.0
@@ -40,8 +38,8 @@ func kthSmallestPrimeFraction(A []int, K int) []int {
 	return []int{}
 }
 
-func main() {
-	A := []int{1, 2, 3, 5}
-	res := kthSmallestPrimeFraction(A, 3)
-	fmt.Println(res)
-}
+//func main() {
+//	A := []int{1, 2, 3, 5}
+//	res := kthSmallestPrimeFraction(A, 3)
+//	fmt.Println(res)
+//}

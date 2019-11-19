@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -62,7 +61,7 @@ func myAtoi(str string) int {
 	}
 }
 
-func main() {
-	res := myAtoi("2147483648")
-	fmt.Println(res)
-}
+//func main() {
+//	res := myAtoi("2147483648")
+//	fmt.Println(res)
+//}
