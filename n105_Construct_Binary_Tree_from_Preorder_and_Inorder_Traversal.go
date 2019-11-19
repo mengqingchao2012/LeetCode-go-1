@@ -17,7 +17,7 @@ func build(pre *[]int, preStart, preEnd int, inStart int, inPos *map[int]int) *u
 	}
 
 	root := &utils.TreeNode{Val: (*pre)[preStart]}
-	rootIndex := (*inPos)[preStart]
+	rootIndex := (*inPos)[(*pre)[preStart]]
 	leftLen := rootIndex - inStart
 
 	root.Left = build(pre, preStart + 1, preStart + leftLen, inStart, inPos)
