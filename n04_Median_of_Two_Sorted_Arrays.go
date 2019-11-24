@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-//方法一
+//方法一：Time：O(log(min(m, n)))，Space:O(1)
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	n1 := len(nums1)
 	n2 := len(nums2)
