@@ -15,15 +15,15 @@ func fourSum(nums []int, target int) [][]int {
 	sort.Ints(nums)
 
 	for i := size - 1; i >= 3; i-- {
-		if 4 * nums[i] < target {
+		if 4*nums[i] < target {
 			break
 		}
 		for j := i - 1; j >= 2; j-- {
-			if 3 * nums[j] < target - nums[i] {
+			if 3*nums[j] < target-nums[i] {
 				break
 			}
 			newTarget := target - nums[i] - nums[j]
-			left, right := 0, j - 1
+			left, right := 0, j-1
 			for left < right {
 				sum := nums[left] + nums[right]
 				switch {
@@ -36,11 +36,11 @@ func fourSum(nums []int, target int) [][]int {
 					right--
 				}
 			}
-			for j >= 2 && nums[j] == nums[j - 1] {
+			for j >= 2 && nums[j] == nums[j-1] {
 				j--
 			}
 		}
-		for i >= 3 && nums[i] == nums[i - 1] {
+		for i >= 3 && nums[i] == nums[i-1] {
 			i--
 		}
 	}
@@ -50,9 +50,9 @@ func fourSum(nums []int, target int) [][]int {
 func check(nums []int, left, right int) (int, int) {
 	for left < right {
 		switch {
-		case nums[left] == nums[left + 1]:
+		case nums[left] == nums[left+1]:
 			left++
-		case nums[right] == nums[right - 1]:
+		case nums[right] == nums[right-1]:
 			right--
 		default:
 			left++

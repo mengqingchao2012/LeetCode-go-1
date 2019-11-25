@@ -11,7 +11,7 @@ func fib(N int) int {
 
 	first, second := 0, 1
 	for i := 2; i <= N; i++ {
-		first, second = second, first + second
+		first, second = second, first+second
 	}
 	return second
 }

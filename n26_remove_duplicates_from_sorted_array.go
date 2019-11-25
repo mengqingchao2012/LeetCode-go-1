@@ -12,7 +12,6 @@ func removeDuplicates(nums []int) int {
 	return j + 1
 }
 
-
 //func main() {
 //	nums := []int{1, 2, 2, 4}
 //	res := removeDuplicates(nums)

@@ -35,7 +35,7 @@ func myAtoi(str string) int {
 		return 0
 	}
 
-	if p - start > 10 { //如果数字的长度超过10，则肯定超过了int的取值范围，直接根据符号返回极值
+	if p-start > 10 { //如果数字的长度超过10，则肯定超过了int的取值范围，直接根据符号返回极值
 		if negative {
 			return math.MinInt32
 		} else {
@@ -45,7 +45,7 @@ func myAtoi(str string) int {
 
 	var num int64 = 0 //用long类型来存储，防止超限
 	for i := start; i < p; i++ {
-		num = num * 10 + int64(words[i] - '0') // 注意一定要写 -"0"
+		num = num*10 + int64(words[i]-'0') // 注意一定要写 -"0"
 	}
 	if negative {
 		num = -num

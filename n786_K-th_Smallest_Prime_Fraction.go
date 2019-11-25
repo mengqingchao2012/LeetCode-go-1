@@ -1,8 +1,8 @@
 package main
 
 func kthSmallestPrimeFraction(A []int, K int) []int {
-	var left float64= 0.0
-	var right float64= 1.0
+	var left float64 = 0.0
+	var right float64 = 1.0
 	size := len(A)
 
 	for left < right {
@@ -10,8 +10,8 @@ func kthSmallestPrimeFraction(A []int, K int) []int {
 		var max float64 = 0
 		p, q, j, count := 0, 0, 1, 0
 
-		for i := 0; i < size - 1; i++ {
-			for j < size && float64(A[i]) > float64(A[j]) * mid {
+		for i := 0; i < size-1; i++ {
+			for j < size && float64(A[i]) > float64(A[j])*mid {
 				j++
 			}
 			if size == j {

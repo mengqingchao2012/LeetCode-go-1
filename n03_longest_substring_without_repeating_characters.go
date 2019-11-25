@@ -15,7 +15,7 @@ func lengthOfLongestSubstring(s string) int {
 		if _, err := mp[s[end]]; err != false {
 			start = utils.Max(mp[s[end]], start)
 		}
-		ans = utils.Max(end - start + 1, ans)
+		ans = utils.Max(end-start+1, ans)
 		mp[s[end]] = end + 1
 	}
 	return ans
@@ -34,9 +34,8 @@ func lengthOfLongestSubstring1(s string) int {
 		if store[s[end]] != 0 {
 			start = utils.Max(store[s[end]], start)
 		}
-		ans = utils.Max(end - start + 1, ans)
+		ans = utils.Max(end-start+1, ans)
 		store[s[end]] = end + 1
 	}
 	return ans
 }
-

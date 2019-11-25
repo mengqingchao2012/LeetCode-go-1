@@ -1,7 +1,7 @@
 package main
 
 //Time：O(n)，Space：O(1)
-func moveZeroes(nums []int)  {
+func moveZeroes(nums []int) {
 	length := len(nums)
 
 	if length == 0 {

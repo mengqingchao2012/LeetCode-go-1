@@ -8,7 +8,7 @@ type Node struct {
 
 type LRUCache struct {
 	cache map[interface{}]*Node
-	head *Node
+	head  *Node
 }
 
 func Constructors(capacity int) LRUCache { //初始化LRUCache
@@ -22,8 +22,8 @@ func Constructors(capacity int) LRUCache { //初始化LRUCache
 	node.next = head
 	head.prev = node
 
-	return LRUCache {
-		head: head,
+	return LRUCache{
+		head:  head,
 		cache: make(map[interface{}]*Node, capacity),
 	}
 }
@@ -53,13 +53,13 @@ func (this *LRUCache) Get(key int) int {
 	return -1
 }
 
-func (this *LRUCache) Put(key int, value int)  {
+func (this *LRUCache) Put(key int, value int) {
 	if node, ok := this.cache[key]; ok { //如果当前节点存在，则更新节点的value和位置
 		node.value = value
 		this.MoveToFront(node)
 	} else { //如果节点不存在，则将节点插入到头结点的位置
 		if this.head.value != -1 { //如果头结点的值不等于 -1，说明该节点上已经有值，需先删除节点
-			delete(this.cache,this.head.key)
+			delete(this.cache, this.head.key)
 		}
 
 		//设置头结点的值为插入节点的值

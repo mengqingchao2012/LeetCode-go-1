@@ -6,15 +6,15 @@ import (
 )
 
 //分治法：Time：O(nlogk), Space：O(logk), n是总节点数，k是链表的个数
-func mergeKLists(lists []*utils.ListNode) *utils.ListNode{
+func mergeKLists(lists []*utils.ListNode) *utils.ListNode {
 	length := len(lists)
 	if length == 0 {
 		return nil
 	}
-	return merges(&lists, 0, length - 1)
+	return merges(&lists, 0, length-1)
 }
 
-func merges(lists *[]*utils.ListNode, start, end int) *utils.ListNode{
+func merges(lists *[]*utils.ListNode, start, end int) *utils.ListNode {
 	if start == end {
 		return (*lists)[start]
 	}
@@ -25,7 +25,7 @@ func merges(lists *[]*utils.ListNode, start, end int) *utils.ListNode{
 
 	mid := start + ((end - start) >> 1)
 	left := merges(lists, start, mid)
-	right := merges(lists, mid + 1, end)
+	right := merges(lists, mid+1, end)
 	return mergeTwoSortedLists(left, right)
 }
 
@@ -103,8 +103,8 @@ func (mp *minHeap) Push(h interface{}) {
 
 func (mp *minHeap) Pop() (x interface{}) {
 	n := len(*mp)
-	res := (*mp)[n - 1]
-	*mp = (*mp)[: n - 1]
+	res := (*mp)[n-1]
+	*mp = (*mp)[:n-1]
 
 	return res
 }

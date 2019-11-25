@@ -2,12 +2,12 @@ package main
 
 func kthSmallest(matrix [][]int, k int) int {
 	n := len(matrix) - 1
-	left, right := matrix[0][0], matrix[n][n] + 1
+	left, right := matrix[0][0], matrix[n][n]+1
 	for left < right {
 		mid := left + ((right - left) >> 1)
 		if nLessMids(&matrix, n, mid) >= k {
 			right = mid
-		} else  {
+		} else {
 			left = mid + 1
 		}
 	}
@@ -20,7 +20,7 @@ func nLessMids(matrix *[][]int, row, mid int) int {
 		if (*matrix)[i][row] <= mid {
 			count += row + 1
 		} else {
-			for j:=0; j <= row && (*matrix)[i][j] <= mid; j++{
+			for j := 0; j <= row && (*matrix)[i][j] <= mid; j++ {
 				count++
 			}
 		}

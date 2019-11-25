@@ -2,7 +2,7 @@ package main
 
 //Time：O(mlog(m * n)), Space：O(1)
 func findKthNumber(m int, n int, k int) int {
-	left, right := 1, m * n + 1
+	left, right := 1, m*n+1
 
 	for left < right {
 		mid := left + ((right - left) >> 1)
@@ -18,7 +18,7 @@ func findKthNumber(m int, n int, k int) int {
 func nLessMid(m, n, mid, k int) int {
 	count := 0
 	for i := 1; i <= minFunc(m, mid); i++ {
-		count += minFunc(n, mid / i)
+		count += minFunc(n, mid/i)
 		if count >= k {
 			return count
 		}

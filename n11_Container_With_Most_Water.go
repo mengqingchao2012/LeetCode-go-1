@@ -3,7 +3,7 @@ package main
 //Time：O(n)，Space:O(1)
 func maxArea(height []int) int {
 	res := 0
-	left, right := 0, len(height) - 1
+	left, right := 0, len(height)-1
 
 	for left < right {
 		temp := 0

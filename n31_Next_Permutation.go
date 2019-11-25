@@ -1,6 +1,6 @@
 package main
 
-func nextPermutation(nums []int)  {
+func nextPermutation(nums []int) {
 	if nums == nil {
 		return
 	}
@@ -8,7 +8,7 @@ func nextPermutation(nums []int)  {
 	n := len(nums)
 	p := n - 2
 
-	for p >= 0 && nums[p] >= nums[p + 1] {
+	for p >= 0 && nums[p] >= nums[p+1] {
 		p--
 	}
 

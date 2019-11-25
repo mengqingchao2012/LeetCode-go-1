@@ -19,20 +19,20 @@ func longestPalindrome1(s string) string {
 		for j := i; j < length; j++ {
 			if i == j {
 				res[i][j] = true
-			} else if i + 1 == j {
+			} else if i+1 == j {
 				res[i][j] = s[i] == s[j]
 			} else {
-				res[i][j] = s[i] == s[j] && res[i + 1][j - 1]
+				res[i][j] = s[i] == s[j] && res[i+1][j-1]
 			}
 
-			if res[i][j] && j - i + 1 > max {
+			if res[i][j] && j-i+1 > max {
 				start = i
 				max = j - i + 1
 			}
 		}
 	}
 
-	return s[start : start + max]
+	return s[start : start+max]
 }
 
 //解法二：中心扩展法：Time：O(n^2)，Space：O(1)
@@ -44,7 +44,7 @@ func longestPalindrome(s string) string {
 	start, maxLen := 0, 0
 	for i := 0; i < len(s); i++ {
 		len1 := expand(i, i, s)
-		len2 := expand(i, i + 1, s)
+		len2 := expand(i, i+1, s)
 		length := utils.Max(len1, len2)
 
 		if length > maxLen {
@@ -52,7 +52,7 @@ func longestPalindrome(s string) string {
 			maxLen = length
 		}
 	}
-	return s[start : start + maxLen]
+	return s[start : start+maxLen]
 }
 
 func expand(left, right int, s string) int {

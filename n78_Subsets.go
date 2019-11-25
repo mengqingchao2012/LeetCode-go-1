@@ -20,9 +20,9 @@ func backTracking(nums, solution []int, start int, res *[][]int) {
 
 	for i := start; i < len(nums); i++ {
 		solution = append(solution, nums[i])
-		backTracking(nums, solution, i + 1, res)
-		solution = solution[: len(solution) - 1]
-		solution = solution[: len(solution): len(solution)] //注意此处，不执行这一步分离底层数组的话结果会出错
+		backTracking(nums, solution, i+1, res)
+		solution = solution[:len(solution)-1]
+		solution = solution[:len(solution):len(solution)] //注意此处，不执行这一步分离底层数组的话结果会出错
 	}
 }
 

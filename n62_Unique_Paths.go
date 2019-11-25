@@ -17,8 +17,8 @@ func uniquePaths(m int, n int) int {
 
 	for i := 1; i < m; i++ { //其余位置可以从左边或是上边过来，所以值等于左边的值加上上边的值
 		for j := 1; j < n; j++ {
-			dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+			dp[i][j] = dp[i-1][j] + dp[i][j-1]
 		}
 	}
-	return dp[m - 1][n - 1]
+	return dp[m-1][n-1]
 }

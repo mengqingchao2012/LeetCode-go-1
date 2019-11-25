@@ -13,7 +13,7 @@ func reverse(x int) int {
 	for x != 0 {
 		num := x % 10
 		x /= 10
-		res = res * 10 + num
+		res = res*10 + num
 	}
 
 	if sign == 1 {

@@ -12,7 +12,7 @@ func isValidSudoku(board [][]byte) bool {
 			}
 
 			x := board[i][j] - '1'
-			k := (i / 3) * 3 + j / 3 //将i,j坐标映射到3 * 3的小方格上，用来表示是第几个方格（从左到右，从上到下）
+			k := (i/3)*3 + j/3 //将i,j坐标映射到3 * 3的小方格上，用来表示是第几个方格（从左到右，从上到下）
 			if rowSeen[i][x] || colSeen[j][x] || boxSeen[k][x] == true {
 				return false
 			}

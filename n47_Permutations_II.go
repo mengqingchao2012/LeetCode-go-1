@@ -13,7 +13,7 @@ func permuteUnique(nums []int) [][]int {
 
 	sort.Ints(nums)
 	res = append(res, nums)
-	for isFind, num := nextPermutations(nums); isFind == true;{
+	for isFind, num := nextPermutations(nums); isFind == true; {
 		res = append(res, num)
 		isFind, num = nextPermutations(num)
 	}
@@ -28,7 +28,7 @@ func nextPermutations(num []int) (bool, []int) {
 	nums := make([]int, n)
 	copy(nums, num)
 
-	for p >= 0 && nums[p] >= nums[p + 1] {
+	for p >= 0 && nums[p] >= nums[p+1] {
 		p--
 	}
 

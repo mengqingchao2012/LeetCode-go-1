@@ -11,8 +11,8 @@ func spiralOrder(matrix [][]int) []int {
 		return []int{}
 	}
 
-	top, bottom, left, right := 0, row - 1, 0, col - 1
-	res := make([]int, 0, row * col)
+	top, bottom, left, right := 0, row-1, 0, col-1
+	res := make([]int, 0, row*col)
 	for {
 		//遍历上边界
 		for i := left; i <= right; i++ {
@@ -67,7 +67,7 @@ func spiralOrder1(matrix [][]int) []int {
 
 	next := Next(row, col)
 
-	res := make([]int, row * col)
+	res := make([]int, row*col)
 	for idx := range res {
 		x, y := next()
 		res[idx] = matrix[x][y]
@@ -76,8 +76,8 @@ func spiralOrder1(matrix [][]int) []int {
 }
 
 func Next(row, col int) func() (int, int) {
-	top, bottom := 0, row - 1
-	left, right := 0, col - 1
+	top, bottom := 0, row-1
+	left, right := 0, col-1
 	x, y := 0, -1
 	dx, dy := 0, 1
 
@@ -85,16 +85,16 @@ func Next(row, col int) func() (int, int) {
 		x += dx
 		y += dy
 		switch {
-		case y + dy > right:
+		case y+dy > right:
 			top++
 			dx, dy = 1, 0
-		case x + dx > bottom:
+		case x+dx > bottom:
 			right--
 			dx, dy = 0, -1
-		case y + dy < left:
+		case y+dy < left:
 			bottom--
 			dx, dy = -1, 0
-		case x + dx < top:
+		case x+dx < top:
 			left++
 			dx, dy = 0, 1
 		}

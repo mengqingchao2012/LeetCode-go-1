@@ -2,7 +2,7 @@ package main
 
 //方法一：二分法，Time：O(nlog(n))，Space：O(1)
 func findDuplicate(nums []int) int {
-	low, high := 1, len(nums) - 1
+	low, high := 1, len(nums)-1
 	for low < high {
 		mid := low + ((high - low) >> 1)
 		count := 0

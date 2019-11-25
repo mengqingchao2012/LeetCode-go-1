@@ -8,10 +8,10 @@ import (
 func addBinary(a string, b string) string {
 	la := len(a)
 	lb := len(b)
-	temp := make([]int, 0, utils.Max(la, lb) + 1)
+	temp := make([]int, 0, utils.Max(la, lb)+1)
 	var res string
 
-	i, j := la - 1, lb - 1
+	i, j := la-1, lb-1
 	var carry = 0
 	for i >= 0 || j >= 0 || carry != 0 {
 		if i >= 0 {
@@ -22,7 +22,7 @@ func addBinary(a string, b string) string {
 			carry += int(b[j] - '0')
 			j--
 		}
-		temp = append(temp, carry % 2)
+		temp = append(temp, carry%2)
 		carry /= 2
 	}
 
@@ -32,4 +32,3 @@ func addBinary(a string, b string) string {
 
 	return res
 }
-

@@ -24,9 +24,9 @@ func permuteRec(nums []int, start int, res *[][]int) {
 		return
 	}
 
-	for i:= start; i < length; i++ {
+	for i := start; i < length; i++ {
 		nums[i], nums[start] = nums[start], nums[i]
-		permuteRec(nums, start + 1, res)
+		permuteRec(nums, start+1, res)
 		nums[i], nums[start] = nums[start], nums[i]
 	}
 }

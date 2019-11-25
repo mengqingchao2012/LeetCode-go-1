@@ -11,11 +11,11 @@ func findDisappearedNumbers(nums []int) []int {
 	var temp = make([]bool, size)
 
 	for _, v := range nums {
-		temp[v - 1] = true
+		temp[v-1] = true
 	}
 	for k, v := range temp {
 		if v != true {
-			res = append(res, k + 1)
+			res = append(res, k+1)
 		}
 	}
 	return res
@@ -38,7 +38,7 @@ func findDisappearedNumbers1(nums []int) []int {
 
 	for i, v := range nums {
 		if v > 0 {
-			res = append(res, i + 1)
+			res = append(res, i+1)
 		}
 	}
 	return res

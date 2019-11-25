@@ -2,7 +2,7 @@ package utils
 
 //链表
 type ListNode struct {
-	Val int
+	Val  int
 	Next *ListNode
 }
 
@@ -21,6 +21,7 @@ func Differ(a, b int) int {
 	}
 	return b - a
 }
+
 //求两数的最小值
 func Min(a, b int) int {
 	if a < b {
@@ -32,7 +33,7 @@ func Min(a, b int) int {
 
 //树
 type TreeNode struct {
-	Val int
-	Left *TreeNode
+	Val   int
+	Left  *TreeNode
 	Right *TreeNode
 }

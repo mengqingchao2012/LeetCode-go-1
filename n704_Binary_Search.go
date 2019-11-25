@@ -5,10 +5,10 @@ func search(nums []int, target int) int {
 	if size == 0 {
 		return -1
 	}
-	low, high := 0, size - 1
+	low, high := 0, size-1
 
 	for low <= high {
-		mid := low + (high -low >> 1)
+		mid := low + (high - low>>1)
 		if nums[mid] > target {
 			high = mid - 1
 		} else if nums[mid] < target {

@@ -19,7 +19,7 @@ func rotateRight(head *utils.ListNode, k int) *utils.ListNode {
 	oldTail.Next = head
 
 	newTail := head
-	for i := 0; i < n - k % n - 1; i++ {
+	for i := 0; i < n-k%n-1; i++ {
 		newTail = newTail.Next
 	}
 	res := newTail.Next

@@ -11,7 +11,7 @@ func threeSumClosest(nums []int, target int) int {
 	res, min := 0, math.MaxInt64
 
 	for i := len(nums) - 1; i >= 2; i-- {
-		j, k := 0, i - 1
+		j, k := 0, i-1
 		for j < k {
 			sum := nums[i] + nums[j] + nums[k]
 			if sum == target {
@@ -32,5 +32,3 @@ func threeSumClosest(nums []int, target int) int {
 	}
 	return res
 }
-
-

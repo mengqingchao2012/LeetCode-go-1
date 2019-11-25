@@ -7,9 +7,9 @@ func searchRange(nums []int, target int) []int {
 	}
 
 	end := findLastIndex(&nums, target)
-	begin := findLastIndex(&nums, target - 1) + 1
+	begin := findLastIndex(&nums, target-1) + 1
 
-	if begin >= 0 && begin <=end && end < size {
+	if begin >= 0 && begin <= end && end < size {
 		return []int{begin, end}
 	}
 
@@ -18,10 +18,10 @@ func searchRange(nums []int, target int) []int {
 
 func findLastIndex(nums *[]int, target int) int {
 	size := len(*nums)
-	low, high := 0, size - 1
+	low, high := 0, size-1
 
 	for low <= high {
-		mid := low + (high - low >> 1)
+		mid := low + (high - low>>1)
 		if (*nums)[mid] > target {
 			high = mid - 1
 		} else {

@@ -25,9 +25,9 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 			} else {
 				//如果位置(i,j)处没有障碍，那么到达位置(i,j)的方法等于从上面下来的方法数加上从左面过来的方法数
 				//上面下来的方法数就是temp[j]，左面过来的方法数就是temp[j - 1]
-				temp[j] = temp[j] + temp[j - 1]
+				temp[j] = temp[j] + temp[j-1]
 			}
 		}
 	}
-	return temp[col - 1]
+	return temp[col-1]
 }

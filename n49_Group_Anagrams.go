@@ -27,7 +27,7 @@ func getKeyByCount(str string) string {
 	count := [26]int{}
 
 	for _, v := range str {
-		count[v - 'a']++
+		count[v-'a']++
 	}
 
 	var s strings.Builder
