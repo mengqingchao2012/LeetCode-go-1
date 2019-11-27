@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //Time：O(n)，Space:O(1)
 func isPalindromeLinked(head *ListNode) bool {
