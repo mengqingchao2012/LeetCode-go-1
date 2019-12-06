@@ -141,6 +141,74 @@ func letterCombinations1(digits string) []string {
 
 
 
+### 22. 两两交换链表中的节点
+
+>给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
+>
+>你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+>
+> 
+>
+>示例:
+>
+>给定 1->2->3->4, 你应该返回 2->1->4->3.
+>
+
+- 解法一：迭代法
+
+```go
+func swapPairs(head *ListNode) *ListNode {
+	if head == nil || head.Next == nil {
+		return head
+	}
+
+	dummy := &ListNode{}
+	dummy.Next = head
+	pre := dummy
+
+	for pre.Next != nil && pre.Next.Next != nil {
+		start := pre.Next
+		end := pre.Next.Next
+		pre.Next = end
+		start.Next = end.Next
+		end.Next = start
+		pre = start
+	}
+	return dummy.Next
+}
+```
+
+- 思路：
+
+  ![avatar](pic\lc24.png)
+
+  - 时间复杂度：$O(n)$；空间复杂度：$O(1)$
+
+- 解法二：递归
+
+  ```go
+  func swapPairs1(head *ListNode) *ListNode {
+  	if head == nil || head.Next == nil {
+  		return head
+  	}
+  
+  	next := head.Next
+  	head.Next = swapPairs(next.Next)
+  	next.Next = head
+  	return next
+  }
+  ```
+
+- 思路：
+
+  - 使用 head 和 next 两个指针来代表将要交换的两个节点
+  - 递归终止条件：head为nil或 head.Next 为nil，即待交换的元素只剩一个或一个不剩
+  - 状态转移方程：
+    - head的 next 指针指向下一组完成转换后的子链表
+    - next的 next 指针指向head
+
+
+
 ### 31.下一个排列
 
 >实现获取下一个排列的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
