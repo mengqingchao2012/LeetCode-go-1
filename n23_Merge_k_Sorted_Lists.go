@@ -101,7 +101,7 @@ func (mp *minHeap) Push(h interface{}) {
 	*mp = append(*mp, h.(*utils.ListNode))
 }
 
-func (mp *minHeap) Pop() (x interface{}) {
+func (mp *minHeap) Pop() interface{} {
 	n := len(*mp)
 	res := (*mp)[n-1]
 	*mp = (*mp)[:n-1]
