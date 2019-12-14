@@ -20,7 +20,7 @@ func addTwoNumbersII(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 
 	//倒序取出数组中的结果，并完成相加和链表的构建
-	size1, size2 := len(s1) - 1, len(s2) - 1
+	size1, size2 := len(s1)-1, len(s2)-1
 	carry := 0
 	for size1 >= 0 || size2 >= 0 || carry > 0 {
 		sum := carry
@@ -35,7 +35,7 @@ func addTwoNumbersII(l1 *ListNode, l2 *ListNode) *ListNode {
 		val := sum % 10
 		carry = sum / 10
 		pre := &ListNode{Val: val, Next: res} //构建新节点，新节点的Next指针指向之前的节点
-		res = pre //更新res为新节点
+		res = pre                             //更新res为新节点
 	}
 	return res
 }

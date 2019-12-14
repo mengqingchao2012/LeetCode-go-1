@@ -16,14 +16,14 @@ func isValid(s string) bool {
 	for i := 0; i < size; i++ {
 		left := s[i]
 		switch left {
-		case '(' :
+		case '(':
 			stack[top] = left + 1 //利用ASCII码, '(' + 1 = ')'
 			top++
 		case '[', '{':
 			stack[top] = left + 2 //利用ASCII码, '[' + 2 = ']'，'{' + 2 = '}'
 			top++
 		case ')', ']', '}':
-			if top > 0 && stack[top - 1] == left {
+			if top > 0 && stack[top-1] == left {
 				top--
 			} else {
 				return false
