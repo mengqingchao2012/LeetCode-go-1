@@ -1320,7 +1320,7 @@ func dailyTemperatures(T []int) []int {
 
   - 以 [73, 74, 75, 71, 69, 72, 76, 73] 为例：
 
-    ![image-20191214142512337](E:\MyWork\Algorithm\LeetCode\go\LeetCode-go\pic\lc739.png)
+    ![avatar](pic\lc739.png)
 
   - 时间复杂度：$O(n)$， 空间复杂度：$O(n)$
 
@@ -1411,3 +1411,128 @@ func kthSmallestPrimeFraction(A []int, K int) []int {
   - j 下标可以复用，上一行定位到的 j 对应到该行中第一个小于 mid 的元素，转到下一行时，由虚拟数组的构造规律可知，恰好是下一个位置的起点；
 
   - 当计数 count 
+
+
+
+### 1190. 反转每对括号间的子串
+
+>给出一个字符串 s（仅含有小写英文字母和括号）。
+>
+>请你按照从括号内到外的顺序，逐层反转每对匹配括号中的字符串，并返回最终的结果。
+>
+>注意，您的结果中 不应 包含任何括号。
+>
+> 
+>
+>示例 1：
+>
+>输入：s = "(abcd)"
+>输出："dcba"
+>示例 2：
+>
+>输入：s = "(u(love)i)"
+>输出："iloveu"
+>示例 3：
+>
+>输入：s = "(ed(et(oc))el)"
+>输出："leetcode"
+>示例 4：
+>
+>输入：s = "a(bcdefghijkl(mno)p)q"
+>输出："apmnolkjihgfedcbq"
+>
+>
+>提示：
+>
+>0 <= s.length <= 2000
+>s 中只有小写英文字母和括号
+>我们确保所有括号都是成对出现的
+>
+
+- 方法一：暴力法
+
+```go
+func reverseParentheses(s string) string {
+	if s == "" {
+		return ""
+	}
+
+	size := len(s)
+	stack := make([]string, 0, size)
+	for i := 0; i < size; i++ {
+		switch s[i] { //遍历字符串
+		case '(': //如果遇到左半括号，将""压入栈顶
+			stack = append(stack, "")
+		case ')': //如果遇到右半括号，将栈顶字符串弹出，反转该部分字符串，再将结果加入到新的栈顶中
+			top := stack[len(stack)-1]
+			stack = stack[:len(stack)-1]
+			if len(stack) == 0 { 
+                //如果此时栈为空，说明所有字符串均已完成反转，为了统一返回出口，将最终结果再压入栈中
+				//注意此时不能再用stack[len(stack) - 1]来取栈顶元素，因此时len(stack) = 0,
+				//stack[0]和stack[len(stack) - 1]都会使得下标越界
+				stack = append(stack, reverseStrings(top))
+				break
+			}
+			stack[len(stack)-1] = stack[len(stack)-1] + reverseStrings(top)
+		default: //如果是非括号字符，则将结果拼接到栈顶字符串后
+			//判断len(stack) == 0 是为了防止在栈为空时，使用下标操作导致越界,如："a(bcdefghijkl(mno)p)q"插入第一个a时
+			if len(stack) == 0 {
+				stack = append(stack, string(s[i]))
+			} else {
+				stack[len(stack)-1] += string(s[i])
+			}
+		}
+	}
+	return stack[len(stack)-1]
+}
+
+func reverseStrings(s string) string {
+	size := len(s)
+	res := make([]byte, 0, size)
+	for i := size - 1; i >= 0; i-- {
+		res = append(res, s[i])
+	}
+	return string(res)
+}
+```
+
+- 思路：
+  - 遍历字符串，如果遇到 "("，就将 "" 压入栈顶，如果遇到 ")" 就将栈顶字符串弹出，反转给部分内容，再将结果接到新的栈顶元素后；
+  - 时间复杂度：$O(n^2)$， 空间复杂度：$O(n)$
+- 方法二：
+
+```go
+func reverseParentheses(s string) string {
+	size := len(s)
+	stack := make([]int, 0, size)
+	pair := make([]int, size) //用来记录一对括号的下标
+	for i := 0; i < size; i++ {
+		switch s[i] {
+		case '(':
+			stack = append(stack, i)
+		case ')':
+			j := stack[len(stack) - 1]
+			stack = stack[:len(stack) - 1]
+			pair[i] = j
+			pair[j] = i
+		}
+	}
+	var sb strings.Builder
+	for i, d := 0, 1; i < size; i+=d {
+		if s[i] == '(' || s[i] == ')' {
+			i = pair[i]
+			d = -d
+		} else {
+			sb.WriteByte(s[i])
+		}
+	}
+	return sb.String()
+}
+```
+
+- 思路：
+
+  ![avatar](pic\lc1190.png)
+
+  - 遇到括号时：从左半括号进入（绿色左箭头），然后跳到右半括号（绿色右箭头），倒序遍历括号中的内容，再从左半括号进入（红色左箭头），然后跳到右半括号（红色右箭头），结束对括号内部内容的遍历；
+  - 时间复杂度：$O(n)$，空间复杂度：$O(n)$
