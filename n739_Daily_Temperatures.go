@@ -7,13 +7,13 @@ func dailyTemperatures(T []int) []int {
 	res := make([]int, length)
 
 	for i := length - 1; i >= 0; i-- {
-		for len(stack) != 0 && T[i] >= T[stack[len(stack) - 1]] { //注意等号不能漏
-			stack = stack[: len(stack) - 1]
+		for len(stack) != 0 && T[i] >= T[stack[len(stack)-1]] { //注意等号不能漏
+			stack = stack[:len(stack)-1]
 		}
 		if len(stack) == 0 {
 			res[i] = 0
 		} else {
-			res[i] = stack[len(stack) - 1] - i
+			res[i] = stack[len(stack)-1] - i
 		}
 		stack = append(stack, i)
 	}

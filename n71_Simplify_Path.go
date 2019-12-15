@@ -12,9 +12,9 @@ func simplifyPath(path string) string {
 		case ".", "":
 		case "..":
 			if len(stack) != 0 {
-				stack = stack[:len(stack) - 1]
+				stack = stack[:len(stack)-1]
 			}
-		default :
+		default:
 			stack = append(stack, v)
 		}
 	}
