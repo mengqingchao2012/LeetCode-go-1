@@ -4,10 +4,13 @@ import "fmt"
 
 //Time：O(n*n!), Space:(n)
 func permute(nums []int) [][]int {
+	if len(nums) == 0 {
+		return [][]int{}
+	}
+
 	var result [][]int
 	permuteRec(nums, 0, &result)
 	return result
-
 }
 
 func permuteRec(nums []int, start int, res *[][]int) {

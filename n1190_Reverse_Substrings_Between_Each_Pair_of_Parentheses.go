@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -76,13 +75,13 @@ func reverseParentheses1(s string) string {
 	return sb.String()
 }
 
-func main() {
-	str1 := "(abcd)"
-	str2 := "(u(love)i)"
-	str3 := "(ed(et(oc))el)"
-	str4 := "a(bcdefghijkl(mno)p)q"
-	fmt.Println(reverseParentheses(str1))
-	fmt.Println(reverseParentheses(str2))
-	fmt.Println(reverseParentheses(str3))
-	fmt.Println(reverseParentheses(str4))
-}
+//func main() {
+//	str1 := "(abcd)"
+//	str2 := "(u(love)i)"
+//	str3 := "(ed(et(oc))el)"
+//	str4 := "a(bcdefghijkl(mno)p)q"
+//	fmt.Println(reverseParentheses(str1))
+//	fmt.Println(reverseParentheses(str2))
+//	fmt.Println(reverseParentheses(str3))
+//	fmt.Println(reverseParentheses(str4))
+//}
