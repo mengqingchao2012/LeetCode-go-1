@@ -794,6 +794,128 @@ func partition(head *ListNode, x int) *ListNode {
 
 
 
+### 110.平衡二叉树
+
+>给定一个二叉树，判断它是否是高度平衡的二叉树。
+>
+>本题中，一棵高度平衡二叉树定义为：
+>
+>一个二叉树每个节点 的左右两个子树的高度差的绝对值不超过1。
+>
+>示例 1:
+>
+>给定二叉树 [3,9,20,null,null,15,7]
+>
+>    3
+>   / \
+>  9  20
+>    /  \
+>   15   7
+>返回 true 。
+>
+>示例 2:
+>
+>给定二叉树 [1,2,2,3,3,null,null,4,4]
+>
+>       1
+>      / \
+>     2   2
+>    / \
+>   3   3
+>  / \
+> 4   4
+>返回 false 。
+>
+
+- 解法一：自顶向下
+
+```go
+/**
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+
+func isBalanced(root *TreeNode) bool {
+    if root == nil {
+        return true
+    }
+    return abs(getHeight(root.Left) - getHeight(root.Right)) <= 1 && isBalanced(root.Left) && isBalanced(root.Right)
+}
+
+func getHeight(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+    left := getHeight(root.Left)
+    right := getHeight(root.Right)
+
+    return max(left, right) + 1
+}
+
+func abs(a int) int {
+    if a > 0 {
+        return a
+    }
+    return -a
+}
+
+func max(a, b int) int {
+    if a > b {
+        return a
+    }
+    return b
+}
+```
+
+- 思路：
+  - 给定的平衡二叉树的定义：一个二叉树*每个节点* 的左右两个子树的高度差的绝对值不超过1。
+  - 对于任意一个节点，使用递归法求出它的高度是左子树的高度和右子树的高度中比较大的那个再加1；
+  - 对于根节点，保证其左右子树满足高度条件同时保证左右子树都是平衡二叉树，则该树就是一棵平衡二叉树；
+  - 复杂度分析：
+    - 时间复杂度：最坏情况——满二叉树时：
+      - 根节点需要递归遍历所有结点，时间复杂度是$O(n)$
+      - 第一层：两个节点，则求每个节点的高度只需要遍历一半的节点数，所以每个节点的时间复杂度是：$O(n/2)$，该层的时间复杂度是$O(n)$
+      - 由此可推出：每层的时间复杂度都是$O(n)$，满二叉树的层高为：$logn$，故，时间复杂度为：$O(nlogn)$
+    - 空间复杂度：二叉树蜕化为单链表时空间复杂度最高：$O(n)$
+- 解法二：自底向上
+
+```go
+func isBalanced(root *TreeNode) bool {
+    return getHeightAndCheck(root) != -1
+}
+//在取出节点高度的时候就判断该节点是不是平衡二叉树
+//分为三种情况：节点为空，返回0；节点不满足二叉树条件，返回-1；其他
+func getHeightAndCheck(root *TreeNode) int {
+    if root == nil {
+        return 0
+    }
+
+    left := getHeightAndCheck(root.Left)
+    if left == -1 {
+        return -1
+    }
+
+    right := getHeightAndCheck(root.Right)
+    if right == -1 {
+        return -1
+    }
+
+    if abs(left - right) > 1 {
+        return -1
+    }
+    return max(left, right) + 1
+}
+```
+
+- 思路：
+  - 在求子树高度时就判断子树是否是二叉树；
+  - 时间复杂度：$O(n)$（只用遍历一次所有结点），空间复杂度：$O(n)$
+
+
+
 ### 153.寻找旋转排序数组中的最小值
 
 >假设按照升序排序的数组在预先未知的某个点上进行了旋转。
