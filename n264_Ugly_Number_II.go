@@ -3,7 +3,6 @@ package main
 import (
 	. "LeetCode-go/utils"
 	"container/heap"
-	"fmt"
 	"math"
 )
 
@@ -93,7 +92,7 @@ func (m *minheapUglyNum) Push(x interface{}) {
 	*m = append(*m, x.(int))
 }
 
-func main() {
-	res := nthUglyNumber(10)
-	fmt.Println(res)
-}
+//func main() {
+//	res := nthUglyNumber(10)
+//	fmt.Println(res)
+//}

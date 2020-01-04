@@ -9,14 +9,15 @@ func rotate(nums []int, k int) {
 
 	idx := k % length //k的大小可能大于length，所以要去除成环的影响
 
-	rotation(nums, 0, length-1)   //先翻转整个数组
-	rotation(nums, 0, idx-1)      //再翻转前idx个数
-	rotation(nums, idx, length-1) //最后翻转后续的数
+	//注意翻转顺序和start, end的下标
+	rotation(&nums, 0, length-1)   //先翻转整个数组
+	rotation(&nums, 0, idx-1)      //再翻转前idx个数
+	rotation(&nums, idx, length-1) //最后翻转后续的数
 }
 
-func rotation(nums []int, start, end int) {
+func rotation(nums *[]int, start, end int) {
 	for start < end {
-		nums[start], nums[end] = nums[end], nums[start]
+		(*nums)[start], (*nums)[end] = (*nums)[end], (*nums)[start]
 		start++
 		end--
 	}
