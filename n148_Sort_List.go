@@ -32,7 +32,7 @@ func quickSort(head, end *ListNode) {
 //方法二：归并排序：Time：O(nlogn)，Space:O(logn)
 func sortList1(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
-		return head
+		return head //注意递归的终止条件，返回的是head不是nil
 	}
 
 	slow, fast := head, head
