@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func reorganizeString(S string) string {
 	length := len(S)
 	if length == 0 {
@@ -41,7 +39,7 @@ func reorganizeString(S string) string {
 	return string(res)
 }
 
-func main() {
-	res := reorganizeString("abbabbaaab")
-	fmt.Println(res)
-}
+//func main() {
+//	res := reorganizeString("abbabbaaab")
+//	fmt.Println(res)
+//}
