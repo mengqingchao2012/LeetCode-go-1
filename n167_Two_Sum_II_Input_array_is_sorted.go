@@ -1,6 +1,7 @@
 package main
 
 //使用双指针
+//Time: O(n), Space：O(1)
 func twoSumInSortedArray(numbers []int, target int) []int {
 	length := len(numbers)
 	if length == 0 {
