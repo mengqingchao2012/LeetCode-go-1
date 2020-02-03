@@ -405,6 +405,91 @@ func combsum(candidates, solution []int, target int, result *[][]int) {
 
 
 
+### 42. 接雨水
+
+>给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
+>
+>![avatar](pic\lc42.png)
+>
+>上面是由数组 [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图，在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。 感谢 Marcos 贡献此图。
+>
+>示例:
+>
+>输入: [0,1,0,2,1,0,1,3,2,1,2,1]
+>输出: 6
+>
+
+- 方法一：
+
+```go
+func trap(height []int) int {
+	length := len(height)
+	if length == 0 {
+		return 0
+	}
+
+	leftMax, rightMax, water := -1, -1, 0
+	temp := make([]int, length)
+	for i := 0; i < length; i++ {
+		leftMax = Max(leftMax, height[i])
+		temp[i] = leftMax
+	}
+	for i := length - 1; i >= 0; i-- {
+		rightMax = Max(rightMax, height[i])
+		temp[i] = Min(temp[i], rightMax)
+		water += temp[i] - height[i]
+	}
+	return water
+}
+```
+
+- 思路：
+
+  <img src="pic\lc42-1.png" alt="avatar" style="zoom: 50%;" />
+
+  - 夹逼：分别找出位置 x 的左右两边柱子的最大值 LM 和 RM，则位置 x 处的储水量就等于 LM 和 RM 中较小的那个值（木桶原理：木桶的储水量取决于最小的那块木板的高度）减去位置 x 处的高度
+  - 使用一个辅助数组来存储位置 x 处对应的左右两边最小柱子的高度：
+    - 第一轮遍历时，从左往右，将 LM 和位置 x 的值中较大的那个填入辅助数组
+    - 第二轮遍历时，从右往左，可以同时计算 RM 和当前位置的储水量：
+      - 此时辅助数组中存储的是左柱子的最大值，则该值和 RM 中较小的那一个与当前位值 x 处的值的差就是当前位置的储水量
+  - 时间复杂度：$O(n)$，空间复杂度：O(n)
+
+- 方法二：双指针
+
+```go
+func trap1(height []int) int {
+	length := len(height)
+	if length == 0 {
+		return 0
+	}
+
+	left, right := 0, length - 1
+	leftMax, rightMax := -1, -1
+	water := 0
+	for left <= right {
+		leftMax = Max(leftMax, height[left])
+		rightMax = Max(rightMax, height[right])
+		if leftMax < rightMax {
+			water += leftMax - height[left]
+			left++
+		} else {
+			water += rightMax - height[right]
+			right--
+		}
+	}
+	return water
+}
+```
+
+- 思路：
+  - left 和 right 分别指向数组的两端，当两个指针不交叉时：
+    - 如果 left 指针所在位置对应的 LM 值小于 right 指针所在位置对应的 RM 值，则使用 LM 的值减掉左指针对应位置的值算出当前位置的储水量，然后左指针右移
+    - 否则使用 RM 和右指针所指的值来计算储水量，右指针左移
+  - 可以这样做的理由：我们算储水量用的是某个位置左右边界中较小的那个减去当前位置的高度，如果当前位置处 LM 小于 RM，移动 RM 不断靠近 LM 时，RM 如果增大，取最小值取到的还是 LM，所以可以直接使用 LM 计算
+  - 时间复杂度：$O(n)$， 空间复杂度：$O(1)$
+
+
+
 ### 47.全排列II
 
 >给定一个可包含重复数字的序列，返回所有不重复的全排列。
