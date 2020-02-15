@@ -1,6 +1,9 @@
 package main
 
 //Time：O(log(n))，Space：O(1)
+//二分法的特点：如果查找的元素不在数组中，则返回的下标是该元素应该插入的位置的下标
+//如果 目标值 < 中间值，则修正右边界，目标值 == 中间值，直接返回，目标值 > 中间值，修正左边界
+//要找元素最后一次出现的位置，只需要在目标值等于中间值时，让其继续往右查找，也就是修正左边界
 func searchRange(nums []int, target int) []int {
 	size := len(nums)
 	if size == 0 {
