@@ -28,4 +28,4 @@ Explanation: The answer is "wke", with the length of 3.
 - 示例：
     s = "pwwkew"
     
-    <img src="..\..\pic\lc3.png" alt="avatar" style="zoom:67%;" />
+    <img src="https://github.com/YangKian/LeetCode-go/blob/master/pic/lc3.png" alt="avatar" style="zoom:67%;" />
