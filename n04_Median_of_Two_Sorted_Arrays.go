@@ -2,6 +2,7 @@ package main
 
 import (
 	"LeetCode-go/utils"
+	"fmt"
 	"math"
 )
 
@@ -111,10 +112,10 @@ func findKthSmallestInSortedArrays(nums1, nums2 *[]int, k int) float64 {
 	}
 }
 
-//func main() {
-//	a := []int{1, 2, 5}
-//	b := []int{3, 4}
-//
-//	res := findMedianSortedArrays(a, b)
-//	fmt.Println(res)
-//}
+func main() {
+	a := []int{1, 2, 5, 7, 9}
+	b := []int{3, 4, 6, 7}
+
+	res := findMedianSortedArrays1(a, b)
+	fmt.Println(res)
+}
