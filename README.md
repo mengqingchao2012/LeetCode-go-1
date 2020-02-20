@@ -14,7 +14,7 @@ My LeetCode solution by Go.
 | 0003 |     Longest Substring Without Repeating Characters      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |      |
 | 0004 |               Median of Two Sorted Arrays               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0004-Median-of-Two-Sorted-Arrays) |  Hard  |      |
 | 0033 |             Search In Rotated Sorted Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0033-Search-In-Rotated-Sorted-Array) | Medium |      |
-| 0034 | Find First and Last Position of Element in Sorted Array | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0034-Find-First-and-Last-Position-of-Element-in-Sorted-Array) | Medium |  ❤️   |
+| 0034 | Find First and Last Position of Element in Sorted Array | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0034-Find-First-And-Last-Position-of-Element-in-Sorted-Array) | Medium |  ❤️   |
 | 0035 |                 Search Insert Position                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0035-Search-Insert-Position) |  Easy  |      |
 | 0050 |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |  ❤️   |
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
