@@ -1,6 +1,5 @@
 package main
 
-//Time：O(m * n)，m和n分别代表行数和列数，Space:O(1)
 func searchMatrix(matrix [][]int, target int) bool {
 	m := len(matrix)
 	if m == 0 {
@@ -8,16 +7,17 @@ func searchMatrix(matrix [][]int, target int) bool {
 	}
 
 	n := len(matrix[0])
+	if n == 0 {
+		return false
+	}
 
-	left, right := 0, m*n-1
-	for left <= right {
-		mid := left + ((right - left) >> 1)
-		row := mid / n
-		col := mid % n
+	row := 0
+	col := n - 1
+	for row < m && col >= 0 {
 		if target < matrix[row][col] {
-			right = mid - 1
+			col--
 		} else if target > matrix[row][col] {
-			left = mid + 1
+			row++
 		} else {
 			return true
 		}
