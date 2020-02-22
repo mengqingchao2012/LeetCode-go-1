@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //方法一：
 //思路：
@@ -38,7 +38,7 @@ func searchTreeNode(root, node *TreeNode, path *[]*TreeNode) bool {
 		return false
 	}
 	*path = append(*path, root) //否则的话将该根节点加入到路径中
-	if root == node { //如果根节点的值等于要查找的节点值，则直接返回
+	if root == node {           //如果根节点的值等于要查找的节点值，则直接返回
 		return true
 	}
 	//否则，分别递归在该节点的左右子树上查找目标节点
@@ -46,7 +46,7 @@ func searchTreeNode(root, node *TreeNode, path *[]*TreeNode) bool {
 	if ret { //只要有任意一棵子树查找到目标节点，说明当前节点就是目标节点的祖先之一
 		return true
 	}
-	*path = (*path)[:len(*path) - 1] //否则的话说明目标节点不在当前节点的后代中，移除当前节点，返回false
+	*path = (*path)[:len(*path)-1] //否则的话说明目标节点不在当前节点的后代中，移除当前节点，返回false
 	return false
 }
 
@@ -63,7 +63,5 @@ func lowestCommonAncestor1(root, p, q *TreeNode) *TreeNode {
 	for i < length && ppath[i] == qpath[i] {
 		i++
 	}
-	return ppath[i - 1]
+	return ppath[i-1]
 }
-
-

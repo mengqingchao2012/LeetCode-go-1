@@ -6,7 +6,7 @@ func searchRange(nums []int, target int) []int {
 		return []int{-1, -1}
 	}
 
-	end := findLastIndex(&nums, target) //结束下标可以直接求得
+	end := findLastIndex(&nums, target)         //结束下标可以直接求得
 	begin := findLastIndex(&nums, target-1) + 1 //起始下标用比target小1的数去求，求出来的结果加1即可
 
 	if begin >= 0 && begin <= end && end < size { //注意这里还要验证两个下标的范围是否合法

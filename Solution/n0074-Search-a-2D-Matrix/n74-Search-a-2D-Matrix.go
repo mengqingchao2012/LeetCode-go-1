@@ -11,7 +11,7 @@ func searchMatrix(matrix [][]int, target int) bool {
 		return false
 	}
 
-	low, high := 0, m * n - 1
+	low, high := 0, m*n-1
 	for low <= high {
 		mid := low + ((high - low) >> 1)
 		row := mid / n

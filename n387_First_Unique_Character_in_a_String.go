@@ -9,10 +9,10 @@ func firstUniqChar(s string) int {
 
 	count := make([]int, 26) //用来统计字符出现的次数
 	for i := 0; i < len(s); i++ {
-		count[s[i] - 'a']++
+		count[s[i]-'a']++
 	}
 	for i := 0; i < len(s); i++ {
-		if count[s[i] - 'a'] == 1 {
+		if count[s[i]-'a'] == 1 {
 			return i
 		}
 	}

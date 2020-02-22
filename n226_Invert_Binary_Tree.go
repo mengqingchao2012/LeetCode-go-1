@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //递归法：要遍历所有节点一次，时间复杂度为O(n)，递归深度为n
 //Time：O(n)，Space：O(n)

@@ -1,7 +1,7 @@
 package main
 
 func twoSum(numbers []int, target int) []int {
-	low, high := 0, len(numbers) - 1
+	low, high := 0, len(numbers)-1
 	for low <= high {
 		sum := numbers[low] + numbers[high]
 		if sum > target {

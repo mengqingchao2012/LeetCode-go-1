@@ -7,7 +7,7 @@ import "math"
 func judgeSquareSum(c int) bool {
 	x := int(math.Sqrt(float64(c)))
 	for i := 0; i <= x; i++ {
-		if isSquared(c - i * i) {
+		if isSquared(c - i*i) {
 			return true
 		}
 	}
@@ -16,7 +16,7 @@ func judgeSquareSum(c int) bool {
 
 func isSquared(i int) bool {
 	x := int(math.Sqrt(float64(i)))
-	return x * x == i
+	return x*x == i
 }
 
 //方法二：双指针
@@ -24,7 +24,7 @@ func isSquared(i int) bool {
 func judgeSquareSum1(c int) bool {
 	i, j := 0, int(math.Sqrt(float64(c)))
 	for i <= j {
-		sum := i * i + j * j
+		sum := i*i + j*j
 		switch {
 		case sum == c:
 			return true

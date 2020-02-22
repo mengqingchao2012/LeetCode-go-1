@@ -39,4 +39,3 @@ func lengthOfLongestSubstring1(s string) int {
 	}
 	return ans
 }
-

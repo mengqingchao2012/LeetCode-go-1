@@ -11,8 +11,8 @@ func BubbleSort(nums *[]int) {
 	//注意边界的取值：end > 0, i < end
 	for end := length - 1; end > 0; end-- {
 		for i := 0; i < end; i++ {
-			if (*nums)[i] > (*nums)[i + 1] {
-				(*nums)[i], (*nums)[i + 1] = (*nums)[i + 1], (*nums)[i]
+			if (*nums)[i] > (*nums)[i+1] {
+				(*nums)[i], (*nums)[i+1] = (*nums)[i+1], (*nums)[i]
 			}
 		}
 	}
@@ -28,8 +28,8 @@ func BubbleSortByFlag(nums *[]int) {
 	for end := length - 1; end > 0; end-- {
 		swapped := false
 		for i := 0; i < end; i++ {
-			if (*nums)[i] > (*nums)[i + 1] {
-				(*nums)[i], (*nums)[i + 1] = (*nums)[i + 1], (*nums)[i]
+			if (*nums)[i] > (*nums)[i+1] {
+				(*nums)[i], (*nums)[i+1] = (*nums)[i+1], (*nums)[i]
 				swapped = true
 			}
 		}
@@ -50,8 +50,8 @@ func BubbleSortByIdx(nums *[]int) {
 	for end := length - 1; end > 0; {
 		idx = 0
 		for i := 0; i < end; i++ {
-			if (*nums)[i] > (*nums)[i + 1] {
-				(*nums)[i], (*nums)[i + 1] = (*nums)[i + 1], (*nums)[i]
+			if (*nums)[i] > (*nums)[i+1] {
+				(*nums)[i], (*nums)[i+1] = (*nums)[i+1], (*nums)[i]
 				idx = i
 			}
 		}

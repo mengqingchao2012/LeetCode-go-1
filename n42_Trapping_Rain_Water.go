@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //方法一：Time：O(n)，Space:O(n)
 func trap(height []int) int {
@@ -30,7 +30,7 @@ func trap1(height []int) int {
 		return 0
 	}
 
-	left, right := 0, length - 1
+	left, right := 0, length-1
 	leftMax, rightMax := -1, -1
 	water := 0
 	for left <= right {

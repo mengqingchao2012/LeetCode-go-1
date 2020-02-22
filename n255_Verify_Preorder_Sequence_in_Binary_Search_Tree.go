@@ -13,21 +13,21 @@ func verifyPreorder(preorder []int) bool {
 //验证某个子序列是否满足二叉搜索树前序遍历的特点，取值区间【start, end)
 func verify(preorder *[]int, start, end int) bool {
 	//start == end 说明数组中没有元素，start + 1 == end 说明数组中只有一个元素，均返回true
-	if start == end || start + 1 == end {
+	if start == end || start+1 == end {
 		return true
 	}
 	root := (*preorder)[start] //取出根节点
-	i := start + 1 //找到左子树的开头
-	for ; i < end && (*preorder)[i] < root; {
+	i := start + 1             //找到左子树的开头
+	for i < end && (*preorder)[i] < root {
 		i++
 	}
 	mid := i //找到右子树的开头
-	for ; i < end && (*preorder)[i] > root; {
+	for i < end && (*preorder)[i] > root {
 		i++
 	}
 	if i == end { //注意判断条件 i == end 不能漏
 		//分别判断左子树和右子树是否满足要求，注意判断范围start 和 end 的取值
-		return verify(preorder, start + 1, mid) && verify(preorder, mid, end)
+		return verify(preorder, start+1, mid) && verify(preorder, mid, end)
 	}
 	return false
 }
@@ -52,7 +52,7 @@ func verifyPreorder1(preorder []int) bool {
 		if v < lowerBound {
 			return false
 		}
-		for ;top != -1 && stact[top] < v; {
+		for top != -1 && stact[top] < v {
 			lowerBound = stact[top]
 			top--
 		}

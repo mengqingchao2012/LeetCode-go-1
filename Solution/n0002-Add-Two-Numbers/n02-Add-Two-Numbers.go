@@ -25,4 +25,3 @@ func addTwoNumbers(l1 *utils.ListNode, l2 *utils.ListNode) *utils.ListNode {
 	}
 	return res.Next
 }
-

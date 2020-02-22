@@ -14,10 +14,10 @@ func ShellSort(nums []int) {
 			cur := nums[i]
 			j := i - gap
 			for j >= 0 && nums[j] > cur {
-				nums[j + gap] = nums[j]
+				nums[j+gap] = nums[j]
 				j -= gap
 			}
-			nums[j + gap] = cur
+			nums[j+gap] = cur
 		}
 	}
 }

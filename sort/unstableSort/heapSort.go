@@ -11,11 +11,11 @@ func HeapSort(nums *[]int) {
 		return
 	}
 
-	buildHeap(nums, length - 1) //将数组转为最大堆
+	buildHeap(nums, length-1)         //将数组转为最大堆
 	for i := length - 1; i > 0; i-- { //注意边界：i > 0
 		//每次将堆顶元素置换到最后一个叶子节点的位置，该元素就完成排序
 		(*nums)[0], (*nums)[i] = (*nums)[i], (*nums)[0]
-		heapify(nums, 0, i - 1) // 重新堆化满足最大堆的要求
+		heapify(nums, 0, i-1) // 重新堆化满足最大堆的要求
 	}
 }
 
@@ -29,10 +29,10 @@ func buildHeap(nums *[]int, end int) {
 // Time: O(log(n))
 func heapify(nums *[]int, i, end int) {
 	parent := i
-	child := 2 * parent + 1
+	child := 2*parent + 1
 	for child <= end {
 		//从左右孩子中挑选出最大的一个
-		if child + 1 <= end && (*nums)[child + 1] > (*nums)[child] {
+		if child+1 <= end && (*nums)[child+1] > (*nums)[child] {
 			child++
 		}
 		//如果此时父节点的值大于最大孩子的值，直接break
@@ -40,10 +40,10 @@ func heapify(nums *[]int, i, end int) {
 			break
 		}
 		//否则就交换父节点和最大的孩子
-		(*nums)[parent],(*nums)[child] = (*nums)[child],(*nums)[parent]
+		(*nums)[parent], (*nums)[child] = (*nums)[child], (*nums)[parent]
 		//同时交换以后如果后续还有孩子节点，还要接着比较
 		parent = child
-		child = 2 * parent + 1
+		child = 2*parent + 1
 	}
 }
 

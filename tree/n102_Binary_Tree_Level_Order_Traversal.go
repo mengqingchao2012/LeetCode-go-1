@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //递归解法
 func levelOrder(root *TreeNode) [][]int {
@@ -17,8 +17,8 @@ func levelOrder(root *TreeNode) [][]int {
 		}
 		res[level] = append(res[level], root.Val)
 
-		dfs(root.Left, level + 1)
-		dfs(root.Right, level + 1)
+		dfs(root.Left, level+1)
+		dfs(root.Right, level+1)
 	}
 
 	dfs(root, 0)

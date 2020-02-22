@@ -2,7 +2,7 @@ package main
 
 // 二分法
 func findDuplicate(nums []int) int {
-	low, high := 1, len(nums) - 1 // low 和 high 代表的不是下标，而是区间[1,n] 的首尾值
+	low, high := 1, len(nums)-1 // low 和 high 代表的不是下标，而是区间[1,n] 的首尾值
 	for low < high {
 		mid := low + ((high - low) >> 1)
 		count := 0

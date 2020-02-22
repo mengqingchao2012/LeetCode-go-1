@@ -12,11 +12,11 @@ func pancakeSort(A []int) []int {
 	for i := length - 1; i > 0; i-- {
 		maxidx := maxIdx(&A, i) //找出无序区中的最大元素
 		if maxidx > 0 {
-			res = append(res, maxidx + 1) //最大元素下标+1加入结果集
-			listReverse(&A, 0, maxidx) //第一次翻转
+			res = append(res, maxidx+1) //最大元素下标+1加入结果集
+			listReverse(&A, 0, maxidx)  //第一次翻转
 		}
-		listReverse(&A, 0, i) //第二次翻转
-		res = append(res, i + 1) //无序区结尾下标+1加入结果集
+		listReverse(&A, 0, i)  //第二次翻转
+		res = append(res, i+1) //无序区结尾下标+1加入结果集
 	}
 	return res
 }

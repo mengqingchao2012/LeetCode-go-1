@@ -7,7 +7,7 @@ import (
 //递归解法：Time：O(n)，Space：O(n)
 func isSameTree(p *TreeNode, q *TreeNode) bool {
 	var res bool
-	switch{
+	switch {
 	case p == nil && q == nil: //如果两个根节点都为空，返回true
 		res = true
 	case p == nil || q == nil: //如果两个根节点一个为空另一个非空，返回false
@@ -24,10 +24,10 @@ func isSameTree2(p *TreeNode, q *TreeNode) bool {
 	stack = append(stack, p, q) //两个根节点入栈
 
 	for len(stack) != 0 { //栈不为空时，将栈顶两个节点出栈
-		node1 := stack[len(stack) - 1]
-		stack = stack[: len(stack) - 1]
-		node2 := stack[len(stack) - 1]
-		stack = stack[: len(stack) - 1]
+		node1 := stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
+		node2 := stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
 		switch {
 		case node1 == nil && node2 == nil: //如果两个节点均为空，则继续循环
 			continue
@@ -41,4 +41,3 @@ func isSameTree2(p *TreeNode, q *TreeNode) bool {
 	}
 	return true
 }
-

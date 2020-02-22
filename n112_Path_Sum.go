@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //递归法：Time：O(n)，Space：O(n)
 func hasPathSum(root *TreeNode, sum int) bool {
@@ -12,7 +12,7 @@ func hasPathSum(root *TreeNode, sum int) bool {
 		return root.Val == sum
 	}
 
-	return hasPathSum(root.Left, sum - root.Val) || hasPathSum(root.Right, sum - root.Val)
+	return hasPathSum(root.Left, sum-root.Val) || hasPathSum(root.Right, sum-root.Val)
 }
 
 //迭代法：Time：O(n)，Space：O(n)
@@ -35,8 +35,8 @@ func hasPathSum1(root *TreeNode, sum int) bool {
 		if node.Left == nil && node.Right == nil && node.Val == s {
 			return true
 		}
-		stack = stack[: top]
-		sumStack = sumStack[: top]
+		stack = stack[:top]
+		sumStack = sumStack[:top]
 		temp := s - node.Val
 		if node.Left != nil {
 			stack = append(stack, node.Left)

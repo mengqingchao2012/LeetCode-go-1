@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //解法一：自顶向下，遍历所有结点，判断是否满足平衡二叉树
 //Time：O(nlogn)，Space：O(n)
@@ -8,8 +8,8 @@ func isBalanced(root *TreeNode) bool {
 	if root == nil {
 		return true
 	}
-	return abs(getHeight(root.Left) - getHeight(root.Right)) <= 1 &&
-				isBalanced(root.Left) && isBalanced(root.Right)
+	return abs(getHeight(root.Left)-getHeight(root.Right)) <= 1 &&
+		isBalanced(root.Left) && isBalanced(root.Right)
 }
 
 func getHeight(root *TreeNode) int {
@@ -43,7 +43,7 @@ func getHeightAndCheck(root *TreeNode) int {
 		return -1
 	}
 
-	if abs(left - right) > 1 {
+	if abs(left-right) > 1 {
 		return -1
 	}
 	return max(left, right) + 1

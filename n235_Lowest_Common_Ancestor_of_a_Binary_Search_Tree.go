@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //Time：O(h)，Space：O(h)，h是树高
 //235题的特殊情况

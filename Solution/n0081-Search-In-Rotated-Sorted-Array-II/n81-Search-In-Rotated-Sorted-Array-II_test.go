@@ -11,23 +11,23 @@ type question struct {
 }
 
 type args struct {
-	array []int
+	array  []int
 	target int
 }
 
 func TestSearchII(t *testing.T) {
 	que := []question{
 		{
-			arg:args{[]int{1}, 1},
-			ans:true,
+			arg: args{[]int{1}, 1},
+			ans: true,
 		},
 		{
-			arg:args{[]int{1,0,1,1,1}, 1},
-			ans:true,
+			arg: args{[]int{1, 0, 1, 1, 1}, 1},
+			ans: true,
 		},
 		{
-			arg:args{[]int{5,6,7,8,8,8,8,9,15,1,2,3,3,5,}, 4},
-			ans:false,
+			arg: args{[]int{5, 6, 7, 8, 8, 8, 8, 9, 15, 1, 2, 3, 3, 5}, 4},
+			ans: false,
 		},
 	}
 

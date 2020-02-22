@@ -14,8 +14,8 @@ func reverseWordsI(s string) string {
 		}
 	}
 	n := len(res)
-	for i := 0; i < n / 2; i++ {
-		res[i], res[n - i - 1] = res[n - i - 1], res[i]
+	for i := 0; i < n/2; i++ {
+		res[i], res[n-i-1] = res[n-i-1], res[i]
 	}
 	return strings.Join(res, " ")
 }

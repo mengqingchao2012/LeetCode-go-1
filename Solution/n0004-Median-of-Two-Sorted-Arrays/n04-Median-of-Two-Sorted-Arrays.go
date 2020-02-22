@@ -18,7 +18,7 @@ func findMedianSortedArrays1(nums1 []int, nums2 []int) float64 {
 
 func findKthSmallestInSortedArrays(nums1, nums2 []int, k int) float64 {
 	l1, l2 := len(nums1), len(nums2) //表示当前数组还剩下的数的个数
-	delt1, delt2 := 0, 0 //当前数组的起点，下标小于 delt1 和 delt2 的数已经被排除
+	delt1, delt2 := 0, 0             //当前数组的起点，下标小于 delt1 和 delt2 的数已经被排除
 
 	for {
 		//循环退出的条件：
@@ -26,10 +26,10 @@ func findKthSmallestInSortedArrays(nums1, nums2 []int, k int) float64 {
 			//此时 nums2 中前delt2-1个数已经被排除，要找有序数组中第k小的数，就在nums2中取第k个
 			return float64(nums2[delt2+k-1])
 		}
-		if l2 == 0 {//同上
+		if l2 == 0 { //同上
 			return float64(nums1[delt1+k-1])
 		}
-		if k == 1 {// 说明此时要找的是有序数组中最小的那个数
+		if k == 1 { // 说明此时要找的是有序数组中最小的那个数
 			return float64(utils.Min(nums1[delt1], nums2[delt2]))
 		}
 
@@ -45,8 +45,8 @@ func findKthSmallestInSortedArrays(nums1, nums2 []int, k int) float64 {
 		// 复杂度之所以是log级别，是因为在下面两步中，每次都会抛弃掉不符合条件的 k/2 个数，而 logk < log(m + n)，所以符合要求
 		if a <= b { // 说明从 nums1 中取数取小了
 			delt1 += i // 说明 nums1 中的前 i 个数都不符合要求，丢弃（通过设置偏移量 delt1 来模拟设置数组的边界
-			l1 -= i // nums1 现在的范围是[delt1:]，修改其长度
-			k -= i // 因为从 nums1 中丢掉了 i 个数，所以相应的 k 也要变换
+			l1 -= i    // nums1 现在的范围是[delt1:]，修改其长度
+			k -= i     // 因为从 nums1 中丢掉了 i 个数，所以相应的 k 也要变换
 		}
 
 		//同上

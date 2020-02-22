@@ -6,7 +6,6 @@ import (
 	"strconv"
 )
 
-
 //遍历s的每个节点，与t进行比较；
 //Time：O(m*n)，Space：O(h)，m和n是s和t各自的节点数，h是s的树高
 func isSubtree(s *TreeNode, t *TreeNode) bool {
@@ -45,7 +44,7 @@ func isSubtree1(s *TreeNode, t *TreeNode) bool {
 	return isSub(s, t)
 }
 
-func isSub(s , t *TreeNode) bool {
+func isSub(s, t *TreeNode) bool {
 	var res bool
 	switch {
 	case t == nil:

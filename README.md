@@ -17,6 +17,7 @@ My LeetCode solution by Go.
 | 0034 | Find First and Last Position of Element in Sorted Array | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0034-Find-First-And-Last-Position-of-Element-in-Sorted-Array) | Medium |  ❤️   |
 | 0035 |                 Search Insert Position                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0035-Search-Insert-Position) |  Easy  |      |
 | 0050 |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |  ❤️   |
+| 0069 |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |      |
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
 | 0081 |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |      |
 | 0153 |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |  ❤️   |
@@ -61,6 +62,140 @@ My LeetCode solution by Go.
 |               0287. Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium | ❤️【更优的做法是使用快慢指针】 |
 
 - 其余二分法题目：74（涉及将mid转为坐标表示）
+
+- 模板
+
+  ```go
+  func BinarySearch(nums []int, target int) int {
+      length := len(nums)
+      if length == 0 {return -1}
+      
+      low, high := 0, length - 1
+      for low <= high {
+          mid := low + ((high - low) >> 1)
+          if target == nums[mid] {
+              return mid
+          }
+          if target < nums[mid] {
+              high = mid - 1 //区间更新为：[low, mid - 1]
+          } else {
+              low = mid + 1 // 区间更新为：[mid + 1, high]
+          }
+      }
+      return high
+  }
+  ```
+
+  - 实际上是把数组分成了三个部分：`[low,  mid - 1] mid [mid + 1, high]`
+  - 注意循环退出的条件：`low <= high`
+
+- 变体：
+
+  - 查找第一个值等于给定值的元素
+
+    ```go
+    func FindFirstItemInSortedArray(nums []int, target int) int {
+    	length := len(nums)
+    	if length == 0 {return -1}
+    
+    	low, high := 0, length - 1
+    	for low <= high {
+    		mid := low + ((high - low) >> 1)
+    		if target < nums[mid] {
+    			high = mid - 1
+    		} else if target > nums[mid] {
+    			low = mid + 1
+    		} else {
+    			if mid == 0 || nums[mid - 1] != target {
+    				return mid
+    			} else {
+    				high = mid - 1
+    			}
+    		}
+    	}
+    	return -1
+    }
+    ```
+
+  - 查找最后一个值等于给定值的元素
+
+    ```go
+    func FindLastItemInSortedArray(nums []int, target int) int {
+    	length := len(nums)
+    	if length == 0 {return -1}
+    
+    	low, high := 0, length - 1
+    	for low <= high {
+    		mid := low + ((high - low) >> 1)
+    		if target < nums[mid] {
+    			high = mid - 1
+    		} else if target > nums[mid] {
+    			low = mid + 1
+    		} else {
+    			if mid == length - 1 || nums[mid + 1] != target {
+    				return mid
+    			} else {
+    				low = mid + 1
+    			}
+    		}
+    	}
+    	return -1
+    }
+    ```
+
+  - 查找第一个大于等于给定值的元素
+
+    ```go
+    func LowerBound(nums []int, target int) int {
+        length := len(nums)
+    	if length == 0 {return -1}
+    
+    	low, high := 0, length - 1
+    	for low < high {
+    		mid := low + ((high - low) >> 1)
+    		if target <= nums[mid] {
+                if mid == 0 || nums[mid - 1] < target {
+                    return mid
+                } else {
+                    high = mid - 1
+                }
+    		} else {
+    			low = mid + 1
+    		}
+    	}
+    	return row //如果找不到，返回的是第一个比 target 大的数的下标
+    }
+    ```
+
+    - 如：`A = [1, 2, 2, 2, 4, 4, 5]`
+      - LowerBound(A, 2) = 1
+      - LowerBound(A, 3) = 4
+        - 此时 `A[4] != 3`，说明查找的目标不存在 
+
+  - 查找第一个小于等于给定值的元素
+
+    ```go
+    func UpperBound(nums []int, target int) int {
+        length := len(nums)
+    	if length == 0 {return -1}
+    
+    	low, high := 0, length - 1
+    	for low < high {
+    		mid := low + ((high - low) >> 1)
+    		if target < nums[mid] {
+    			high = mid - 1
+    		} else {
+    			low = mid + 1
+    		}
+    	}
+    	return low
+    }
+    ```
+
+    - 如：`A = [1, 2, 2, 2, 4, 4, 5]`
+      - UpperBound(A, 2) = 3
+      - UpperBound(A, 7) = 6 （nums[6] != 7）说明不存在
+      - UpperBound(A, 0) = 0 （nums[0] != 0）说明不存在
 
 ### 摩尔投票法
 

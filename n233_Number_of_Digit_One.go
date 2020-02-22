@@ -8,7 +8,7 @@ func countDigitOne(s int) int {
 
 	n := int64(s)
 	var count, factor int64 = 0, 1 //count用于计数，factor是当前的位数，1是个位
-	for n / factor != 0 {
+	for n/factor != 0 {
 		var digit = (n / factor) % 10
 		var high = n / (10 * factor)
 		switch digit {

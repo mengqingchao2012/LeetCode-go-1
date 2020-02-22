@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //相似题：n102——二叉树的层次遍历
 
@@ -25,13 +25,13 @@ func levelOrderBottom(root *TreeNode) [][]int {
 		}
 		res[level] = append(res[level], root.Val)
 
-		dfs(root.Left, level + 1)
-		dfs(root.Right, level + 1)
+		dfs(root.Left, level+1)
+		dfs(root.Right, level+1)
 	}
 	dfs(root, 0)
 
 	n := len(res)
-	for i := 0; i < n / 2; i++ {
+	for i := 0; i < n/2; i++ {
 		j := n - 1 - i
 		res[i], res[j] = res[j], res[i]
 	}
@@ -59,10 +59,10 @@ func levelOrderBottom1(root *TreeNode) [][]int {
 			res = append([][]int{[]int{}}, res...)
 		}
 		n := len(res)
-		res[n - level - 1] = append(res[n - level - 1], root.Val)
+		res[n-level-1] = append(res[n-level-1], root.Val)
 
-		dfs(root.Left, level + 1)
-		dfs(root.Right, level + 1)
+		dfs(root.Left, level+1)
+		dfs(root.Right, level+1)
 	}
 	dfs(root, 0)
 	return res

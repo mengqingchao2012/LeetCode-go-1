@@ -57,14 +57,14 @@ func reverseParentheses1(s string) string {
 		case '(':
 			stack = append(stack, i)
 		case ')':
-			j := stack[len(stack) - 1]
-			stack = stack[:len(stack) - 1]
+			j := stack[len(stack)-1]
+			stack = stack[:len(stack)-1]
 			pair[i] = j
 			pair[j] = i
 		}
 	}
 	var sb strings.Builder
-	for i, d := 0, 1; i < size; i+=d {
+	for i, d := 0, 1; i < size; i += d {
 		if s[i] == '(' || s[i] == ')' {
 			i = pair[i]
 			d = -d

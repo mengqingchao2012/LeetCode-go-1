@@ -6,8 +6,8 @@ func findMin(nums []int) int {
 		return -1
 	}
 
-	low, high := 0, size - 1
-	for low < high { //主要退出条件是 low < high
+	low, high := 0, size-1
+	for low < high { //注意退出条件是 low < high
 		if nums[low] < nums[high] {
 			return nums[low]
 		}

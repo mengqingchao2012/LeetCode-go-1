@@ -32,8 +32,12 @@ func isHappy1(n int) bool {
 	for {
 		fast = transfer(transfer(fast))
 		slow = transfer(slow)
-		if fast == 1 {return true} //如果快指针等于1，则可以直接返回
-		if fast == slow {return false} //如果慢指针等于快指针，则返回false
+		if fast == 1 {
+			return true
+		} //如果快指针等于1，则可以直接返回
+		if fast == slow {
+			return false
+		} //如果慢指针等于快指针，则返回false
 	}
 	return false
 }

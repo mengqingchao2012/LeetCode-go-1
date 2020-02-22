@@ -12,7 +12,7 @@ func largestNumber(nums []int) string {
 	}
 
 	temp := intToString(&nums)
-	quickSortForLargestNum(&temp, 0, length - 1)
+	quickSortForLargestNum(&temp, 0, length-1)
 	var res string
 	for _, v := range temp {
 		if v == "0" && res == "0" { //注意这里不能用strings.Join来合并，对于[0,0]这种，返回值是0
@@ -34,8 +34,8 @@ func intToString(nums *[]int) []string {
 func quickSortForLargestNum(nums *[]string, start, end int) {
 	if start < end {
 		k := partitionFunc(nums, start, end)
-		quickSortForLargestNum(nums, start, k - 1)
-		quickSortForLargestNum(nums, k + 1, end)
+		quickSortForLargestNum(nums, start, k-1)
+		quickSortForLargestNum(nums, k+1, end)
 	}
 }
 
@@ -52,7 +52,7 @@ func partitionFunc(nums *[]string, start, end int) int {
 			i++
 		}
 	}
-	(*nums)[i], (*nums)[end] = (*nums)[end],(*nums)[i]
+	(*nums)[i], (*nums)[end] = (*nums)[end], (*nums)[i]
 	fmt.Println(*nums)
 	return i
 }

@@ -7,7 +7,7 @@ func majorityElement(nums []int) int {
 	mp := make(map[int]int, size)
 	for _, v := range nums {
 		mp[v]++
-		if mp[v] > size / 2 {
+		if mp[v] > size/2 {
 			return v
 		}
 	}

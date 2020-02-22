@@ -11,7 +11,7 @@ func tribonacci(n int) int {
 	}
 
 	for i := 3; i <= n; i++ {
-		a, b, c = b, c, a + b + c
+		a, b, c = b, c, a+b+c
 	}
 	return c
 }
@@ -22,15 +22,15 @@ func helper() func() int {
 	b, c := 1, 1
 	return func() int {
 		switch count {
-		case 0 :
+		case 0:
 			count++
 			return 0
-		case 1, 2 :
+		case 1, 2:
 			count++
 			return 1
 		default:
 			count++
-			a, b, c = b, c, a + b + c
+			a, b, c = b, c, a+b+c
 			return c
 		}
 	}
@@ -38,7 +38,7 @@ func helper() func() int {
 
 func tribonacci1(n int) int {
 	tribFunc := helper()
-	for i := 0; i <= n - 1; i++ {
+	for i := 0; i <= n-1; i++ {
 		tribFunc()
 	}
 	return tribFunc()

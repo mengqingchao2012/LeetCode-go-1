@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //前序遍历：根-左节点-右节点
 
@@ -32,14 +32,14 @@ func preorderTraversal1(root *TreeNode) []int {
 	}
 
 	var res []int
-	var stack []*TreeNode //使用栈模拟递归
+	var stack []*TreeNode       //使用栈模拟递归
 	stack = append(stack, root) //根节点先入栈
 
 	for len(stack) != 0 { //当栈内元素不为空时
 		//弹出栈顶元素
 		length := len(stack) - 1
 		node := stack[length]
-		stack = stack[: length]
+		stack = stack[:length]
 		//将栈顶元素的值加入结果集
 		res = append(res, node.Val)
 
@@ -53,4 +53,3 @@ func preorderTraversal1(root *TreeNode) []int {
 	}
 	return res
 }
-

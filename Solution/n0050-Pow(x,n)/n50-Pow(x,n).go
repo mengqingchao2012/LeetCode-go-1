@@ -8,7 +8,7 @@ func myPow(x float64, n int) float64 {
 		if (m & 1) == 1 { //如果 m 的最低位值为1
 			result *= x //则更新结果
 		}
-		x *= x //更新底数
+		x *= x  //更新底数
 		m >>= 1 //m右移更新最低位
 	}
 

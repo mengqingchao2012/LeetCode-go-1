@@ -18,7 +18,7 @@ func isAnagram(s string, t string) bool {
 		return w2[i] < w2[j]
 	})
 
-	i,j := 0,0
+	i, j := 0, 0
 	for i < len(s) && j < len(t) {
 		if w1[i] != w2[j] {
 			return false
@@ -37,14 +37,14 @@ func isAnagram1(s string, t string) bool {
 
 	temp := make([]int, 26)
 	for _, v := range s {
-		temp[v - 'a']++
+		temp[v-'a']++
 	}
 
 	for _, v := range t {
-		if val := temp[v - 'a']; val <= 0 {
+		if val := temp[v-'a']; val <= 0 {
 			return false
 		} else {
-			temp[v - 'a']--
+			temp[v-'a']--
 		}
 	}
 	return true

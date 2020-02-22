@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //后序遍历：左节点-右节点-根节点
 
@@ -31,9 +31,9 @@ func postorderTraversal1(root *TreeNode) []int {
 	}
 
 	var (
-		pre *TreeNode //pre用来记录上一个出栈元素的值，避免重复访问
+		pre   *TreeNode //pre用来记录上一个出栈元素的值，避免重复访问
 		stack []*TreeNode
-		res []int
+		res   []int
 	)
 
 	//遍历过程：

@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //递归求解：Time：O(n)，Space：O(n)
 func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {

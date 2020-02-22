@@ -6,7 +6,7 @@ func searchII(nums []int, target int) bool {
 		return false
 	}
 
-	low, high := 0, length -1
+	low, high := 0, length-1
 	for low <= high {
 		mid := low + ((high - low) >> 1)
 		if nums[mid] == target { //注意要优先判断相等，否则先判断 nums[mid]==nums[low]的话会漏结果，如：在[1]中找1

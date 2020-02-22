@@ -14,7 +14,7 @@ func singleNumber(nums []int) []int {
 	* 等价于
 	* mask := 1
 	* for (xor & mask) == 0 {mask <<= 1}
-	*/
+	 */
 	mask := xor & (-xor) //找到第一个不是0的位，注意是 & 运算
 
 	x, y := 0, 0
@@ -41,7 +41,7 @@ func singleNumber1(nums []int) []int {
 
 	res := make([]int, 0, 2)
 	for k, v := range mp {
-		if v == 1{
+		if v == 1 {
 			res = append(res, k)
 		}
 	}

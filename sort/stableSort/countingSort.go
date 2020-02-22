@@ -8,8 +8,8 @@ func CountingSort(nums []int) {
 		return
 	}
 
-	count := make([]int, maxRange + 1)
-	res := make([]int, maxRange + 1)
+	count := make([]int, maxRange+1)
+	res := make([]int, maxRange+1)
 
 	//遍历数组，统计各个数字出现的次数
 	for _, v := range nums {
@@ -26,8 +26,8 @@ func CountingSort(nums []int) {
 	//再次遍历数组
 	for _, v := range nums {
 		idx := count[v] //从count结果集中取出该元素的插入下标
-		res[idx] = v //更新结果集
-		count[v]++ //并将该元素的插入下标后移
+		res[idx] = v    //更新结果集
+		count[v]++      //并将该元素的插入下标后移
 	}
 	copy(nums, res)
 }
