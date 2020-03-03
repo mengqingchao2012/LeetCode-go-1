@@ -23,6 +23,8 @@ My LeetCode solution by Go.
 | 0153 |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |  ❤️   |
 | 0167 |           Two Sum II - Input array is sorted            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0167-Two-Sum-II) |  Easy  |      |
 | 0169 |                    Majority Element                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0169-Majority-Element) |  Easy  |      |
+| 0206 |                   Reverse Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |      |
+| 0225 |              Implement Stack using Queues               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0225-Implement-Stack-using-Queues) |  Easy  |      |
 | 0240 |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |      |
 | 0287 |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |  ❤️   |
 | 0349 |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |      |
@@ -39,9 +41,10 @@ My LeetCode solution by Go.
 
 ### 链表
 
-|         题目          |                             解法                             |  难度  | 补充 |
-| :-------------------: | :----------------------------------------------------------: | :----: | :--: |
-| 0002. Add Two Numbers | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0002-Add-Two-Numbers) | Medium |      |
+|           题目            |                             解法                             |  难度  | 补充 |
+| :-----------------------: | :----------------------------------------------------------: | :----: | :--: |
+|   0002. Add Two Numbers   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0002-Add-Two-Numbers) | Medium |      |
+| 0206. Reverse Linked List | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |      |
 
 ### 滑动窗口
 
@@ -210,3 +213,10 @@ My LeetCode solution by Go.
 |      |      |      |      |
 
 - 其余双指针题目：167
+
+### 面试题
+
+|            题目             |                             解法                             | 难度 | 收藏 |
+| :-------------------------: | :----------------------------------------------------------: | :--: | :--: |
+| 面试题 10.01 合并排序的数组 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/interview/10.01-Merge-sorted-arrays) | Easy |      |
+
