@@ -16,6 +16,7 @@ My LeetCode solution by Go.
 | 0033 |             Search In Rotated Sorted Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0033-Search-In-Rotated-Sorted-Array) | Medium |      |
 | 0034 | Find First and Last Position of Element in Sorted Array | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0034-Find-First-And-Last-Position-of-Element-in-Sorted-Array) | Medium |  ❤️   |
 | 0035 |                 Search Insert Position                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0035-Search-Insert-Position) |  Easy  |      |
+| 0039 |                     Combination Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium |  ❤️   |
 | 0050 |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |  ❤️   |
 | 0069 |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |      |
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
@@ -27,8 +28,10 @@ My LeetCode solution by Go.
 | 0225 |              Implement Stack using Queues               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0225-Implement-Stack-using-Queues) |  Easy  |      |
 | 0240 |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |      |
 | 0287 |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |  ❤️   |
+| 0322 |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |  ❤️   |
 | 0349 |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |      |
 | 0350 |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |      |
+| 0518 |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |  ❤️   |
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
 | 1103 |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |      |
 
@@ -214,6 +217,16 @@ My LeetCode solution by Go.
 |      |      |      |      |
 
 - 其余双指针题目：167
+
+### 动态规划
+
+|         题目         |                             解法                             |  难度  |     补充     |
+| :------------------: | :----------------------------------------------------------: | :----: | :----------: |
+| 0039.Combination Sum | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium | ❤️ 分硬币问题 |
+|   0322.Coin Change   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium | ❤️ 分硬币问题 |
+| 0518.Coin Change II  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium | ❤️ 分硬币问题 |
+
+
 
 ### 面试题
 
