@@ -29,12 +29,14 @@ My LeetCode solution by Go.
 | 0225 |              Implement Stack using Queues               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0225-Implement-Stack-using-Queues) |  Easy  |      |
 | 0240 |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |      |
 | 0287 |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |  ❤️   |
+| 0300 |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |      |
 | 0322 |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |  ❤️   |
 | 0349 |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |      |
 | 0350 |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |      |
 | 0518 |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |  ❤️   |
 | 0543 |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
+| 1013 |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |      |
 | 1103 |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |      |
 
  ### 二. 分类
@@ -222,11 +224,12 @@ My LeetCode solution by Go.
 
 ### 动态规划
 
-|         题目         |                             解法                             |  难度  |     补充     |
-| :------------------: | :----------------------------------------------------------: | :----: | :----------: |
-| 0039.Combination Sum | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium | ❤️ 分硬币问题 |
-|   0322.Coin Change   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium | ❤️ 分硬币问题 |
-| 0518.Coin Change II  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium | ❤️ 分硬币问题 |
+|                题目                 |                             解法                             |  难度  |     补充     |
+| :---------------------------------: | :----------------------------------------------------------: | :----: | :----------: |
+|        0039.Combination Sum         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium | ❤️ 分硬币问题 |
+|          0322.Coin Change           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium | ❤️ 分硬币问题 |
+|         0518.Coin Change II         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium | ❤️ 分硬币问题 |
+| 0300.Longest Increasing Subsequence | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |              |
 
 ### 树
 
