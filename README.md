@@ -20,6 +20,7 @@ My LeetCode solution by Go.
 | 0039 |                     Combination Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium |  ❤️   |
 | 0050 |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |  ❤️   |
 | 0069 |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |      |
+| 0070 |                     Climbing Stairs                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0070-Climbing-Stairs) |  Easy  |      |
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
 | 0081 |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |      |
 | 0121 |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |      |
@@ -38,6 +39,7 @@ My LeetCode solution by Go.
 | 0518 |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |  ❤️   |
 | 0543 |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
+| 0746 |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |      |
 | 1013 |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |      |
 | 1103 |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |      |
 | 1160 |       Find Words That Can Be Formed by Characters       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1160-Find-Words-That-Can-Be-Formed-by-Characters) |  Easy  |      |
