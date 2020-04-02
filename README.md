@@ -24,7 +24,9 @@ My LeetCode solution by Go.
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
 | 0081 |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |      |
 | 0121 |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |      |
+| 0136 |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |      |
 | 0153 |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |  ❤️   |
+| 0162 |                    Find Peak Element                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0162-Find-Peak-Element) | Medium |      |
 | 0167 |           Two Sum II - Input array is sorted            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0167-Two-Sum-II) |  Easy  |      |
 | 0169 |                    Majority Element                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0169-Majority-Element) |  Easy  |      |
 | 0206 |                   Reverse Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |      |
@@ -35,8 +37,10 @@ My LeetCode solution by Go.
 | 0322 |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |  ❤️   |
 | 0349 |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |      |
 | 0350 |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |      |
+| 0367 |                  Valid Perfect Square                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0367-Valid-Perfect-Square) |  Easy  |      |
 | 0409 |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |      |
 | 0518 |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |  ❤️   |
+| 0540 |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |  ❤️   |
 | 0543 |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
 | 0746 |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |      |
@@ -76,6 +80,7 @@ My LeetCode solution by Go.
 |           0081. Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |         33题的变化版          |
 |          0153. Find Minimum in Rotated Sorted Array          | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |               ❤️               |
 |               0287. Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium | ❤️【更优的做法是使用快慢指针】 |
+|            0540.Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |    ❤️非常巧妙的利用了二分法    |
 
 - 其余二分法题目：74（涉及将mid转为坐标表示）
 
@@ -218,6 +223,14 @@ My LeetCode solution by Go.
 |          题目          |                             解法                             | 难度 | 补充 |
 | :--------------------: | :----------------------------------------------------------: | :--: | :--: |
 | 0169. Majority Element | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0169-Majority-Element) | Easy |      |
+
+### 位运算
+
+|        题目        |                             解法                             | 难度 | 补充 |
+| :----------------: | :----------------------------------------------------------: | :--: | :--: |
+| 0136.Single Number | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) | Easy |      |
+
+
 
 ### 双指针
 
