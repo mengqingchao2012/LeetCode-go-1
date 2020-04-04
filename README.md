@@ -23,6 +23,7 @@ My LeetCode solution by Go.
 | 0070 |                     Climbing Stairs                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0070-Climbing-Stairs) |  Easy  |      |
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
 | 0081 |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |      |
+| 0108 |       Convert Sorted Array to Binary Search Tree        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) |  Easy  |      |
 | 0121 |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |      |
 | 0136 |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |      |
 | 0153 |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |  ❤️   |
@@ -42,6 +43,7 @@ My LeetCode solution by Go.
 | 0518 |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |  ❤️   |
 | 0540 |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |  ❤️   |
 | 0543 |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
+| 0700 |                                                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |      |
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
 | 0746 |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |      |
 | 1013 |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |      |
@@ -251,9 +253,10 @@ My LeetCode solution by Go.
 
 ### 树
 
-|             题目             |                             解法                             | 难度 | 补充 |
-| :--------------------------: | :----------------------------------------------------------: | :--: | :--: |
-| 0543.Diameter of Binary Tree | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) | Easy |      |
+|                      题目                       |                             解法                             | 难度 | 补充 |
+| :---------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
+| 0108.Convert Sorted Array to Binary Search Tree | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) | Easy |      |
+|          0543.Diameter of Binary Tree           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) | Easy |      |
 
 
 
