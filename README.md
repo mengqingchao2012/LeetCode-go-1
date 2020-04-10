@@ -23,7 +23,9 @@ My LeetCode solution by Go.
 | 0070 |                     Climbing Stairs                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0070-Climbing-Stairs) |  Easy  |      |
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
 | 0081 |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |      |
+| 0098 |               Validate Binary Search Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0098-Validate-Binary-Search-Tree) | Medium |  ❤️   |
 | 0108 |       Convert Sorted Array to Binary Search Tree        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) |  Easy  |      |
+| 0116 |       Populating Next Right Pointers in Each Node       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0116-Populating-Next-Right-Pointers-in-Each-Node) | Medium |  ❤️   |
 | 0121 |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |      |
 | 0136 |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |      |
 | 0153 |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |  ❤️   |
@@ -41,6 +43,7 @@ My LeetCode solution by Go.
 | 0367 |                  Valid Perfect Square                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0367-Valid-Perfect-Square) |  Easy  |      |
 | 0409 |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |      |
 | 0518 |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |  ❤️   |
+| 0538 |               Convert BST to Greater Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0538-Convert-BST-to-Greater-Tree) |  Easy  |      |
 | 0540 |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |  ❤️   |
 | 0543 |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
 | 0700 |                                                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |      |
@@ -253,10 +256,12 @@ My LeetCode solution by Go.
 
 ### 树
 
-|                      题目                       |                             解法                             | 难度 | 补充 |
-| :---------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
-| 0108.Convert Sorted Array to Binary Search Tree | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) | Easy |      |
-|          0543.Diameter of Binary Tree           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) | Easy |      |
+|                       题目                       |                             解法                             |  难度  | 补充 |
+| :----------------------------------------------: | :----------------------------------------------------------: | :----: | :--: |
+|         0098.Validate Binary Search Tree         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0098-Validate-Binary-Search-Tree) | Medium |  ❤️   |
+| 0108.Convert Sorted Array to Binary Search Tree  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) |  Easy  |      |
+| 0116.Populating Next Right Pointers in Each Node | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0116-Populating-Next-Right-Pointers-in-Each-Node) | Medium |  ❤️   |
+|           0543.Diameter of Binary Tree           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
 
 
 
