@@ -13,12 +13,15 @@ My LeetCode solution by Go.
 | 0002 |                     Add Two Numbers                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0002-Add-Two-Numbers) | Medium |      |
 | 0003 |     Longest Substring Without Repeating Characters      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |      |
 | 0004 |               Median of Two Sorted Arrays               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0004-Median-of-Two-Sorted-Arrays) |  Hard  |      |
+| 0024 |                   Swap Nodes in Pairs                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |  ❤️   |
+| 0027 |                     Remove Element                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0027-Remove-Element) |  Easy  |      |
 | 0028 |                    Implement-strStr                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0028-Implement-strStr) |  Easy  |      |
 | 0033 |             Search In Rotated Sorted Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0033-Search-In-Rotated-Sorted-Array) | Medium |      |
 | 0034 | Find First and Last Position of Element in Sorted Array | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0034-Find-First-And-Last-Position-of-Element-in-Sorted-Array) | Medium |  ❤️   |
 | 0035 |                 Search Insert Position                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0035-Search-Insert-Position) |  Easy  |      |
 | 0039 |                     Combination Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium |  ❤️   |
 | 0050 |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |  ❤️   |
+| 0067 |                       Add Binary                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0067-Add-Binary) |  Easy  |      |
 | 0069 |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |      |
 | 0070 |                     Climbing Stairs                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0070-Climbing-Stairs) |  Easy  |      |
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
@@ -32,7 +35,9 @@ My LeetCode solution by Go.
 | 0162 |                    Find Peak Element                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0162-Find-Peak-Element) | Medium |      |
 | 0167 |           Two Sum II - Input array is sorted            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0167-Two-Sum-II) |  Easy  |      |
 | 0169 |                    Majority Element                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0169-Majority-Element) |  Easy  |      |
+| 0203 |               Remove Linked List Elements               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0203-Remove-Linked-List-Elements) |  Easy  |      |
 | 0206 |                   Reverse Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |      |
+| 0217 |                   Contains Duplicate                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0217-Contains-Duplicate) |  Easy  |      |
 | 0225 |              Implement Stack using Queues               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0225-Implement-Stack-using-Queues) |  Easy  |      |
 | 0240 |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |      |
 | 0287 |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |  ❤️   |
@@ -46,9 +51,10 @@ My LeetCode solution by Go.
 | 0538 |               Convert BST to Greater Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0538-Convert-BST-to-Greater-Tree) |  Easy  |      |
 | 0540 |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |  ❤️   |
 | 0543 |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
-| 0700 |                                                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |      |
+| 0700 |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |      |
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
 | 0746 |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |      |
+| 0796 |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |      |
 | 1013 |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |      |
 | 1103 |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |      |
 | 1160 |       Find Words That Can Be Formed by Characters       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1160-Find-Words-That-Can-Be-Formed-by-Characters) |  Easy  |      |
@@ -66,6 +72,7 @@ My LeetCode solution by Go.
 |           题目            |                             解法                             |  难度  | 补充 |
 | :-----------------------: | :----------------------------------------------------------: | :----: | :--: |
 |   0002. Add Two Numbers   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0002-Add-Two-Numbers) | Medium |      |
+| 0024. Swap Nodes in Pairs | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |  ❤️   |
 | 0206. Reverse Linked List | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |      |
 
 ### 滑动窗口

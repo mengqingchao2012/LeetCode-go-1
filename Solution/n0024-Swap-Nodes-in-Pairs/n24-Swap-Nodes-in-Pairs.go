@@ -1,6 +1,6 @@
 package main
 
-import . "LeetCode-go/utils"
+import ."LeetCode-go/utils"
 
 //迭代解法：Time：O(n), Space：O(1)
 func swapPairs(head *ListNode) *ListNode {

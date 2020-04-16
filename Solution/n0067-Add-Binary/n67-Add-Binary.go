@@ -3,13 +3,13 @@ package main
 import (
 	"LeetCode-go/utils"
 	"strconv"
+	"strings"
 )
 
 func addBinary(a string, b string) string {
 	la := len(a)
 	lb := len(b)
 	temp := make([]int, 0, utils.Max(la, lb)+1)
-	var res string
 
 	i, j := la-1, lb-1
 	var carry = 0
@@ -26,9 +26,11 @@ func addBinary(a string, b string) string {
 		carry /= 2
 	}
 
+	builder := strings.Builder{}
+
 	for i := len(temp) - 1; i >= 0; i-- {
-		res += strconv.Itoa(temp[i])
+		builder.WriteString(strconv.Itoa(temp[i]))
 	}
 
-	return res
+	return builder.String()
 }
