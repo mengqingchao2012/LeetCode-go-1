@@ -21,6 +21,7 @@ My LeetCode solution by Go.
 | 0035 |                 Search Insert Position                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0035-Search-Insert-Position) |  Easy  |      |
 | 0039 |                     Combination Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium |  ❤️   |
 | 0050 |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |  ❤️   |
+| 0066 |                        Plus One                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0066-Plus-One) |  Easy  |      |
 | 0067 |                       Add Binary                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0067-Add-Binary) |  Easy  |      |
 | 0069 |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |      |
 | 0070 |                     Climbing Stairs                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0070-Climbing-Stairs) |  Easy  |      |
@@ -43,6 +44,7 @@ My LeetCode solution by Go.
 | 0287 |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |  ❤️   |
 | 0300 |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |      |
 | 0322 |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |  ❤️   |
+| 0328 |                  Odd Even Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0328-Odd-Even-Linked-List) | Medium |  ❤️   |
 | 0349 |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |      |
 | 0350 |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |      |
 | 0367 |                  Valid Perfect Square                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0367-Valid-Perfect-Square) |  Easy  |      |
@@ -55,6 +57,7 @@ My LeetCode solution by Go.
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
 | 0746 |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |      |
 | 0796 |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |      |
+| 0938 |                    Range Sum of BST                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0938-Range-Sum-of-BST) |  Easy  |      |
 | 1013 |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |      |
 | 1103 |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |      |
 | 1160 |       Find Words That Can Be Formed by Characters       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1160-Find-Words-That-Can-Be-Formed-by-Characters) |  Easy  |      |
@@ -74,6 +77,7 @@ My LeetCode solution by Go.
 |   0002. Add Two Numbers   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0002-Add-Two-Numbers) | Medium |      |
 | 0024. Swap Nodes in Pairs | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |  ❤️   |
 | 0206. Reverse Linked List | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |      |
+| 0328.Odd Even Linked List | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0328-Odd-Even-Linked-List) | Medium |  ❤️   |
 
 ### 滑动窗口
 
