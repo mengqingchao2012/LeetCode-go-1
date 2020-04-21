@@ -32,6 +32,7 @@ My LeetCode solution by Go.
 | 0116 |       Populating Next Right Pointers in Each Node       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0116-Populating-Next-Right-Pointers-in-Each-Node) | Medium |  ❤️   |
 | 0121 |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |      |
 | 0136 |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |      |
+| 0138 |              Copy List with Random Pointer              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |  ❤️   |
 | 0153 |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |  ❤️   |
 | 0162 |                    Find Peak Element                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0162-Find-Peak-Element) | Medium |      |
 | 0167 |           Two Sum II - Input array is sorted            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0167-Two-Sum-II) |  Easy  |      |
@@ -41,6 +42,7 @@ My LeetCode solution by Go.
 | 0217 |                   Contains Duplicate                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0217-Contains-Duplicate) |  Easy  |      |
 | 0225 |              Implement Stack using Queues               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0225-Implement-Stack-using-Queues) |  Easy  |      |
 | 0240 |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |      |
+| 0278 |                    First Bad Version                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0278-First-Bad-Version) |  Easy  |      |
 | 0287 |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |  ❤️   |
 | 0300 |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |      |
 | 0322 |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |  ❤️   |
@@ -72,12 +74,13 @@ My LeetCode solution by Go.
 
 ### 链表
 
-|           题目            |                             解法                             |  难度  | 补充 |
-| :-----------------------: | :----------------------------------------------------------: | :----: | :--: |
-|   0002. Add Two Numbers   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0002-Add-Two-Numbers) | Medium |      |
-| 0024. Swap Nodes in Pairs | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |  ❤️   |
-| 0206. Reverse Linked List | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |      |
-| 0328.Odd Even Linked List | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0328-Odd-Even-Linked-List) | Medium |  ❤️   |
+|                题目                |                             解法                             |  难度  | 补充 |
+| :--------------------------------: | :----------------------------------------------------------: | :----: | :--: |
+|       0002. Add Two Numbers        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0002-Add-Two-Numbers) | Medium |      |
+|     0024. Swap Nodes in Pairs      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |  ❤️   |
+| 0138.Copy List with Random Pointer | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |  ❤️   |
+|     0206. Reverse Linked List      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |      |
+|     0328.Odd Even Linked List      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0328-Odd-Even-Linked-List) | Medium |  ❤️   |
 
 ### 滑动窗口
 
