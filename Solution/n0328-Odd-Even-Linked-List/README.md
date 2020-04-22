@@ -1,6 +1,6 @@
 # 328. Odd Even Linked List
 
-## Problems
+## Problem
 
 Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.
 
@@ -25,7 +25,7 @@ Output: 2->3->6->7->1->5->4->NULL
 - The relative order inside both the even and odd groups should remain as it was in the input.
 - The first node is considered odd, the second node even and so on ...
 
-## Solutions
+## Solution
 
 - 思路：
 

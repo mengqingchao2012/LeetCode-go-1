@@ -1,6 +1,6 @@
 # 27. Remove Element
 
-## Problems
+## Problem
 
 Given an array *nums* and a value *val*, remove all instances of that value [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) and return the new length.
 
@@ -51,7 +51,7 @@ for (int i = 0; i < len; i++) {
 
 
 
-## Solutions
+## Solution
 
 - 双指针求解
 

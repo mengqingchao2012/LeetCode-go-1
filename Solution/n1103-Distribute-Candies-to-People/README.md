@@ -40,7 +40,6 @@ Constraints:
 - 1 <= num_people <= 1000
 
 
-
 ## Solution
 
 暴力解法，见代码

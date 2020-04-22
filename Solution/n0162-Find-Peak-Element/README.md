@@ -1,6 +1,6 @@
 # 162.Find Peak Element
 
-## Problems
+## Problem
 
 A peak element is an element that is greater than its neighbors.
 

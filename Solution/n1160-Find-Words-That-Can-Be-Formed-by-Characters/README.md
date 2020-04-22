@@ -1,6 +1,6 @@
 # Find Words That Can Be Formed by Characters
 
-## Problems
+## Problem
 
 You are given an array of strings `words` and a string `chars`.
 
@@ -9,7 +9,6 @@ A string is *good* if it can be formed by characters from `chars` (each characte
 Return the sum of lengths of all good strings in `words`.
 
  
-
 **Example 1:**
 
 ```
@@ -29,7 +28,6 @@ The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 
 ```
 
  
-
 **Note:**
 
 1. `1 <= words.length <= 1000`
@@ -37,7 +35,6 @@ The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 
 3. All strings contain lowercase English letters only.
 
 
-
-## Solutions
+## Solution
 
 - 见代码

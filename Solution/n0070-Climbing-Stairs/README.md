@@ -1,6 +1,6 @@
 # 70. Climbing Stairs
 
-## Problems
+## Problem
 
 You are climbing a stair case. It takes *n* steps to reach to the top.
 
@@ -29,6 +29,6 @@ Explanation: There are three ways to climb to the top.
 3. 2 steps + 1 step
 ```
 
-## Solutions
+## Solution
 
 - 见代码

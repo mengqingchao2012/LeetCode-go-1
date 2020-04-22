@@ -1,13 +1,12 @@
 # 938. Range Sum of BST
 
-## Problems
+## Problem
 
 Given the `root` node of a binary search tree, return the sum of values of all nodes with value between `L` and `R` (inclusive).
 
 The binary search tree is guaranteed to have unique values.
 
  
-
 **Example 1:**
 
 ```
@@ -23,13 +22,12 @@ Output: 23
 ```
 
  
-
 **Note:**
 
 1. The number of nodes in the tree is at most `10000`.
 2. The final answer is guaranteed to be less than `2^31`.
 
-## Solutions
+## Solution
 
 - 遍历各节点，将值在范围 $[L,R]$ 之间的所有节点值相加
 

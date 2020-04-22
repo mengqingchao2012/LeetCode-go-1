@@ -1,6 +1,6 @@
 # 796. Rotate String
 
-## Problems
+## Problem
 
 We are given two strings, `A` and `B`.
 
@@ -20,7 +20,7 @@ Output: false
 
 - `A` and `B` will have length at most `100`.
 
-## Solutions
+## Solution
 
 - 思路：
 

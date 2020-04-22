@@ -1,6 +1,6 @@
 # 116. Populating Next Right Pointers in Each Node
 
-## Problems
+## Problem
 
 You are given a **perfect binary tree** where all leaves are on the same level, and every parent has two children. The binary tree has the following definition:
 
@@ -45,7 +45,7 @@ Explanation: Given the above perfect binary tree (Figure A), your function shoul
 
 
 
-## Solutions
+## Solution
 
 - 递归法
 

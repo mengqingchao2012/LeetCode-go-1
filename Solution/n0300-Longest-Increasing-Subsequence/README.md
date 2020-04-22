@@ -1,6 +1,6 @@
 # 300. Longest Increasing Subsequence
 
-## Problems
+## Problem
 
 Given an unsorted array of integers, find the length of longest increasing subsequence.
 
@@ -21,7 +21,7 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 
 
 
-## Solutions
+## Solution
 
 - 方法一：动态规划
 

@@ -1,6 +1,6 @@
 # 746. Min Cost Climbing Stairs
 
-## Problems
+## Problem
 
 On a staircase, the `i`-th step has some non-negative cost `cost[i]` assigned (0 indexed).
 
@@ -15,7 +15,6 @@ Explanation: Cheapest is start on cost[1], pay that cost and go to the top.
 ```
 
 
-
 **Example 2:**
 
 ```
@@ -25,13 +24,12 @@ Explanation: Cheapest is start on cost[0], and only step on 1s, skipping cost[3]
 ```
 
 
-
 **Note:**
 
 1. `cost` will have a length in the range `[2, 1000]`.
 2. Every `cost[i]` will be an integer in the range `[0, 999]`.
 
-## Solutions
+## Solution
 
 - 思路：动态规划
 

@@ -1,6 +1,6 @@
 # 67. Add Binary
 
-## Problems
+## Problem
 
 Given two binary strings, return their sum (also a binary string).
 
@@ -28,6 +28,6 @@ Output: "10101"
 - `1 <= a.length, b.length <= 10^4`
 - Each string is either `"0"` or doesn't contain any leading zero.
 
-## Solutions
+## Solution
 
 - 见代码

@@ -1,11 +1,10 @@
 # 540. Single Element in a Sorted Array
 
-## Problems
+## Problem
 
 You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once. Find this single element that appears only once.
 
  
-
 **Example 1:**
 
 ```
@@ -21,12 +20,10 @@ Output: 10
 ```
 
  
-
 **Note:** Your solution should run in O(log n) time and O(1) space.
 
 
-
-## Solutions
+## Solution
 
 - 使用二分法：
 

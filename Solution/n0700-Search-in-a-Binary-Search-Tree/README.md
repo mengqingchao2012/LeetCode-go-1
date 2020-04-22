@@ -1,6 +1,6 @@
 # 700. Search in a Binary Search Tree
 
-## Problems
+## Problem
 
 Given the root node of a binary search tree (BST) and a value. You need to find the node in the BST that the node's value equals the given value. Return the subtree rooted with that node. If such node doesn't exist, you should return NULL.
 
@@ -30,7 +30,6 @@ In the example above, if we want to search the value `5`, since there is no node
 Note that an empty tree is represented by `NULL`, therefore you would see the expected output (serialized tree format) as `[]`, not `null`.
 
 
-
-## Solutions
+## Solution
 
 - 见代码

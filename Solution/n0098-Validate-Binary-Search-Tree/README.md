@@ -1,6 +1,6 @@
 # 98. Validate Binary Search Tree
 
-## Problems
+## Problem
 
 Given a binary tree, determine if it is a valid binary search tree (BST).
 
@@ -37,7 +37,7 @@ Output: false
 Explanation: The root node's value is 5 but its right child's value is 4.
 ```
 
-## Solutions
+## Solution
 
 - 思路：
 

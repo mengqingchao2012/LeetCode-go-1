@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //Time：O(n*n!), Space:(n)
 func permute(nums []int) [][]int {
 	if len(nums) == 0 {
@@ -19,11 +17,6 @@ func permuteRec(nums []int, start int, res *[][]int) {
 		temp := make([]int, length)
 		copy(temp, nums)
 		*res = append(*res, temp)
-		fmt.Println("----------------")
-		fmt.Println("nums:", nums)
-		fmt.Println("start: ", start)
-		fmt.Println("res", res)
-		fmt.Println("-----------------")
 		return
 	}
 
@@ -33,8 +26,3 @@ func permuteRec(nums []int, start int, res *[][]int) {
 		nums[i], nums[start] = nums[start], nums[i]
 	}
 }
-
-//func main() {
-//	nums := []int{1, 2, 3}
-//	permute(nums)
-//}

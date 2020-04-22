@@ -16,10 +16,13 @@ My LeetCode solution by Go.
 | 0024 |                   Swap Nodes in Pairs                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |  ❤️   |
 | 0027 |                     Remove Element                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0027-Remove-Element) |  Easy  |      |
 | 0028 |                    Implement-strStr                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0028-Implement-strStr) |  Easy  |      |
+| 0031 |                    Next Permutation                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0031-Next-Permutation) | Medium |  ❤️   |
 | 0033 |             Search In Rotated Sorted Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0033-Search-In-Rotated-Sorted-Array) | Medium |      |
 | 0034 | Find First and Last Position of Element in Sorted Array | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0034-Find-First-And-Last-Position-of-Element-in-Sorted-Array) | Medium |  ❤️   |
 | 0035 |                 Search Insert Position                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0035-Search-Insert-Position) |  Easy  |      |
 | 0039 |                     Combination Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium |  ❤️   |
+| 0046 |                      Permutations                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations) | Medium |      |
+| 0047 |                     Permutations II                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations-II) | Medium |      |
 | 0050 |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |  ❤️   |
 | 0066 |                        Plus One                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0066-Plus-One) |  Easy  |      |
 | 0067 |                       Add Binary                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0067-Add-Binary) |  Easy  |      |
@@ -68,9 +71,10 @@ My LeetCode solution by Go.
 
 ### 数组
 
-|     题目      |                             解法                             | 难度 | 补充 |
-| :-----------: | :----------------------------------------------------------: | :--: | :--: |
-| 0001. Two Sum | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0001-Two-Sum) | Easy |      |
+|         题目          |                             解法                             |  难度  |           补充            |
+| :-------------------: | :----------------------------------------------------------: | :----: | :-----------------------: |
+|     0001. Two Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0001-Two-Sum) |  Easy  |                           |
+| 0031.Next Permutation | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0031-Next-Permutation) | Medium | ❤️【解法被复用到第47题中】 |
 
 ### 链表
 
@@ -87,6 +91,14 @@ My LeetCode solution by Go.
 |                         题目                         |                             解法                             |  难度  | 补充 |
 | :--------------------------------------------------: | :----------------------------------------------------------: | :----: | :--: |
 | 0003. Longest Substring Without Repeating Characters | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |      |
+
+### 回溯
+
+|       题目        |                             解法                             |  难度  | 补充 |
+| :---------------: | :----------------------------------------------------------: | :----: | :--: |
+| 0046.Permutations | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations) | Medium |      |
+
+
 
 ### 二分法
 

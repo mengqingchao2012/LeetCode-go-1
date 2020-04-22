@@ -1,11 +1,10 @@
 # 518. Coin Change 2
 
-## Problems
+## Problem
 
 You are given coins of different denominations and a total amount of money. Write a function to compute the number of combinations that make up that amount. You may assume that you have infinite number of each kind of coin.
 
  
-
 **Example 1:**
 
 ```
@@ -34,7 +33,6 @@ Output: 1
 ```
 
  
-
 **Note:**
 
 You can assume that
@@ -44,7 +42,7 @@ You can assume that
 - the number of coins is less than 500
 - the answer is guaranteed to fit into signed 32-bit integer
 
-## Solutions
+## Solution
 
 - 思路：
 

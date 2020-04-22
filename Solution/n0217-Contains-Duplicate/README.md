@@ -1,6 +1,6 @@
 # 217. Contains Duplicate
 
-## Problems
+## Problem
 
 Given an array of integers, find if the array contains any duplicates.
 
@@ -27,7 +27,7 @@ Input: [1,1,1,3,3,4,3,2,4,2]
 Output: true
 ```
 
-## Solutions
+## Solution
 
 - 见代码
 

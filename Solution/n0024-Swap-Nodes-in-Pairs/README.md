@@ -1,6 +1,6 @@
 # 24. Swap Nodes in Pairs
 
-## Problems
+## Problem
 
 Given a linked list, swap every two adjacent nodes and return its head.
 
@@ -14,7 +14,7 @@ You may **not** modify the values in the list's nodes, only nodes itself may be 
 Given 1->2->3->4, you should return the list as 2->1->4->3.
 ```
 
-## Solutions
+## Solution
 
 - 解法一：迭代法
 

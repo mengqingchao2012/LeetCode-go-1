@@ -1,6 +1,6 @@
 # 138. Copy List with Random Pointer
 
-## Problems
+## Problem
 
 A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
 
@@ -56,7 +56,7 @@ Explanation: Given linked list is empty (null pointer), so return null.
 - `Node.random` is null or pointing to a node in the linked list.
 - Number of Nodes will not exceed 1000.
 
-## Solutions
+## Solution
 
 - 方法一：
 

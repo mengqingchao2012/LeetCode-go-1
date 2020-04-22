@@ -1,6 +1,6 @@
 #  108. Convert Sorted Array to Binary Search Tree
 
-## Problems
+## Problem
 
 Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
 
@@ -22,7 +22,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 
 
-## Solutions
+## Solution
 
 - 二叉搜索树的特点：拍平以后是有序数组，即，根节点永远是中间元素
 
