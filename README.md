@@ -29,6 +29,8 @@ My LeetCode solution by Go.
 | 0069 |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |      |
 | 0070 |                     Climbing Stairs                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0070-Climbing-Stairs) |  Easy  |      |
 | 0074 |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |      |
+| 0077 |                      Combinations                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0077-Combinations) | Medium |      |
+| 0079 |                       Word Search                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0079-Word-Search) | Medium |      |
 | 0081 |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |      |
 | 0098 |               Validate Binary Search Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0098-Validate-Binary-Search-Tree) | Medium |  ❤️   |
 | 0108 |       Convert Sorted Array to Binary Search Tree        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) |  Easy  |      |
@@ -97,6 +99,8 @@ My LeetCode solution by Go.
 |       题目        |                             解法                             |  难度  | 补充 |
 | :---------------: | :----------------------------------------------------------: | :----: | :--: |
 | 0046.Permutations | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations) | Medium |      |
+| 0077.Combinations | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0077-Combinations) | Medium |      |
+| 0079.Word Search  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0079-Word-Search) | Medium |      |
 
 
 
