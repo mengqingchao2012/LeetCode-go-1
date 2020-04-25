@@ -1,6 +1,6 @@
 package main
 
-import . "LeetCode-go/utils"
+import ."LeetCode-go/utils"
 
 //递归法：Time：O(n)，Space：O(n)
 func pathSum(root *TreeNode, sum int) [][]int {
@@ -23,10 +23,11 @@ func pathFinder(root *TreeNode, sum int, elem *[]int, res *[][]int) {
 		temp := make([]int, len(*elem))
 		copy(temp, *elem)
 		*res = append(*res, temp)
+		// 注意这里找到正确值后不能直接 return !!! 因为要找到所有符合的路径，所以要执行最后一步的退递归
 	}
 	//递归左右子树
 	pathFinder(root.Left, sum-root.Val, elem, res)
 	pathFinder(root.Right, sum-root.Val, elem, res)
-	//每次退递归时要说明没有找到满足条件的路径，将最后一个插入的节点舍去
+
 	*elem = (*elem)[:len(*elem)-1]
 }

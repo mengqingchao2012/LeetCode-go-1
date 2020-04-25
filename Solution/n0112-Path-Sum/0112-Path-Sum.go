@@ -4,11 +4,11 @@ import . "LeetCode-go/utils"
 
 //递归法：Time：O(n)，Space：O(n)
 func hasPathSum(root *TreeNode, sum int) bool {
-	if root == nil {
+	if root == nil { // 退递归条件一
 		return false
 	}
 
-	if root.Left == nil && root.Right == nil { //叶子节点，值要等于sum
+	if root.Left == nil && root.Right == nil { // 退递归条件二：叶子节点，值要等于sum
 		return root.Val == sum
 	}
 
@@ -35,6 +35,7 @@ func hasPathSum1(root *TreeNode, sum int) bool {
 		if node.Left == nil && node.Right == nil && node.Val == s {
 			return true
 		}
+
 		stack = stack[:top]
 		sumStack = sumStack[:top]
 		temp := s - node.Val

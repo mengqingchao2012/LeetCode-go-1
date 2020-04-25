@@ -34,6 +34,8 @@ My LeetCode solution by Go.
 | 0081 |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |      |
 | 0098 |               Validate Binary Search Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0098-Validate-Binary-Search-Tree) | Medium |  ❤️   |
 | 0108 |       Convert Sorted Array to Binary Search Tree        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) |  Easy  |      |
+| 0112 |                        Path Sum                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0112-Path-Sum) |  Easy  |      |
+| 0113 |                       Path Sum II                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0113-Path-Sum-II) | Medium |      |
 | 0116 |       Populating Next Right Pointers in Each Node       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0116-Populating-Next-Right-Pointers-in-Each-Node) | Medium |  ❤️   |
 | 0121 |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |      |
 | 0136 |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |      |
@@ -60,6 +62,7 @@ My LeetCode solution by Go.
 | 0538 |               Convert BST to Greater Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0538-Convert-BST-to-Greater-Tree) |  Easy  |      |
 | 0540 |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |  ❤️   |
 | 0543 |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
+| 0560 |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |  ❤️   |
 | 0700 |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |      |
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
 | 0746 |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |      |
@@ -73,10 +76,11 @@ My LeetCode solution by Go.
 
 ### 数组
 
-|         题目          |                             解法                             |  难度  |           补充            |
-| :-------------------: | :----------------------------------------------------------: | :----: | :-----------------------: |
-|     0001. Two Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0001-Two-Sum) |  Easy  |                           |
-| 0031.Next Permutation | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0031-Next-Permutation) | Medium | ❤️【解法被复用到第47题中】 |
+|            题目            |                             解法                             |  难度  |           补充            |
+| :------------------------: | :----------------------------------------------------------: | :----: | :-----------------------: |
+|       0001. Two Sum        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0001-Two-Sum) |  Easy  |                           |
+|   0031.Next Permutation    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0031-Next-Permutation) | Medium | ❤️【解法被复用到第47题中】 |
+| 0560 Subarray Sum Equals K | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️【前缀和的使用】     |
 
 ### 链表
 
