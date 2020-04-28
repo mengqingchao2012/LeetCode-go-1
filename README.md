@@ -50,6 +50,7 @@ My LeetCode solution by Go.
 | 0217 |                   Contains Duplicate                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0217-Contains-Duplicate) |  Easy  |      |
 | 0225 |              Implement Stack using Queues               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0225-Implement-Stack-using-Queues) |  Easy  |      |
 | 0240 |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |      |
+| 0260 |                    Single Number III                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0260-Single-Number-III) | Medium |  ❤️   |
 | 0278 |                    First Bad Version                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0278-First-Bad-Version) |  Easy  |      |
 | 0287 |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |  ❤️   |
 | 0300 |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |      |
@@ -61,6 +62,7 @@ My LeetCode solution by Go.
 | 0409 |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |      |
 | 0437 |                      Path Sum III                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0437-Path-Sum-III) |  Easy  |      |
 | 0518 |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |  ❤️   |
+| 0523 |                 Continuous Subarray Sum                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0523-Continuous-Subarray-Sum) | Medium |      |
 | 0538 |               Convert BST to Greater Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0538-Convert-BST-to-Greater-Tree) |  Easy  |      |
 | 0540 |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |  ❤️   |
 | 0543 |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
@@ -78,11 +80,12 @@ My LeetCode solution by Go.
 
 ### 数组
 
-|            题目            |                             解法                             |  难度  |           补充            |
-| :------------------------: | :----------------------------------------------------------: | :----: | :-----------------------: |
-|       0001. Two Sum        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0001-Two-Sum) |  Easy  |                           |
-|   0031.Next Permutation    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0031-Next-Permutation) | Medium | ❤️【解法被复用到第47题中】 |
-| 0560 Subarray Sum Equals K | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️【前缀和的使用】     |
+|             题目             |                             解法                             |  难度  |           补充            |
+| :--------------------------: | :----------------------------------------------------------: | :----: | :-----------------------: |
+|        0001. Two Sum         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0001-Two-Sum) |  Easy  |                           |
+|    0031.Next Permutation     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0031-Next-Permutation) | Medium | ❤️【解法被复用到第47题中】 |
+| 0523.Continuous Subarray Sum | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0523-Continuous-Subarray-Sum) | Medium |        【前缀和】         |
+|  0560 Subarray Sum Equals K  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️【前缀和的使用】     |
 
 ### 链表
 
@@ -267,9 +270,10 @@ My LeetCode solution by Go.
 
 ### 位运算
 
-|        题目        |                             解法                             | 难度 | 补充 |
-| :----------------: | :----------------------------------------------------------: | :--: | :--: |
-| 0136.Single Number | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) | Easy |      |
+|          题目          |                             解法                             |  难度  | 补充 |
+| :--------------------: | :----------------------------------------------------------: | :----: | :--: |
+|   0136.Single Number   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |      |
+| 0260.Single Number III | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0260-Single-Number-III) | Medium |  ❤️   |
 
 
 
