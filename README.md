@@ -69,7 +69,9 @@ My LeetCode solution by Go.
 | 0560 |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |  ❤️   |
 | 0700 |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |      |
 | 0704 |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |      |
+| 0724 |                    Find Pivot Index                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0724-Find-Pivot-Index) |  Easy  |      |
 | 0746 |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |      |
+| 0754 |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |      |
 | 0796 |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |      |
 | 0938 |                    Range Sum of BST                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0938-Range-Sum-of-BST) |  Easy  |      |
 | 1013 |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |      |
