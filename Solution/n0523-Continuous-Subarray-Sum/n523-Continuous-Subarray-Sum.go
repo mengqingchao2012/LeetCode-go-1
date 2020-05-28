@@ -2,7 +2,9 @@ package main
 
 func checkSubarraySum(nums []int, k int) bool {
 	length := len(nums)
-	if length == 0 { return false }
+	if length == 0 {
+		return false
+	}
 
 	prefixSum := map[int]int{}
 	prefixSum[0] = -1
@@ -17,7 +19,7 @@ func checkSubarraySum(nums []int, k int) bool {
 		}
 
 		if v, ok := prefixSum[mod]; ok {
-			if i - v > 1 {
+			if i-v > 1 {
 				return true
 			}
 		} else {

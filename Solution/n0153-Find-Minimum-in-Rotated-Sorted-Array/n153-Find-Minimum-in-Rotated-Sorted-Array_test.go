@@ -25,7 +25,7 @@ func TestFindMin(t *testing.T) {
 			answer:   1,
 		},
 	}
-	
+
 	for i, v := range questions {
 		t.Run(fmt.Sprintf("Question:%d ", i), func(t *testing.T) {
 			want := v.answer

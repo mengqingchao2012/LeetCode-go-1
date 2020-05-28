@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //递归法：Time：O(n)，Space：O(n)
 func pathSum(root *TreeNode, sum int) [][]int {

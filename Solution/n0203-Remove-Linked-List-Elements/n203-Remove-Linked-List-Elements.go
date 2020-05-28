@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 func removeElements(head *ListNode, val int) *ListNode {
 	if head == nil {

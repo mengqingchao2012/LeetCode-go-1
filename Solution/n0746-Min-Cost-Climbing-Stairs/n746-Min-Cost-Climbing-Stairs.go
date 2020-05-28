@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 func minCostClimbingStairs(cost []int) int {
 	length := len(cost)

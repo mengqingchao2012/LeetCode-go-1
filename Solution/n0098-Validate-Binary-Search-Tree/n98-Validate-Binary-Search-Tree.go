@@ -1,12 +1,14 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 // 方法一：Time：O(nlogn），Space：O(n)
 func isValidBST(root *TreeNode) bool {
-	if root == nil { return true } // 退递归条件，root==nil时，返回true
-	leftValid := root.Left == nil || root.Val > maxVal(root.Left) // 验证root的值大于左子树的最大节点值
-	rightValid := root.Right == nil || root.Val < minVal(root.Right) // 验证root的值小于右子树的最小节点值
+	if root == nil {
+		return true
+	} // 退递归条件，root==nil时，返回true
+	leftValid := root.Left == nil || root.Val > maxVal(root.Left)                     // 验证root的值大于左子树的最大节点值
+	rightValid := root.Right == nil || root.Val < minVal(root.Right)                  // 验证root的值小于右子树的最小节点值
 	return leftValid && rightValid && isValidBST(root.Left) && isValidBST(root.Right) // 递归检查左子树和右子树
 }
 
@@ -32,8 +34,14 @@ func isValidBST1(root *TreeNode) bool {
 }
 
 func checkBound(root, lower, upper *TreeNode) bool {
-	if root == nil { return true }
-	if lower != nil && lower.Val >= root.Val { return false } // 注意不要漏了等号
-	if upper != nil && upper.Val <= root.Val { return false } // 注意不要漏了等号
+	if root == nil {
+		return true
+	}
+	if lower != nil && lower.Val >= root.Val {
+		return false
+	} // 注意不要漏了等号
+	if upper != nil && upper.Val <= root.Val {
+		return false
+	} // 注意不要漏了等号
 	return checkBound(root.Left, lower, root) && checkBound(root.Right, root, upper)
 }

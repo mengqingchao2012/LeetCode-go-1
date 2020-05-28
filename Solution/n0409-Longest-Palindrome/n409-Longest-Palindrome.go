@@ -9,7 +9,7 @@ func longestPalindrome(s string) int {
 	flag := false
 	count := 0
 	for _, v := range mp {
-		if v % 2 == 0 {
+		if v%2 == 0 {
 			count += v
 		} else { // 注意如果字符出现次数为奇数，则要减去1，取出其中的偶数部分来构成最终结果
 			flag = true

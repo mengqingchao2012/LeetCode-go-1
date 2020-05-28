@@ -28,6 +28,6 @@ func combsum(candidates []int, target int, solution []int, result *[][]int) {
 	//由于切片共享底层数组会导致最终得出错误的答案
 	solution = solution[:len(solution):len(solution)]
 
-	combsum(candidates, target - candidates[0], append(solution, candidates[0]), result)
+	combsum(candidates, target-candidates[0], append(solution, candidates[0]), result)
 	combsum(candidates[1:], target, solution, result)
 }

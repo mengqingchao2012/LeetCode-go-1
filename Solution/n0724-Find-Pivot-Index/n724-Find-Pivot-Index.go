@@ -8,7 +8,7 @@ func pivotIndex(nums []int) int {
 
 	leftSum := 0
 	for i := 0; i < len(nums); i++ {
-		if leftSum == sum - nums[i] - leftSum {
+		if leftSum == sum-nums[i]-leftSum {
 			return i
 		}
 		leftSum += nums[i]

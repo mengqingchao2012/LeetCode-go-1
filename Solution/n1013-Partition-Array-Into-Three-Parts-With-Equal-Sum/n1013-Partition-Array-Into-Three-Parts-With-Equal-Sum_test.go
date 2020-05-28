@@ -12,9 +12,9 @@ func Test_canThreePartsEqualSum(t *testing.T) {
 		want bool
 	}{
 		{
-			name:"test1",
-			args: args{[]int{3,3,6,5,-2,2,5,1,-9,4}},
-			want:true,
+			name: "test1",
+			args: args{[]int{3, 3, 6, 5, -2, 2, 5, 1, -9, 4}},
+			want: true,
 		},
 	}
 	for _, tt := range tests {

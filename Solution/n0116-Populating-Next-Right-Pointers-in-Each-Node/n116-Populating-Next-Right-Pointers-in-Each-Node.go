@@ -1,10 +1,10 @@
 package main
 
 type Node struct {
-     Val int
-     Left *Node
-     Right *Node
-     Next *Node
+	Val   int
+	Left  *Node
+	Right *Node
+	Next  *Node
 }
 
 // 方法一：递归法

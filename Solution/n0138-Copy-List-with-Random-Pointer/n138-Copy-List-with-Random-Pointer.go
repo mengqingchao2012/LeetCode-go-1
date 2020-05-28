@@ -1,8 +1,8 @@
 package main
 
 type Node struct {
-	Val int
-	Next *Node
+	Val    int
+	Next   *Node
 	Random *Node
 }
 
@@ -15,7 +15,7 @@ func copyRandomList(head *Node) *Node {
 	res := &Node{Val: head.Val}
 	mp[head] = res
 
-	for p, cp := head.Next, res; p != nil ; p, cp = p.Next, cp.Next {
+	for p, cp := head.Next, res; p != nil; p, cp = p.Next, cp.Next {
 		cp.Next = &Node{Val: p.Val}
 		mp[p] = cp.Next
 	}

@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 func oddEvenList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil || head.Next.Next == nil {

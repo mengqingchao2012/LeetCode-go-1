@@ -3,7 +3,7 @@ package main
 func countCharacters(words []string, chars string) int {
 	charSlice := make([]int, 26)
 	for _, v := range []byte(chars) {
-		charSlice[v - 'a']++
+		charSlice[v-'a']++
 	}
 
 	temp := make([]int, 26)

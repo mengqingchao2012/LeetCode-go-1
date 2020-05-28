@@ -29,17 +29,21 @@ func nextPermutation(nums []int) bool {
 	length := len(nums)
 
 	p := length - 2
-	for p >= 0 && nums[p] >= nums[p + 1] { p-- }
+	for p >= 0 && nums[p] >= nums[p+1] {
+		p--
+	}
 
 	if p < 0 {
 		return false
 	}
 
 	i := length - 1
-	for i > p && nums[i] <= nums[p] { i-- }
+	for i > p && nums[i] <= nums[p] {
+		i--
+	}
 	nums[i], nums[p] = nums[p], nums[i]
 
-	i, j := p + 1, length - 1
+	i, j := p+1, length-1
 	for i < j {
 		nums[i], nums[j] = nums[j], nums[i]
 		i++

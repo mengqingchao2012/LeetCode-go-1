@@ -1,10 +1,12 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 // 方法一：层序遍历（bfs）
 func rightSideView(root *TreeNode) []int {
-	if root == nil { return []int{} }
+	if root == nil {
+		return []int{}
+	}
 	queue := []*TreeNode{}
 	res := []int{}
 	queue = append(queue, root)
@@ -36,10 +38,12 @@ func rightSideView1(root *TreeNode) []int {
 }
 
 func dfs(root *TreeNode, res *[]int, level int) {
-	if root == nil { return }
+	if root == nil {
+		return
+	}
 	if level == len(*res) { // 注意结果集要使用指针
 		*res = append(*res, root.Val)
 	}
-	dfs(root.Right, res, level + 1)
-	dfs(root.Left, res, level + 1)
+	dfs(root.Right, res, level+1)
+	dfs(root.Left, res, level+1)
 }

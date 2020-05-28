@@ -11,15 +11,15 @@ func findPeakElement(nums []int) int {
 	left, right := 0, 0
 	for low < high { // 注意条件是 low < high
 		mid := low + ((high - low) >> 1)
-		if mid - 1 < 0 {
+		if mid-1 < 0 {
 			left = math.MinInt64
 		} else {
-			left = nums[mid - 1]
+			left = nums[mid-1]
 		}
-		if mid + 1 >= length {
+		if mid+1 >= length {
 			right = math.MinInt64
 		} else {
-			right = nums[mid + 1]
+			right = nums[mid+1]
 		}
 
 		if nums[mid] > left && nums[mid] > right {

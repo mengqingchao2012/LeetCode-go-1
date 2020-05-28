@@ -1,7 +1,9 @@
 package main
 
 func combine(n int, k int) [][]int {
-	if k > n { return [][]int{} } // 注意边界情况的判断
+	if k > n {
+		return [][]int{}
+	} // 注意边界情况的判断
 
 	result := [][]int{}
 	temp := make([]int, 0, k)
@@ -17,9 +19,9 @@ func combineRecursive(n, k, start int, temp []int, result *[][]int) {
 		return
 	}
 
-	for i := start; i <= n - k + 1; i++ {
+	for i := start; i <= n-k+1; i++ {
 		temp = append(temp, i)
-		combineRecursive(n, k - 1, i + 1, temp, result)
-		temp = temp[:len(temp) - 1]
+		combineRecursive(n, k-1, i+1, temp, result)
+		temp = temp[:len(temp)-1]
 	}
 }

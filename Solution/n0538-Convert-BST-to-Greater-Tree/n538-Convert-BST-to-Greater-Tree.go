@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 //递归解法
 func convertBST(root *TreeNode) *TreeNode {
@@ -30,8 +30,8 @@ func convertBST1(root *TreeNode) *TreeNode {
 			cur = cur.Right
 		}
 
-		cur = stack[len(stack) - 1]
-		stack = stack[:len(stack) - 1]
+		cur = stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
 		cur.Val += sum
 		sum = cur.Val
 		cur = cur.Left

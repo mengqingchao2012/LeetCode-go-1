@@ -1,6 +1,6 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 func reverseList(head *ListNode) *ListNode {
 	var pre *ListNode

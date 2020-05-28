@@ -1,10 +1,10 @@
 package main
 
-import ."LeetCode-go/utils"
+import . "LeetCode-go/utils"
 
 func coinChange(coins []int, amount int) int {
-	dp := make([]int, amount + 1) //dp[i]表示要凑成金额为 i 的情况，需要的最小硬币数
-	dp[0] = 0 //总金额为0时，不管使用什么硬币都无法构成有效解，所以dp[0]=0，表示需要的硬币数为0
+	dp := make([]int, amount+1) //dp[i]表示要凑成金额为 i 的情况，需要的最小硬币数
+	dp[0] = 0                   //总金额为0时，不管使用什么硬币都无法构成有效解，所以dp[0]=0，表示需要的硬币数为0
 
 	for i := 1; i <= amount; i++ {
 		// 金额从1开始涨到amount，对应的硬币数应该设为一个很大的值，因为不确定到底需要多少个硬币才能满足条件，甚至有可能是
@@ -19,8 +19,8 @@ func coinChange(coins []int, amount int) int {
 		for i := coin; i <= amount; i++ {
 			// 如果dp[i - coin] 是取的最大值，则与 dp[i] 取小后结果还是 dp[i]（dp[i]也可能是最大值），可以直接略过这种情况，
 			// 少一次取最小值的操作
-			if dp[i - coin] != amount + 1 {
-				dp[i] = Min(dp[i], dp[i - coin] + 1)
+			if dp[i-coin] != amount+1 {
+				dp[i] = Min(dp[i], dp[i-coin]+1)
 			}
 		}
 	}
