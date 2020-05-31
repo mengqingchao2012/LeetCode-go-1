@@ -4,7 +4,7 @@ import . "LeetCode-go/utils"
 
 func reverseList(head *ListNode) *ListNode {
 	var pre *ListNode
-	cur := head
+	pre, cur := nil, head
 
 	for cur != nil {
 		next := cur.Next

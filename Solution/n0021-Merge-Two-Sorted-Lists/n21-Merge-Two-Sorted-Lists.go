@@ -2,7 +2,6 @@ package main
 
 import "LeetCode-go/utils"
 
-//Time：O(n)，Space：O(1)
 func mergeTwoLists(l1 *utils.ListNode, l2 *utils.ListNode) *utils.ListNode {
 	res := &utils.ListNode{}
 	cur := res
@@ -27,3 +26,4 @@ func mergeTwoLists(l1 *utils.ListNode, l2 *utils.ListNode) *utils.ListNode {
 
 	return res.Next
 }
+
