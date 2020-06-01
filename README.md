@@ -32,6 +32,8 @@ My LeetCode solution by Go.
 | 0079 |                       Word Search                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0079-Word-Search) | Medium |            |
 | 0081 |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |            |
 | 0098 |               Validate Binary Search Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0098-Validate-Binary-Search-Tree) | Medium |     ❤️      |
+| 0100 |                        Same Tree                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0100-Same-Tree) |  Easy  |            |
+| 0101 |                     Symmetric Tree                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0101-Symmetric-Tree) |  Easy  |            |
 | 0108 |       Convert Sorted Array to Binary Search Tree        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) |  Easy  |            |
 | 0112 |                        Path Sum                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0112-Path-Sum) |  Easy  |            |
 | 0113 |                       Path Sum II                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0113-Path-Sum-II) | Medium |            |

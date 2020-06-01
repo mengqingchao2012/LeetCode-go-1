@@ -1,8 +1,6 @@
 package main
 
-import (
-	. "LeetCode-go/utils"
-)
+import ."LeetCode-go/utils"
 
 //递归解法：Time：O(n)，Space：O(n)
 func isSameTree(p *TreeNode, q *TreeNode) bool {
