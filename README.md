@@ -43,6 +43,7 @@ My LeetCode solution by Go.
 | 0138 |              Copy List with Random Pointer              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |     ❤️      |
 | 0153 |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |     ❤️      |
 | 0154 |         Find Minimum in Rotated Sorted Array II         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0154-Find-Minimum-in-Rotated-Sorted-Array-II) |  Hard  |     ❤️      |
+| 0160 |            Intersection of Two Linked Lists             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0160-Intersection-of-Two-Linked-Lists) |  Easy  |            |
 | 0162 |                    Find Peak Element                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0162-Find-Peak-Element) | Medium |            |
 | 0167 |           Two Sum II - Input array is sorted            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0167-Two-Sum-II) |  Easy  |            |
 | 0169 |                    Majority Element                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0169-Majority-Element) |  Easy  |            |
