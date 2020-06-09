@@ -5,7 +5,6 @@ import (
 	"math"
 )
 
-//Time：O(n), Space:(1)
 func maxSubArray(nums []int) int {
 	length := len(nums)
 	if length == 0 {
