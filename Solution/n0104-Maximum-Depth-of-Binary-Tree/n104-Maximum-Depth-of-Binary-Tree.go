@@ -9,14 +9,7 @@ func maxDepth(root *TreeNode) int {
 	}
 
 	//递归返回左右结点中深度最大的那个，注意最终结果要加1
-	return max(maxDepth(root.Left), maxDepth(root.Right)) + 1
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
+	return Max(maxDepth(root.Left), maxDepth(root.Right)) + 1
 }
 
 //迭代法：Time：O(n)，Space：O(n)
@@ -47,3 +40,4 @@ func maxDepth1(root *TreeNode) int {
 	}
 	return depth
 }
+

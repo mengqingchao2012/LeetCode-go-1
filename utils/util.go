@@ -38,7 +38,14 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func Abs(a int64) int64 {
+func Abs64(a int64) int64 {
+	if a < 0 {
+		return -a
+	}
+	return a
+}
+
+func Abs(a int) int {
 	if a < 0 {
 		return -a
 	}
