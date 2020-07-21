@@ -24,6 +24,7 @@ My LeetCode solution by Go.
 | 0047  |                     Permutations II                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations-II) | Medium |            |
 | 0050  |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |     ❤️      |
 | 0053  |                    Maximum Subarray                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0053-Maximum-Subarray) |  Easy  |            |
+| 0056  |                     Merge Intervals                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0056-Merge-Intervals) | Medium |            |
 | 0066  |                        Plus One                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0066-Plus-One) |  Easy  |            |
 | 0067  |                       Add Binary                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0067-Add-Binary) |  Easy  |            |
 | 0069  |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |            |
@@ -50,6 +51,7 @@ My LeetCode solution by Go.
 | 0162  |                    Find Peak Element                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0162-Find-Peak-Element) | Medium |            |
 | 0167  |           Two Sum II - Input array is sorted            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0167-Two-Sum-II) |  Easy  |            |
 | 0169  |                    Majority Element                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0169-Majority-Element) |  Easy  |            |
+| 0191  |                    Number of 1 Bits                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0191-Number-of-1-Bits) |  Easy  |            |
 | 0199  |               Binary Tree Right Side View               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0199-Binary-Tree-Side-View) | Medium |            |
 | 0203  |               Remove Linked List Elements               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0203-Remove-Linked-List-Elements) |  Easy  |            |
 | 0206  |                   Reverse Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |            |
@@ -57,6 +59,8 @@ My LeetCode solution by Go.
 | 0217  |                   Contains Duplicate                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0217-Contains-Duplicate) |  Easy  |            |
 | 0225  |              Implement Stack using Queues               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0225-Implement-Stack-using-Queues) |  Easy  |            |
 | 0226  |                   Invert Binary Tree                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0226-Invert-Binary-Tree) |  Easy  |            |
+| 0235  |     Lowest Common Ancestor of a Binary Search Tree      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree) |  Easy  |            |
+| 0236  |         Lowest Common Ancestor of a Binary Tree         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0236-Lowest-Common-Ancestor-of-a-Binary-Tree) | Medium |            |
 | 0240  |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |            |
 | 0260  |                    Single Number III                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0260-Single-Number-III) | Medium |     ❤️      |
 | 0278  |                    First Bad Version                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0278-First-Bad-Version) |  Easy  |            |
@@ -79,6 +83,7 @@ My LeetCode solution by Go.
 | 0560  |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️      |
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |            |
 | 0704  |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |            |
+| 0718  |           Maximum Length of Repeated Subarray           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0718-Maximum-Length-of-Repeated-Subarray) | Medium |            |
 | 0724  |                    Find Pivot Index                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0724-Find-Pivot-Index) |  Easy  |            |
 | 0746  |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |            |
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |            |
@@ -320,6 +325,7 @@ My LeetCode solution by Go.
 | 0108.Convert Sorted Array to Binary Search Tree  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) |  Easy  |      |
 | 0116.Populating Next Right Pointers in Each Node | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0116-Populating-Next-Right-Pointers-in-Each-Node) | Medium |  ❤️   |
 |             0226.Invert Binary Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0226-Invert-Binary-Tree) |  Easy  |      |
+|   0236.Lowest Common Ancestor of a Binary Tree   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0236-Lowest-Common-Ancestor-of-a-Binary-Tree) | Medium |      |
 |                0437. Path Sum III                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0437-Path-Sum-III) |  Easy  |      |
 |           0543.Diameter of Binary Tree           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
 
