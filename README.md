@@ -33,6 +33,7 @@ My LeetCode solution by Go.
 | 0077  |                      Combinations                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0077-Combinations) | Medium |            |
 | 0079  |                       Word Search                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0079-Word-Search) | Medium |            |
 | 0081  |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |            |
+| 0096  |               Unique Binary Search Trees                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0096-Unique-Binary-Search-Trees) | Medium |            |
 | 0098  |               Validate Binary Search Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0098-Validate-Binary-Search-Tree) | Medium |     ❤️      |
 | 0100  |                        Same Tree                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0100-Same-Tree) |  Easy  |            |
 | 0101  |                     Symmetric Tree                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0101-Symmetric-Tree) |  Easy  |            |
@@ -62,6 +63,8 @@ My LeetCode solution by Go.
 | 0235  |     Lowest Common Ancestor of a Binary Search Tree      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree) |  Easy  |            |
 | 0236  |         Lowest Common Ancestor of a Binary Tree         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0236-Lowest-Common-Ancestor-of-a-Binary-Tree) | Medium |            |
 | 0240  |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |            |
+| 0242  |                      Valid Anagram                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0242-Valid-Anagram) |  Easy  |            |
+| 0257  |                    Binary Tree Paths                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0257-Binary-Tree-Paths) |  Easy  |            |
 | 0260  |                    Single Number III                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0260-Single-Number-III) | Medium |     ❤️      |
 | 0278  |                    First Bad Version                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0278-First-Bad-Version) |  Easy  |            |
 | 0287  |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |     ❤️      |
@@ -313,6 +316,7 @@ My LeetCode solution by Go.
 |                题目                 |                             解法                             |  难度  |     补充     |
 | :---------------------------------: | :----------------------------------------------------------: | :----: | :----------: |
 |        0039.Combination Sum         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium | ❤️ 分硬币问题 |
+|   0096.Unique Binary Search Trees   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0096-Unique-Binary-Search-Trees) | Medium |              |
 |          0322.Coin Change           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium | ❤️ 分硬币问题 |
 |         0518.Coin Change II         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium | ❤️ 分硬币问题 |
 | 0300.Longest Increasing Subsequence | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |              |
