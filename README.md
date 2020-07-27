@@ -75,6 +75,7 @@ My LeetCode solution by Go.
 | 0349  |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |            |
 | 0350  |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |            |
 | 0367  |                  Valid Perfect Square                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0367-Valid-Perfect-Square) |  Easy  |            |
+| 0392  |                     Is Subsequence                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0392-Is-Subsequence) |  Easy  |            |
 | 0409  |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |            |
 | 0437  |                      Path Sum III                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0437-Path-Sum-III) |  Easy  |            |
 | 0509  |                    Fibonacci Number                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0509-Fibonacci-Number) |  Easy  |            |
@@ -84,6 +85,7 @@ My LeetCode solution by Go.
 | 0540  |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |     ❤️      |
 | 0543  |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |            |
 | 0560  |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️      |
+| 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |            |
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |            |
 | 0704  |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |            |
 | 0718  |           Maximum Length of Repeated Subarray           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0718-Maximum-Length-of-Repeated-Subarray) | Medium |            |
@@ -108,7 +110,8 @@ My LeetCode solution by Go.
 |        0031.Next Permutation         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0031-Next-Permutation) | Medium |   ❤️【解法被复用到第47题中】    |
 | 0215.Kth Largest Element in an Array | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0215-Kth-Largest-Element-in-an-Array) | Medium | ❤️【快速选择法（线性求第 k 大） |
 |     0523.Continuous Subarray Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0523-Continuous-Subarray-Sum) | Medium |           【前缀和】           |
-|      0560 Subarray Sum Equals K      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |       ❤️【前缀和的使用】        |
+|      0560.Subarray Sum Equals K      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |       ❤️【前缀和的使用】        |
+|      0665.Non-decreasing Array       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |                                |
 
 ### 链表
 
