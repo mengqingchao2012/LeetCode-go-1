@@ -90,6 +90,7 @@ My LeetCode solution by Go.
 | 0704  |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |            |
 | 0718  |           Maximum Length of Repeated Subarray           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0718-Maximum-Length-of-Repeated-Subarray) | Medium |            |
 | 0724  |                    Find Pivot Index                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0724-Find-Pivot-Index) |  Easy  |            |
+| 0739  |                   Daily Temperatures                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0739-Daily-Temperatures) | Medium |     ❤️      |
 | 0746  |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |            |
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |            |
 | 0796  |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |            |
@@ -112,6 +113,7 @@ My LeetCode solution by Go.
 |     0523.Continuous Subarray Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0523-Continuous-Subarray-Sum) | Medium |           【前缀和】           |
 |      0560.Subarray Sum Equals K      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |       ❤️【前缀和的使用】        |
 |      0665.Non-decreasing Array       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |                                |
+|       0739.Daily Temperatures        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0739-Daily-Temperatures) | Medium |               ❤️                |
 
 ### 链表
 
