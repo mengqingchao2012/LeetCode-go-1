@@ -43,6 +43,8 @@ My LeetCode solution by Go.
 | 0112  |                        Path Sum                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0112-Path-Sum) |  Easy  |            |
 | 0113  |                       Path Sum II                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0113-Path-Sum-II) | Medium |            |
 | 0116  |       Populating Next Right Pointers in Each Node       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0116-Populating-Next-Right-Pointers-in-Each-Node) | Medium |     ❤️      |
+| 0118  |                    Pascal's Triangle                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0118-Pascals-Triangle) |  Easy  |            |
+| 0119  |                119. Pascal's Triangle II                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0119-Pascals-Triangle-II) |  Easy  |            |
 | 0121  |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |            |
 | 0136  |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |            |
 | 0138  |              Copy List with Random Pointer              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |     ❤️      |
@@ -69,6 +71,7 @@ My LeetCode solution by Go.
 | 0278  |                    First Bad Version                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0278-First-Bad-Version) |  Easy  |            |
 | 0287  |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |     ❤️      |
 | 0300  |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |            |
+| 0303  |               Range Sum Query - Immutable               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0303-Range-Sum-Query-Immutable) |  Easy  |            |
 | 0322  |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |     ❤️      |
 | 0328  |                  Odd Even Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0328-Odd-Even-Linked-List) | Medium |     ❤️      |
 | 0347  |                 Top K Frequent Elements                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0347-Top-K-Frequent-Elements) | Medium | 【桶排序】 |
