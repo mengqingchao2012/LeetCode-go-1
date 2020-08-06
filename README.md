@@ -25,6 +25,7 @@ My LeetCode solution by Go.
 | 0050  |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |     ❤️      |
 | 0053  |                    Maximum Subarray                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0053-Maximum-Subarray) |  Easy  |            |
 | 0056  |                     Merge Intervals                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0056-Merge-Intervals) | Medium |            |
+| 0064  |                    Minimum Path Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0064-Minimum-Path-Sum) | Medium |            |
 | 0066  |                        Plus One                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0066-Plus-One) |  Easy  |            |
 | 0067  |                       Add Binary                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0067-Add-Binary) |  Easy  |            |
 | 0069  |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |            |
@@ -44,7 +45,8 @@ My LeetCode solution by Go.
 | 0113  |                       Path Sum II                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0113-Path-Sum-II) | Medium |            |
 | 0116  |       Populating Next Right Pointers in Each Node       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0116-Populating-Next-Right-Pointers-in-Each-Node) | Medium |     ❤️      |
 | 0118  |                    Pascal's Triangle                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0118-Pascals-Triangle) |  Easy  |            |
-| 0119  |                119. Pascal's Triangle II                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0119-Pascals-Triangle-II) |  Easy  |            |
+| 0119  |                  Pascal's Triangle II                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0119-Pascals-Triangle-II) |  Easy  |            |
+| 0120  |                        Triangle                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0120-Triangle) | Medium |     ❤️      |
 | 0121  |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |            |
 | 0136  |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |            |
 | 0138  |              Copy List with Random Pointer              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |     ❤️      |
@@ -326,7 +328,9 @@ My LeetCode solution by Go.
 |                题目                 |                             解法                             |  难度  |     补充     |
 | :---------------------------------: | :----------------------------------------------------------: | :----: | :----------: |
 |        0039.Combination Sum         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium | ❤️ 分硬币问题 |
+|       0064. Minimum Path Sum        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0064-Minimum-Path-Sum) | Medium |              |
 |   0096.Unique Binary Search Trees   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0096-Unique-Binary-Search-Trees) | Medium |              |
+|            0120.Triangle            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0120-Triangle) | Medium |      ❤️       |
 |          0322.Coin Change           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium | ❤️ 分硬币问题 |
 |         0518.Coin Change II         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium | ❤️ 分硬币问题 |
 | 0300.Longest Increasing Subsequence | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |              |
