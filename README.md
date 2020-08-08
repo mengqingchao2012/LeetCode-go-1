@@ -43,11 +43,13 @@ My LeetCode solution by Go.
 | 0110  |                  Balanced Binary Tree                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0110-Balanced-Binary-Tree) |  Easy  |            |
 | 0112  |                        Path Sum                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0112-Path-Sum) |  Easy  |            |
 | 0113  |                       Path Sum II                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0113-Path-Sum-II) | Medium |            |
+| 0114  |           Flatten Binary Tree to Linked List            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0114-Flatten-Binary-Tree-to-Linked-List) | Medium |     ❤️      |
 | 0116  |       Populating Next Right Pointers in Each Node       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0116-Populating-Next-Right-Pointers-in-Each-Node) | Medium |     ❤️      |
 | 0118  |                    Pascal's Triangle                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0118-Pascals-Triangle) |  Easy  |            |
 | 0119  |                  Pascal's Triangle II                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0119-Pascals-Triangle-II) |  Easy  |            |
 | 0120  |                        Triangle                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0120-Triangle) | Medium |     ❤️      |
 | 0121  |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |            |
+| 0122  |           Best Time to Buy and Sell Stock II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock-II) |  Easy  |            |
 | 0136  |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |            |
 | 0138  |              Copy List with Random Pointer              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |     ❤️      |
 | 0153  |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |     ❤️      |
@@ -313,8 +315,6 @@ My LeetCode solution by Go.
 |   0136.Single Number   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |      |
 | 0260.Single Number III | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0260-Single-Number-III) | Medium |  ❤️   |
 
-
-
 ### 双指针
 
 | 题目 | 解法 | 难度 | 补充 |
@@ -347,4 +347,12 @@ My LeetCode solution by Go.
 |   0236.Lowest Common Ancestor of a Binary Tree   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0236-Lowest-Common-Ancestor-of-a-Binary-Tree) | Medium |      |
 |                0437. Path Sum III                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0437-Path-Sum-III) |  Easy  |      |
 |           0543.Diameter of Binary Tree           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |      |
+
+### DFS
+
+|                  题目                   |                             解法                             |  难度  | 补充 |
+| :-------------------------------------: | :----------------------------------------------------------: | :----: | :--: |
+| 0114.Flatten Binary Tree to Linked List | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0114-Flatten-Binary-Tree-to-Linked-List) | Medium |  ❤️   |
+
+
 
