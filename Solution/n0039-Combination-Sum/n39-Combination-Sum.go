@@ -2,6 +2,7 @@ package main
 
 import "sort"
 
+// 方法一：
 func combinationSum(candidates []int, target int) [][]int {
 	sort.Ints(candidates) //排序candidates是为了方便之后进行剪枝操作，减少递归的次数
 
@@ -30,4 +31,38 @@ func combsum(candidates []int, target int, solution []int, result *[][]int) {
 
 	combsum(candidates, target-candidates[0], append(solution, candidates[0]), result)
 	combsum(candidates[1:], target, solution, result)
+}
+
+// 方法二：回溯
+func combinationSum1(candidates []int, target int) [][]int {
+	sort.Ints(candidates)
+
+	solution := make([]int, 0, len(candidates))
+	result := [][]int{}
+
+	combin(candidates, target, 0, solution, &result)
+	return result
+}
+
+func combin(candidates []int, target, start int, solution []int, result *[][]int) {
+	if target == 0 {
+		solution1 := make([]int, len(solution))
+		copy(solution1, solution)
+		*result = append(*result, solution1)
+		return
+	}
+
+	if target < 0 {
+		return
+	}
+
+	for i := start; i < len(candidates); i++ {
+		// 因为已经提前对数组进行了排序，故如果 candidates[i] 已经大于 target，其后面的数
+		// 也大于 target，可以提前返回
+		if candidates[i] > target { break }
+		solution = append(solution, candidates[i])
+		// 注意这里 start 还是从 i 开始，因为可以重复取值
+		combin(candidates, target - candidates[i], i, solution, result)
+		solution = solution[:len(solution) - 1]
+	}
 }

@@ -20,6 +20,7 @@ My LeetCode solution by Go.
 | 0034  | Find First and Last Position of Element in Sorted Array | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0034-Find-First-And-Last-Position-of-Element-in-Sorted-Array) | Medium |     ❤️      |
 | 0035  |                 Search Insert Position                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0035-Search-Insert-Position) |  Easy  |            |
 | 0039  |                     Combination Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium |     ❤️      |
+| 0040  |                   Combination Sum II                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0040-Combination-Sum-II) | Medium |            |
 | 0046  |                      Permutations                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations) | Medium |            |
 | 0047  |                     Permutations II                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations-II) | Medium |            |
 | 0050  |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |     ❤️      |
@@ -52,6 +53,7 @@ My LeetCode solution by Go.
 | 0122  |           Best Time to Buy and Sell Stock II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock-II) |  Easy  |            |
 | 0136  |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |            |
 | 0138  |              Copy List with Random Pointer              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |     ❤️      |
+| 0152  |                Maximum Product Subarray                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0152-Maximum-Product-Subarray) | Medium |            |
 | 0153  |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |     ❤️      |
 | 0154  |         Find Minimum in Rotated Sorted Array II         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0154-Find-Minimum-in-Rotated-Sorted-Array-II) |  Hard  |     ❤️      |
 | 0160  |            Intersection of Two Linked Lists             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0160-Intersection-of-Two-Linked-Lists) |  Easy  |            |

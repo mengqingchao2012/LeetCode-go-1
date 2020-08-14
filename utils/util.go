@@ -1,7 +1,5 @@
 package utils
 
-import "math"
-
 //链表
 type ListNode struct {
 	Val  int
@@ -54,12 +52,22 @@ func Abs(a int) int {
 	return a
 }
 
-func MultiMax(arr ...int) int {
-	max := math.MinInt64
-	for _, v := range arr {
-		if max < v {
-			max = v
+func MultiMax(a ...int) int {
+	res := a[0]
+	for i := 1; i < len(a); i++ {
+		if a[i] > res {
+			res = a[i]
 		}
 	}
-	return max
+	return res
+}
+
+func MultiMin(a ...int) int {
+	res := a[0]
+	for i := 1; i < len(a); i++ {
+		if a[i] < res {
+			res = a[i]
+		}
+	}
+	return res
 }
