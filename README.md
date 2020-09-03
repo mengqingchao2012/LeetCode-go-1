@@ -57,6 +57,7 @@ My LeetCode solution by Go.
 | 0152  |                Maximum Product Subarray                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0152-Maximum-Product-Subarray) | Medium |            |
 | 0153  |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |     ❤️      |
 | 0154  |         Find Minimum in Rotated Sorted Array II         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0154-Find-Minimum-in-Rotated-Sorted-Array-II) |  Hard  |     ❤️      |
+| 0159  | Longest Substring with At Most Two Distinct Characters  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0159-Longest-Substring-with-At-Most-Two-Distinct-Characters) | Medium |            |
 | 0160  |            Intersection of Two Linked Lists             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0160-Intersection-of-Two-Linked-Lists) |  Easy  |            |
 | 0162  |                    Find Peak Element                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0162-Find-Peak-Element) | Medium |            |
 | 0167  |           Two Sum II - Input array is sorted            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0167-Two-Sum-II) |  Easy  |            |
@@ -84,6 +85,7 @@ My LeetCode solution by Go.
 | 0303  |               Range Sum Query - Immutable               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0303-Range-Sum-Query-Immutable) |  Easy  |            |
 | 0322  |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |     ❤️      |
 | 0328  |                  Odd Even Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0328-Odd-Even-Linked-List) | Medium |     ❤️      |
+| 0340  |  Longest Substring with At Most K Distinct Characters   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0340-Longest-Substring-with-At-Most-K-Distinct-Characters) |  Hard  |            |
 | 0347  |                 Top K Frequent Elements                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0347-Top-K-Frequent-Elements) | Medium | 【桶排序】 |
 | 0349  |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |            |
 | 0350  |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |            |
@@ -140,11 +142,12 @@ My LeetCode solution by Go.
 
 ### 滑动窗口
 
-|                         题目                         |                             解法                             |  难度  | 补充 |
-| :--------------------------------------------------: | :----------------------------------------------------------: | :----: | :--: |
-| 0003. Longest Substring Without Repeating Characters | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |      |
-|            0209.Minimum Size Subarray Sum            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0209-Minimum-Size-Subarray-Sum) | Medium |      |
-|          57-02.Continuous Squence With Sum           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-57-02-Continuous-Squence-With-Sum) |  Easy  |  ❤️   |
+|                           题目                            |                             解法                             |  难度  | 补充 |
+| :-------------------------------------------------------: | :----------------------------------------------------------: | :----: | :--: |
+|   0003. Longest Substring Without Repeating Characters    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |      |
+|              0209.Minimum Size Subarray Sum               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0209-Minimum-Size-Subarray-Sum) | Medium |      |
+| 0340.Longest Substring with At Most K Distinct Characters | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0340-Longest-Substring-with-At-Most-K-Distinct-Characters) |  Hard  |      |
+|             57-02.Continuous Squence With Sum             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-57-02-Continuous-Squence-With-Sum) |  Easy  |  ❤️   |
 
 ### 回溯
 
