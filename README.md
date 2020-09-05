@@ -92,6 +92,7 @@ My LeetCode solution by Go.
 | 0367  |                  Valid Perfect Square                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0367-Valid-Perfect-Square) |  Easy  |            |
 | 0392  |                     Is Subsequence                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0392-Is-Subsequence) |  Easy  |            |
 | 0409  |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |            |
+| 0424  |         Longest Repeating Character Replacement         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0424-Longest-Repeating-Character-Replacement) | Medium |     ❤️      |
 | 0437  |                      Path Sum III                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0437-Path-Sum-III) |  Easy  |            |
 | 0509  |                    Fibonacci Number                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0509-Fibonacci-Number) |  Easy  |            |
 | 0518  |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |     ❤️      |
@@ -110,6 +111,7 @@ My LeetCode solution by Go.
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |            |
 | 0796  |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |            |
 | 0938  |                    Range Sum of BST                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0938-Range-Sum-of-BST) |  Easy  |            |
+| 1004  |                Max Consecutive Ones III                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1004-Max-Consecutive-Ones-III) | Medium |            |
 | 1013  |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |            |
 | 1103  |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |            |
 | 1160  |       Find Words That Can Be Formed by Characters       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1160-Find-Words-That-Can-Be-Formed-by-Characters) |  Easy  |            |
@@ -147,6 +149,7 @@ My LeetCode solution by Go.
 |   0003. Longest Substring Without Repeating Characters    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |      |
 |              0209.Minimum Size Subarray Sum               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0209-Minimum-Size-Subarray-Sum) | Medium |      |
 | 0340.Longest Substring with At Most K Distinct Characters | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0340-Longest-Substring-with-At-Most-K-Distinct-Characters) |  Hard  |      |
+|       0424. Longest Repeating Character Replacement       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0424-Longest-Repeating-Character-Replacement) | Medium |  ❤️   |
 |             57-02.Continuous Squence With Sum             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-57-02-Continuous-Squence-With-Sum) |  Easy  |  ❤️   |
 
 ### 回溯
