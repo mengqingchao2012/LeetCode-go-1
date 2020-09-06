@@ -32,6 +32,7 @@ My LeetCode solution by Go.
 | 0069  |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |            |
 | 0070  |                     Climbing Stairs                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0070-Climbing-Stairs) |  Easy  |            |
 | 0074  |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |            |
+| 0076  |                Minimum Window Substring                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0076-Minimum-Window-Substring) |  Hard  |            |
 | 0077  |                      Combinations                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0077-Combinations) | Medium |            |
 | 0079  |                       Word Search                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0079-Word-Search) | Medium |            |
 | 0081  |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |            |
@@ -94,6 +95,7 @@ My LeetCode solution by Go.
 | 0409  |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |            |
 | 0424  |         Longest Repeating Character Replacement         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0424-Longest-Repeating-Character-Replacement) | Medium |     ❤️      |
 | 0437  |                      Path Sum III                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0437-Path-Sum-III) |  Easy  |            |
+| 0438  |              Find All Anagrams in a String              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0438-Find-All-Anagrams-in-a-String) | Medium |            |
 | 0509  |                    Fibonacci Number                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0509-Fibonacci-Number) |  Easy  |            |
 | 0518  |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |     ❤️      |
 | 0523  |                 Continuous Subarray Sum                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0523-Continuous-Subarray-Sum) | Medium |            |
@@ -101,6 +103,7 @@ My LeetCode solution by Go.
 | 0540  |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |     ❤️      |
 | 0543  |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |            |
 | 0560  |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️      |
+| 0567  |                  Permutation in String                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0567-Permutation-in-String) | Medium |            |
 | 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |            |
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |            |
 | 0704  |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |            |
@@ -147,9 +150,11 @@ My LeetCode solution by Go.
 |                           题目                            |                             解法                             |  难度  | 补充 |
 | :-------------------------------------------------------: | :----------------------------------------------------------: | :----: | :--: |
 |   0003. Longest Substring Without Repeating Characters    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |      |
+|              0076. Minimum Window Substring               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0076-Minimum-Window-Substring) |  Hard  |      |
 |              0209.Minimum Size Subarray Sum               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0209-Minimum-Size-Subarray-Sum) | Medium |      |
 | 0340.Longest Substring with At Most K Distinct Characters | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0340-Longest-Substring-with-At-Most-K-Distinct-Characters) |  Hard  |      |
 |       0424. Longest Repeating Character Replacement       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0424-Longest-Repeating-Character-Replacement) | Medium |  ❤️   |
+|                0567. Permutation in String                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0567-Permutation-in-String) | Medium |      |
 |             57-02.Continuous Squence With Sum             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-57-02-Continuous-Squence-With-Sum) |  Easy  |  ❤️   |
 
 ### 回溯
