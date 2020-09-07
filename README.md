@@ -13,6 +13,7 @@ My LeetCode solution by Go.
 | 0004  |               Median of Two Sorted Arrays               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0004-Median-of-Two-Sorted-Arrays) |  Hard  |            |
 | 0021  |                 Merge Two Sorted Lists                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0021-Merge-Two-Sorted-Lists) |  Easy  |            |
 | 0024  |                   Swap Nodes in Pairs                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |     ❤️      |
+| 0026  |           Remove Duplicates from Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0026-Remove-Duplicates-from-Sorted-Array) |  Easy  |            |
 | 0027  |                     Remove Element                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0027-Remove-Element) |  Easy  |            |
 | 0028  |                    Implement-strStr                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0028-Implement-strStr) |  Easy  |            |
 | 0031  |                    Next Permutation                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0031-Next-Permutation) | Medium |     ❤️      |
@@ -114,6 +115,7 @@ My LeetCode solution by Go.
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |            |
 | 0796  |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |            |
 | 0938  |                    Range Sum of BST                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0938-Range-Sum-of-BST) |  Easy  |            |
+| 0977  |                Squares of a Sorted Array                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0977-Squares-of-a-Sorted-Array) |  Easy  |            |
 | 1004  |                Max Consecutive Ones III                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1004-Max-Consecutive-Ones-III) | Medium |            |
 | 1013  |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |            |
 | 1103  |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |            |
