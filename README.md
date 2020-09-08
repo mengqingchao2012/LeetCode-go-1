@@ -11,6 +11,8 @@ My LeetCode solution by Go.
 | 0002  |                     Add Two Numbers                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0002-Add-Two-Numbers) | Medium |            |
 | 0003  |     Longest Substring Without Repeating Characters      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |            |
 | 0004  |               Median of Two Sorted Arrays               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0004-Median-of-Two-Sorted-Arrays) |  Hard  |            |
+| 0015  |                          3Sum                           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0015-3Sum) | Medium |            |
+| 0016  |                      3Sum Closest                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0016-3Sum-Closest) | Medium |            |
 | 0021  |                 Merge Two Sorted Lists                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0021-Merge-Two-Sorted-Lists) |  Easy  |            |
 | 0024  |                   Swap Nodes in Pairs                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |     ❤️      |
 | 0026  |           Remove Duplicates from Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0026-Remove-Duplicates-from-Sorted-Array) |  Easy  |            |
@@ -80,6 +82,7 @@ My LeetCode solution by Go.
 | 0240  |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |            |
 | 0242  |                      Valid Anagram                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0242-Valid-Anagram) |  Easy  |            |
 | 0257  |                    Binary Tree Paths                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0257-Binary-Tree-Paths) |  Easy  |            |
+| 0259  |                      3Sum Smaller                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0259-3Sum-Smaller) | Medium |            |
 | 0260  |                    Single Number III                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0260-Single-Number-III) | Medium |     ❤️      |
 | 0278  |                    First Bad Version                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0278-First-Bad-Version) |  Easy  |            |
 | 0287  |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |     ❤️      |

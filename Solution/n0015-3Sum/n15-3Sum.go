@@ -1,4 +1,4 @@
-package main
+package n0015_3Sum
 
 import "sort"
 
