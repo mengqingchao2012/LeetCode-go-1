@@ -1,4 +1,4 @@
-package main
+package n0018_4Sum
 
 import (
 	"sort"
@@ -9,7 +9,7 @@ func fourSum(nums []int, target int) [][]int {
 	var res [][]int
 
 	size := len(nums)
-	if nums == nil || size < 4 {
+	if size < 4 {
 		return res
 	}
 	sort.Ints(nums)
@@ -62,8 +62,3 @@ func check(nums []int, left, right int) (int, int) {
 	}
 	return left, right
 }
-
-//func main() {
-//	res := fourSum([]int{0, 0, 0, 0}, 0)
-//	fmt.Println(res)
-//}

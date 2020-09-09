@@ -13,6 +13,7 @@ My LeetCode solution by Go.
 | 0004  |               Median of Two Sorted Arrays               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0004-Median-of-Two-Sorted-Arrays) |  Hard  |            |
 | 0015  |                          3Sum                           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0015-3Sum) | Medium |            |
 | 0016  |                      3Sum Closest                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0016-3Sum-Closest) | Medium |            |
+| 0018  |                          4Sum                           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0018-4Sum) | Medium |            |
 | 0021  |                 Merge Two Sorted Lists                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0021-Merge-Two-Sorted-Lists) |  Easy  |            |
 | 0024  |                   Swap Nodes in Pairs                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |     ❤️      |
 | 0026  |           Remove Duplicates from Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0026-Remove-Duplicates-from-Sorted-Array) |  Easy  |            |
@@ -35,6 +36,7 @@ My LeetCode solution by Go.
 | 0069  |                         Sqrt(x)                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0069-Sqrt(x)) |  Easy  |            |
 | 0070  |                     Climbing Stairs                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0070-Climbing-Stairs) |  Easy  |            |
 | 0074  |                   Search a 2D Matrix                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0074-Search-a-2D-Matrix) | Medium |            |
+| 0075  |                       Sort Colors                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0075-Sort-Colors) | Medium |     ❤️      |
 | 0076  |                Minimum Window Substring                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0076-Minimum-Window-Substring) |  Hard  |            |
 | 0077  |                      Combinations                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0077-Combinations) | Medium |            |
 | 0079  |                       Word Search                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0079-Word-Search) | Medium |            |
@@ -117,6 +119,7 @@ My LeetCode solution by Go.
 | 0746  |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |            |
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |            |
 | 0796  |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |            |
+| 0844  |                Backspace String Compare                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0844-Backspace-String-Compare) |  Easy  |            |
 | 0938  |                    Range Sum of BST                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0938-Range-Sum-of-BST) |  Easy  |            |
 | 0977  |                Squares of a Sorted Array                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0977-Squares-of-a-Sorted-Array) |  Easy  |            |
 | 1004  |                Max Consecutive Ones III                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1004-Max-Consecutive-Ones-III) | Medium |            |
@@ -338,9 +341,10 @@ My LeetCode solution by Go.
 
 ### 双指针
 
-| 题目 | 解法 | 难度 | 补充 |
-| ---- | ---- | ---- | ---- |
-|      |      |      |      |
+|              题目              |                             解法                             |  难度  | 补充 |
+| :----------------------------: | :----------------------------------------------------------: | :----: | :--: |
+|        0075.Sort Colors        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0075-Sort-Colors) | Medium |  ❤️   |
+| 0844. Backspace String Compare | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0844-Backspace-String-Compare) |  Easy  |      |
 
 - 其余双指针题目：167
 
