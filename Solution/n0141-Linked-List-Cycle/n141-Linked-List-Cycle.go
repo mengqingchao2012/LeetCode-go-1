@@ -1,15 +1,14 @@
 package main
 
-import "LeetCode-go/utils"
+import ."LeetCode-go/utils"
 
-func hasCycle(head *utils.ListNode) bool {
-	slow := head
-	fast := head
-
+func hasCycle(head *ListNode) bool {
+	slow, fast := head, head
 	for fast != nil && fast.Next != nil {
 		slow = slow.Next
 		fast = fast.Next.Next
-		if fast == slow {
+
+		if slow == fast {
 			return true
 		}
 	}

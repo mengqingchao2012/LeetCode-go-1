@@ -1,4 +1,4 @@
-package main
+package n0234_Palindrome_Linked_List
 
 import . "LeetCode-go/utils"
 
