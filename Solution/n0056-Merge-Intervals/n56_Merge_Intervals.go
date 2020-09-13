@@ -54,6 +54,7 @@ func mergeForSlice(intervals [][]int) [][]int {
 		if n == 0 || res[n-1][1] < v[0] {
 			res = append(res, v)
 		} else {
+			// 注意这里不能直接 res[n-1][1] = v[1]，因为还包含了 v 完全包含在 res[n-1] 中的情况
 			res[n-1][1] = utils.Max(res[n-1][1], v[1])
 		}
 	}

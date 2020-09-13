@@ -30,6 +30,7 @@ My LeetCode solution by Go.
 | 0050  |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |     ❤️      |
 | 0053  |                    Maximum Subarray                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0053-Maximum-Subarray) |  Easy  |            |
 | 0056  |                     Merge Intervals                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0056-Merge-Intervals) | Medium |            |
+| 0057  |                     Insert Interval                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0057-Insert-Interval) |  Hard  |            |
 | 0064  |                    Minimum Path Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0064-Minimum-Path-Sum) | Medium |            |
 | 0066  |                        Plus One                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0066-Plus-One) |  Easy  |            |
 | 0067  |                       Add Binary                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0067-Add-Binary) |  Easy  |            |
