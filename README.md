@@ -88,6 +88,8 @@ My LeetCode solution by Go.
 | 0236  |         Lowest Common Ancestor of a Binary Tree         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0236-Lowest-Common-Ancestor-of-a-Binary-Tree) | Medium |            |
 | 0240  |                  Search a 2D Matrix II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0240-Search-a-2D-MatrixII) | Medium |            |
 | 0242  |                      Valid Anagram                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0242-Valid-Anagram) |  Easy  |            |
+| 0252  |                      Meeting Rooms                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0252-Meeting-Rooms) |  Easy  |            |
+| 0253  |                    Meeting Rooms II                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0253-Meeting-Rooms-II) | Medium |     ❤️      |
 | 0257  |                    Binary Tree Paths                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0257-Binary-Tree-Paths) |  Easy  |            |
 | 0259  |                      3Sum Smaller                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0259-3Sum-Smaller) | Medium |            |
 | 0260  |                    Single Number III                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0260-Single-Number-III) | Medium |     ❤️      |
