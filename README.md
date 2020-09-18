@@ -93,6 +93,7 @@ My LeetCode solution by Go.
 | 0257  |                    Binary Tree Paths                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0257-Binary-Tree-Paths) |  Easy  |            |
 | 0259  |                      3Sum Smaller                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0259-3Sum-Smaller) | Medium |            |
 | 0260  |                    Single Number III                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0260-Single-Number-III) | Medium |     ❤️      |
+| 0268  |                     Missing Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0268-Missing-Number) |  Easy  |     ❤️      |
 | 0278  |                    First Bad Version                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0278-First-Bad-Version) |  Easy  |            |
 | 0287  |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |     ❤️      |
 | 0300  |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |            |
