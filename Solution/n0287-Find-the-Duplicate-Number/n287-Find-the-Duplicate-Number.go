@@ -35,3 +35,20 @@ func findDuplicate1(nums []int) int {
 	}
 	return slow
 }
+
+// Cyclic Sort
+func findDuplicate2(nums []int) int {
+	n := len(nums)
+
+	for i := 0; i < n; i++ {
+		for nums[i] - 1 != i {
+			v := nums[i] - 1
+			// 当交换到重复数时，会发生死循环，这时候应该直接返回
+			if nums[i] == nums[v] {
+				return nums[i]
+			}
+			nums[i], nums[v] = nums[v], nums[i]
+		}
+	}
+	return -1
+}

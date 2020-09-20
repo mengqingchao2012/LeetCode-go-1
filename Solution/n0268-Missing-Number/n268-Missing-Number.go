@@ -1,6 +1,6 @@
 package main
 
-// 方法一
+// 方法一: Cyclic Sort
 func missingNumber(nums []int) int {
 	n := len(nums)
 

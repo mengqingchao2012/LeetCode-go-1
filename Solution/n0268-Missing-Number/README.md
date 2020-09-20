@@ -22,7 +22,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 ## Solution
 
-- 方法一：
+- 方法一：Cyclic Sort
   - 对于有序数组，只需要遍历数组，检查 nums[i] 是否等于 i 即可
   - 对于无序数组，可以先排序，由于数组中存储的是 0-n 之间的数，可以在 O(n) 时间内完成排序：
     - 读出下标 i 对应的元素：nums[i]，只要 nums[i] 不等于 [i]，就将 nums[i] 和 nums[nums[i]] 的值进行交换，直到相等，则继续下一个元素
