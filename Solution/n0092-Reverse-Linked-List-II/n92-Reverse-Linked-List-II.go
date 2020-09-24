@@ -8,7 +8,7 @@ func reverseBetween(head *ListNode, m int, n int) *ListNode {
 	}
 	// 注意：不要用 pre := &ListNode{} 的方式初始化，这样得到的 pre 不是 Nil
 	var pre *ListNode
-	pre, cur :=nil, head
+	pre, cur := nil, head
 
 	// 注意下标的范围，以及不要忘记判断 cur != nil
 	for i := 0; i < m - 1 && cur != nil; i++ {

@@ -2,12 +2,8 @@ package main
 
 import "LeetCode-go/utils"
 
-//Time: O(n); Space: O(1)
 func rotateRight(head *utils.ListNode, k int) *utils.ListNode {
-	if head == nil {
-		return nil
-	}
-	if head.Next == nil {
+	if head == nil || head.Next == nil{
 		return head
 	}
 
@@ -19,9 +15,11 @@ func rotateRight(head *utils.ListNode, k int) *utils.ListNode {
 	oldTail.Next = head
 
 	newTail := head
-	for i := 0; i < n-k%n-1; i++ { //注意位置的确定：n - k%n - 1
+	// 注意位置的确定：n - k%n - 1，得到的是翻转后链表的尾结点下标
+	for i := 0; i < n-k%n-1; i++ {
 		newTail = newTail.Next
 	}
+	// 尾结点的下一个节点就是链表头
 	res := newTail.Next
 	newTail.Next = nil
 
