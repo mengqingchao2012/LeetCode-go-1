@@ -54,6 +54,7 @@ My LeetCode solution by Go.
 | 0107  |          Binary Tree Level Order Traversal II           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0107-Binary-Tree-Level-Order-Traversal-II) |  Easy  |            |
 | 0108  |       Convert Sorted Array to Binary Search Tree        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0108-Convert-Sorted-Array-to-Binary-Search-Tree) |  Easy  |            |
 | 0110  |                  Balanced Binary Tree                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0110-Balanced-Binary-Tree) |  Easy  |            |
+| 0111  |              Minimum Depth of Binary Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0111-Minimum-Depth-of-Binary-Tree) |  Easy  |            |
 | 0112  |                        Path Sum                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0112-Path-Sum) |  Easy  |            |
 | 0113  |                       Path Sum II                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0113-Path-Sum-II) | Medium |            |
 | 0114  |           Flatten Binary Tree to Linked List            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0114-Flatten-Binary-Tree-to-Linked-List) | Medium |     ❤️      |
@@ -122,6 +123,7 @@ My LeetCode solution by Go.
 | 0543  |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |            |
 | 0560  |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️      |
 | 0567  |                  Permutation in String                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0567-Permutation-in-String) | Medium |            |
+| 0637  |            Average of Levels in Binary Tree             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0637-Average-of-Levels-in-Binary-Tree) |  Easy  |            |
 | 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |            |
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |            |
 | 0704  |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |            |
