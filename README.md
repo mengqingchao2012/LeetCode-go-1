@@ -65,6 +65,7 @@ My LeetCode solution by Go.
 | 0120  |                        Triangle                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0120-Triangle) | Medium |     ❤️      |
 | 0121  |             Best Time to Buy and Sell Stock             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock) |  Easy  |            |
 | 0122  |           Best Time to Buy and Sell Stock II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0121-Best-Time-to-Buy-and-Sell-Stock-II) |  Easy  |            |
+| 0129  |                Sum Root to Leaf Numbers                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0129-Sum-Root-to-Leaf-Numbers) | Medium |            |
 | 0136  |                      Single Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0136-Single-Number) |  Easy  |            |
 | 0138  |              Copy List with Random Pointer              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |     ❤️      |
 | 0141  |                    Linked List Cycle                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0141-Linked-List-Cycle) |  Easy  |            |
