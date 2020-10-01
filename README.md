@@ -104,6 +104,7 @@ My LeetCode solution by Go.
 | 0268  |                     Missing Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0268-Missing-Number) |  Easy  |     ❤️      |
 | 0278  |                    First Bad Version                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0278-First-Bad-Version) |  Easy  |            |
 | 0287  |                Find the Duplicate Number                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0287-Find-the-Duplicate-Number) | Medium |     ❤️      |
+| 0295  |              Find Median from Data Stream               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0295-Find-Median-from-Data-Stream) |  Hard  |     ❤️      |
 | 0300  |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |            |
 | 0303  |               Range Sum Query - Immutable               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0303-Range-Sum-Query-Immutable) |  Easy  |            |
 | 0322  |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |     ❤️      |
