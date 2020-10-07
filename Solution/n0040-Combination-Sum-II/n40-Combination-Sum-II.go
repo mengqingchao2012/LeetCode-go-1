@@ -13,9 +13,7 @@ func combinationSum2(candidates []int, target int) [][]int {
 
 func combination(candidates []int, start, target int, solution []int, res *[][]int) {
 	if target == 0 {
-		tmp := make([]int, len(solution))
-		copy(tmp, solution)
-		*res = append(*res, tmp)
+		*res = append(*res, solution)
 		return
 	}
 
@@ -28,5 +26,6 @@ func combination(candidates []int, start, target int, solution []int, res *[][]i
 		solution = append(solution, candidates[i])
 		combination(candidates, i + 1, target - candidates[i], solution, res)
 		solution = solution[: len(solution) - 1]
+		solution = solution[: len(solution) : len(solution)]
 	}
 }

@@ -6,7 +6,7 @@ import "sort"
 func combinationSum(candidates []int, target int) [][]int {
 	sort.Ints(candidates) //排序candidates是为了方便之后进行剪枝操作，减少递归的次数
 
-	solution := []int{} //用来储存可能满足条件的单个结果集
+	solution := make([]int, 0, len(candidates)) //用来储存可能满足条件的单个结果集
 	result := [][]int{} //用来储存最终返回的结果
 
 	combsum(candidates, target, solution, &result)
@@ -19,8 +19,9 @@ func combsum(candidates []int, target int, solution []int, result *[][]int) {
 		return
 	}
 
-	//递归终止条件2：candidates中的所有值都已经取过一遍，等于是完成了所有可能结果的枚举
+	// 递归终止条件2：candidates中的所有值都已经取过一遍，等于是完成了所有可能结果的枚举
 	// target < candidates[0]：剪枝，因为candidates排过序，如果target小于第一个candidates的值，则说明之后的所有值都不满足要求
+	// 注意：要先判断 len(candidates) == 0 的情况，利用短路原则防止 candidates[0] 越界
 	if len(candidates) == 0 || target < candidates[0] {
 		return
 	}
@@ -46,9 +47,7 @@ func combinationSum1(candidates []int, target int) [][]int {
 
 func combin(candidates []int, target, start int, solution []int, result *[][]int) {
 	if target == 0 {
-		solution1 := make([]int, len(solution))
-		copy(solution1, solution)
-		*result = append(*result, solution1)
+		*result = append(*result, solution)
 		return
 	}
 
@@ -64,5 +63,6 @@ func combin(candidates []int, target, start int, solution []int, result *[][]int
 		// 注意这里 start 还是从 i 开始，因为可以重复取值
 		combin(candidates, target - candidates[i], i, solution, result)
 		solution = solution[:len(solution) - 1]
+		solution = solution[:len(solution):len(solution)]
 	}
 }
