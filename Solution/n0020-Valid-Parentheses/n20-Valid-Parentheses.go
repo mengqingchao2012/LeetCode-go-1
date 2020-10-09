@@ -32,3 +32,4 @@ func isValid(s string) bool {
 	}
 	return top == 0
 }
+

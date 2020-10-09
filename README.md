@@ -14,7 +14,9 @@ My LeetCode solution by Go.
 | 0015  |                          3Sum                           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0015-3Sum) | Medium |            |
 | 0016  |                      3Sum Closest                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0016-3Sum-Closest) | Medium |            |
 | 0018  |                          4Sum                           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0018-4Sum) | Medium |            |
+| 0020  |                    Valid Parentheses                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0020-Valid-Parentheses) |  Easy  |            |
 | 0021  |                 Merge Two Sorted Lists                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0021-Merge-Two-Sorted-Lists) |  Easy  |            |
+| 0022  |                  Generate Parentheses                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0022-Generate-Parentheses) | Medium |            |
 | 0024  |                   Swap Nodes in Pairs                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |     ❤️      |
 | 0025  |                Reverse Nodes in k-Group                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0025-Reverse-Nodes-in-k-Group) |  Hard  |            |
 | 0026  |           Remove Duplicates from Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0026-Remove-Duplicates-from-Sorted-Array) |  Easy  |            |
