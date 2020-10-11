@@ -136,10 +136,12 @@ My LeetCode solution by Go.
 | 0637  |            Average of Levels in Binary Tree             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0637-Average-of-Levels-in-Binary-Tree) |  Easy  |            |
 | 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |            |
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |            |
+| 0702  |        Search in a Sorted Array of Unknown Size         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0702-Search-in-a-Sorted-Array-of-Unknown-Size) | Medium |            |
 | 0704  |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |            |
 | 0718  |           Maximum Length of Repeated Subarray           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0718-Maximum-Length-of-Repeated-Subarray) | Medium |            |
 | 0724  |                    Find Pivot Index                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0724-Find-Pivot-Index) |  Easy  |            |
 | 0739  |                   Daily Temperatures                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0739-Daily-Temperatures) | Medium |     ❤️      |
+| 0744  |        Find Smallest Letter Greater Than Target         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0744-Find-Smallest-Letter-Greater-Than-Target) |  Easy  |            |
 | 0746  |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |            |
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |            |
 | 0796  |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |            |
