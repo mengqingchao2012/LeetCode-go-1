@@ -14,13 +14,13 @@ func searchInRotatedSortedArray(nums []int, target int) int {
 			return mid
 		}
 		if nums[mid] >= nums[low] { //说明当前mid在前半部分递增区间中
-			if target < nums[mid] && target >= nums[low] { //说明target也在前半递增区间中
+			if target < nums[mid] && target >= nums[low] { // 这个条件限定了 target 在前半区间中 nums[low] <= target < nums[mid]
 				high = mid - 1 //则在前半递增区间中执行二分法，target < nums[mid]，则要减小high
 			} else { //说明target不在前半递增区间中
 				low = mid + 1 //则将low下标前移，使得下次迭代mid能落到后半递增区间中
 			}
 		} else {
-			if target > nums[mid] && target <= nums[high] {
+			if target > nums[mid] && target <= nums[high] { // 注意这个条件限定了 target 在后半区间中 nums[mid] < target <= nums[high]
 				low = mid + 1
 			} else {
 				high = mid - 1

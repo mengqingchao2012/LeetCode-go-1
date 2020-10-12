@@ -85,6 +85,7 @@ My LeetCode solution by Go.
 | 0167  |           Two Sum II - Input array is sorted            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0167-Two-Sum-II) |  Easy  |            |
 | 0169  |                    Majority Element                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0169-Majority-Element) |  Easy  |            |
 | 0173  |               Binary Search Tree Iterator               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0173-Binary-Search-Tree-Iterator) | Medium |     ❤️      |
+| 0189  |                      Rotate Array                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0189-Rotate-Array) | Medium |            |
 | 0191  |                    Number of 1 Bits                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0191-Number-of-1-Bits) |  Easy  |            |
 | 0199  |               Binary Tree Right Side View               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0199-Binary-Tree-Side-View) | Medium |            |
 | 0202  |                      Happy Number                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0202-Happy-Number) |  Easy  |            |
@@ -146,6 +147,7 @@ My LeetCode solution by Go.
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |            |
 | 0796  |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |            |
 | 0844  |                Backspace String Compare                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0844-Backspace-String-Compare) |  Easy  |            |
+| 0852  |             Peak Index in a Mountain Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0852-Peak-Index-in-a-Mountain-Array) |  Easy  |            |
 | 0876  |                Middle of the Linked List                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0876-Middle-of-the-Linked-List) |  Easy  |            |
 | 0938  |                    Range Sum of BST                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0938-Range-Sum-of-BST) |  Easy  |            |
 | 0977  |                Squares of a Sorted Array                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0977-Squares-of-a-Sorted-Array) |  Easy  |            |
