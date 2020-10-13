@@ -146,6 +146,7 @@ My LeetCode solution by Go.
 | 0746  |                Min Cost Climbing Stairs                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0746-Min-Cost-Climbing-Stairs) |  Easy  |            |
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |            |
 | 0796  |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |            |
+| 0832  |                    Flipping an Image                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0832-Flipping-an-Image) |  Easy  |            |
 | 0844  |                Backspace String Compare                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0844-Backspace-String-Compare) |  Easy  |            |
 | 0852  |             Peak Index in a Mountain Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0852-Peak-Index-in-a-Mountain-Array) |  Easy  |            |
 | 0876  |                Middle of the Linked List                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0876-Middle-of-the-Linked-List) |  Easy  |            |
