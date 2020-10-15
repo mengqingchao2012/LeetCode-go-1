@@ -105,7 +105,9 @@ func topKFrequent2(nums []int, k int) []int {
 		mp[v]++
 	}
 
-	buckets := make([][]int, len(nums) + 1) // 注意这里要把桶的数量多添加一个，因为没把0算在内
+	// 注意，对于大小为 n 的数组，如果所有元素都相同，则桶的下标是 n，故桶的数量
+	// 为 n + 1，要加上 0
+	buckets := make([][]int, len(nums) + 1)
 	for key, v := range mp {
 		buckets[v] = append(buckets[v], key)
 	}

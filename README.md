@@ -151,6 +151,7 @@ My LeetCode solution by Go.
 | 0852  |             Peak Index in a Mountain Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0852-Peak-Index-in-a-Mountain-Array) |  Easy  |            |
 | 0876  |                Middle of the Linked List                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0876-Middle-of-the-Linked-List) |  Easy  |            |
 | 0938  |                    Range Sum of BST                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0938-Range-Sum-of-BST) |  Easy  |            |
+| 0973  |               K Closest Points to Origin                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0973-K-Closest-Points-to-Origin) | Medium |            |
 | 0977  |                Squares of a Sorted Array                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0977-Squares-of-a-Sorted-Array) |  Easy  |            |
 | 0986  |               Interval List Intersections               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0986-Interval-List-Intersections) | Medium |     ❤️      |
 | 1004  |                Max Consecutive Ones III                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1004-Max-Consecutive-Ones-III) | Medium |            |
