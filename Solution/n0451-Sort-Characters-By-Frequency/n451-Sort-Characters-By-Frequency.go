@@ -1,8 +1,6 @@
 package main
 
-import (
-	"sort"
-)
+import "sort"
 
 func frequencySort(s string) string {
 	length := len(s)
@@ -45,7 +43,3 @@ func frequencySort(s string) string {
 	}
 	return res
 }
-
-//func main() {
-//	fmt.Println(frequencySort("Aabb"))
-//}

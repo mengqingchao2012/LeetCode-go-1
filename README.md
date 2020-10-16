@@ -126,6 +126,7 @@ My LeetCode solution by Go.
 | 0424  |         Longest Repeating Character Replacement         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0424-Longest-Repeating-Character-Replacement) | Medium |     ❤️      |
 | 0437  |                      Path Sum III                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0437-Path-Sum-III) |  Easy  |            |
 | 0438  |              Find All Anagrams in a String              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0438-Find-All-Anagrams-in-a-String) | Medium |            |
+| 0451  |              Sort Characters By Frequency               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0451-Sort-Characters-By-Frequency) | Medium |            |
 | 0509  |                    Fibonacci Number                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0509-Fibonacci-Number) |  Easy  |            |
 | 0518  |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |     ❤️      |
 | 0523  |                 Continuous Subarray Sum                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0523-Continuous-Subarray-Sum) | Medium |            |
@@ -135,6 +136,7 @@ My LeetCode solution by Go.
 | 0560  |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️      |
 | 0567  |                  Permutation in String                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0567-Permutation-in-String) | Medium |            |
 | 0637  |            Average of Levels in Binary Tree             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0637-Average-of-Levels-in-Binary-Tree) |  Easy  |            |
+| 0658  |                 Find K Closest Elements                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0658-Find-K-Closest-Elements) | Medium |            |
 | 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |            |
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |            |
 | 0702  |        Search in a Sorted Array of Unknown Size         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0702-Search-in-a-Sorted-Array-of-Unknown-Size) | Medium |            |
