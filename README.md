@@ -135,6 +135,7 @@ My LeetCode solution by Go.
 | 0543  |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |            |
 | 0560  |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️      |
 | 0567  |                  Permutation in String                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0567-Permutation-in-String) | Medium |            |
+| 0621  |                     Task Scheduler                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0621-Task-Scheduler) | Medium |     ❤️      |
 | 0637  |            Average of Levels in Binary Tree             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0637-Average-of-Levels-in-Binary-Tree) |  Easy  |            |
 | 0658  |                 Find K Closest Elements                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0658-Find-K-Closest-Elements) | Medium |            |
 | 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |            |
