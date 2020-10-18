@@ -55,7 +55,6 @@ func mergeTwoSortedLists(l1, l2 *utils.ListNode) *utils.ListNode {
 }
 
 //方法二：构造小顶堆，Time：O(nlogk), Space：O(k), n是总节点数，k是链表的个数
-
 func mergeKLists1(lists []*utils.ListNode) *utils.ListNode {
 	if len(lists) == 0 {
 		return nil
@@ -108,33 +107,3 @@ func (mp *minHeap) Pop() interface{} {
 
 	return res
 }
-
-//func main() {
-//	a := &utils.ListNode{Val: 1}
-//	b := &utils.ListNode{Val: 4}
-//	c := &utils.ListNode{Val: 5}
-//	a.Next = b
-//	b.Next = c
-//
-//	d := &utils.ListNode{Val: 1}
-//	e := &utils.ListNode{Val: 3}
-//	f := &utils.ListNode{Val: 4}
-//	d.Next = e
-//	e.Next = f
-//
-//	g := &utils.ListNode{Val: 2}
-//	h := &utils.ListNode{Val: 6}
-//	g.Next = h
-//
-//	q := []*utils.ListNode{a, d, g}
-//
-//
-//	//q := []*utils.ListNode{&utils.ListNode{Val:1}, &utils.ListNode{Val:0}}
-//
-//	res := mergeKLists(q)
-//
-//	for res != nil {
-//		fmt.Println(res.Val)
-//		res = res.Next
-//	}
-//}

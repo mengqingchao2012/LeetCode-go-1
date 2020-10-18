@@ -17,6 +17,7 @@ My LeetCode solution by Go.
 | 0020  |                    Valid Parentheses                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0020-Valid-Parentheses) |  Easy  |            |
 | 0021  |                 Merge Two Sorted Lists                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0021-Merge-Two-Sorted-Lists) |  Easy  |            |
 | 0022  |                  Generate Parentheses                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0022-Generate-Parentheses) | Medium |            |
+| 0023  |                  Merge k Sorted Lists                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0023-Merge-k-Sorted-Lists) |  Hard  |     ❤️      |
 | 0024  |                   Swap Nodes in Pairs                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0024-Swap-Nodes-in-Pairs) | Medium |     ❤️      |
 | 0025  |                Reverse Nodes in k-Group                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0025-Reverse-Nodes-in-k-Group) |  Hard  |            |
 | 0026  |           Remove Duplicates from Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0026-Remove-Duplicates-from-Sorted-Array) |  Easy  |            |
@@ -121,6 +122,7 @@ My LeetCode solution by Go.
 | 0349  |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |            |
 | 0350  |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |            |
 | 0367  |                  Valid Perfect Square                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0367-Valid-Perfect-Square) |  Easy  |            |
+| 0378  |         Kth Smallest Element in a Sorted Matrix         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0378-Kth-Smallest-Element-in-a-Sorted-Matrix) | Medium |     ❤️      |
 | 0392  |                     Is Subsequence                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0392-Is-Subsequence) |  Easy  |            |
 | 0409  |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |            |
 | 0424  |         Longest Repeating Character Replacement         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0424-Longest-Repeating-Character-Replacement) | Medium |     ❤️      |
