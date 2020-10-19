@@ -122,6 +122,7 @@ My LeetCode solution by Go.
 | 0349  |               Intersection of Two Arrays                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0349-Intersection-of-Two-Arrays) |  Easy  |            |
 | 0350  |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |            |
 | 0367  |                  Valid Perfect Square                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0367-Valid-Perfect-Square) |  Easy  |            |
+| 0373  |             Find K Pairs with Smallest Sums             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0373-Find-K-Pairs-with-Smallest-Sums) | Medium |            |
 | 0378  |         Kth Smallest Element in a Sorted Matrix         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0378-Kth-Smallest-Element-in-a-Sorted-Matrix) | Medium |     ❤️      |
 | 0392  |                     Is Subsequence                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0392-Is-Subsequence) |  Easy  |            |
 | 0409  |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |            |
@@ -138,6 +139,7 @@ My LeetCode solution by Go.
 | 0560  |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |     ❤️      |
 | 0567  |                  Permutation in String                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0567-Permutation-in-String) | Medium |            |
 | 0621  |                     Task Scheduler                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0621-Task-Scheduler) | Medium |     ❤️      |
+| 0632  |      Smallest Range Covering Elements from K Lists      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0632-Smallest-Range-Covering-Elements-from-K-Lists) |  Hard  |     ❤️      |
 | 0637  |            Average of Levels in Binary Tree             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0637-Average-of-Levels-in-Binary-Tree) |  Easy  |            |
 | 0658  |                 Find K Closest Elements                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0658-Find-K-Closest-Elements) | Medium |            |
 | 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |            |
