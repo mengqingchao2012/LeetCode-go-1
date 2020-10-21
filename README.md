@@ -131,6 +131,7 @@ My LeetCode solution by Go.
 | 0437  |                      Path Sum III                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0437-Path-Sum-III) |  Easy  |              |
 | 0438  |              Find All Anagrams in a String              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0438-Find-All-Anagrams-in-a-String) | Medium |              |
 | 0451  |              Sort Characters By Frequency               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0451-Sort-Characters-By-Frequency) | Medium |              |
+| 0494  |                       Target Sum                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0494-Target-Sum) | Medium |      ❤️       |
 | 0509  |                    Fibonacci Number                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0509-Fibonacci-Number) |  Easy  |              |
 | 0518  |                     Coin Change II                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0518-Coin-ChangeII) | Medium |      ❤️       |
 | 0523  |                 Continuous Subarray Sum                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0523-Continuous-Subarray-Sum) | Medium |              |
