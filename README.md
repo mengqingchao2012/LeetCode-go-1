@@ -29,10 +29,12 @@ My LeetCode solution by Go.
 | 0035  |                 Search Insert Position                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0035-Search-Insert-Position) |  Easy  |              |
 | 0039  |                     Combination Sum                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0039-Combination-Sum) | Medium |      ❤️       |
 | 0040  |                   Combination Sum II                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0040-Combination-Sum-II) | Medium |              |
+| 0045  |                      Jump Game II                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0045-Jump-Game-II) |  Hard  |              |
 | 0046  |                      Permutations                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations) | Medium |              |
 | 0047  |                     Permutations II                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations-II) | Medium |              |
 | 0050  |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |      ❤️       |
 | 0053  |                    Maximum Subarray                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0053-Maximum-Subarray) |  Easy  |              |
+| 0055  |                        Jump Game                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0055-Jump-Game) | Medium |              |
 | 0056  |                     Merge Intervals                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0056-Merge-Intervals) | Medium |              |
 | 0057  |                     Insert Interval                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0057-Insert-Interval) |  Hard  |              |
 | 0061  |                       Rotate List                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0061-Rotate-List) | Medium |      ❤️       |
