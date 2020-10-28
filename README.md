@@ -150,6 +150,7 @@ My LeetCode solution by Go.
 | 0621  |                     Task Scheduler                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0621-Task-Scheduler) | Medium |          ❤️          |
 | 0632  |      Smallest Range Covering Elements from K Lists      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0632-Smallest-Range-Covering-Elements-from-K-Lists) |  Hard  |          ❤️          |
 | 0637  |            Average of Levels in Binary Tree             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0637-Average-of-Levels-in-Binary-Tree) |  Easy  |                     |
+| 0647  |                 Palindromic Substrings                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0647-Palindromic-Substrings) | Medium |                     |
 | 0658  |                 Find K Closest Elements                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0658-Find-K-Closest-Elements) | Medium |                     |
 | 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |                     |
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |                     |
@@ -175,6 +176,7 @@ My LeetCode solution by Go.
 | 1103  |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |                     |
 | 1137  |                 N-th Tribonacci Number                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1137-N-th-Tribonacci-Number) |  Easy  |                     |
 | 1160  |       Find Words That Can Be Formed by Characters       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1160-Find-Words-That-Can-Be-Formed-by-Characters) |  Easy  |                     |
+| 1312  |   Minimum Insertion Steps to Make a String Palindrome   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1312-Minimum-Insertion-Steps-to-Make-a-String-Palindrome) |  Hard  |          ❤️          |
 | 53-02 |                     Missing-Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-53-02-Missing-Number) |  Easy  |                     |
 | 57-02 |               Continuous Squence With Sum               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-57-02-Continuous-Squence-With-Sum) |  Easy  |                     |
 
