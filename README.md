@@ -178,6 +178,7 @@ My LeetCode solution by Go.
 | 1103  |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |                     |
 | 1137  |                 N-th Tribonacci Number                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1137-N-th-Tribonacci-Number) |  Easy  |                     |
 | 1160  |       Find Words That Can Be Formed by Characters       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1160-Find-Words-That-Can-Be-Formed-by-Characters) |  Easy  |                     |
+| 1246  |                   Palindrome Removal                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1246-Palindrome-Removal) |  Hard  |     ❤️【区间DP】     |
 | 1312  |   Minimum Insertion Steps to Make a String Palindrome   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1312-Minimum-Insertion-Steps-to-Make-a-String-Palindrome) |  Hard  |          ❤️          |
 | 53-02 |                     Missing-Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-53-02-Missing-Number) |  Easy  |                     |
 | 57-02 |               Continuous Squence With Sum               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-57-02-Continuous-Squence-With-Sum) |  Easy  |                     |
