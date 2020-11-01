@@ -122,6 +122,7 @@ My LeetCode solution by Go.
 | 0295  |              Find Median from Data Stream               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0295-Find-Median-from-Data-Stream) |  Hard  |          ❤️          |
 | 0300  |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |                     |
 | 0303  |               Range Sum Query - Immutable               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0303-Range-Sum-Query-Immutable) |  Easy  |                     |
+| 0312  |                     Burst Balloons                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0312-Burst-Balloons) |  Hard  |     ❤️【区间dp】     |
 | 0322  |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |          ❤️          |
 | 0328  |                  Odd Even Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0328-Odd-Even-Linked-List) | Medium |          ❤️          |
 | 0337  |                    House Robber III                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0337-House-Robber-III) | Medium |          ❤️          |
