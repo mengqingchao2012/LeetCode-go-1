@@ -12,6 +12,7 @@ My LeetCode solution by Go.
 | 0003  |     Longest Substring Without Repeating Characters      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |                     |
 | 0004  |               Median of Two Sorted Arrays               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0004-Median-of-Two-Sorted-Arrays) |  Hard  |                     |
 | 0005  |              Longest Palindromic Substring              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0005-Longest-Palindromic-Substring) | Medium |          ❤️          |
+| 0014  |                  Longest Common Prefix                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0014-Longest-Common-Prefix) |  Easy  |                     |
 | 0015  |                          3Sum                           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0015-3Sum) | Medium |                     |
 | 0016  |                      3Sum Closest                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0016-3Sum-Closest) | Medium |                     |
 | 0018  |                          4Sum                           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0018-4Sum) | Medium |                     |
@@ -174,6 +175,7 @@ My LeetCode solution by Go.
 | 0973  |               K Closest Points to Origin                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0973-K-Closest-Points-to-Origin) | Medium |                     |
 | 0977  |                Squares of a Sorted Array                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0977-Squares-of-a-Sorted-Array) |  Easy  |                     |
 | 0986  |               Interval List Intersections               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0986-Interval-List-Intersections) | Medium |          ❤️          |
+| 1000  |              Minimum Cost to Merge Stones               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1000-Minimum-Cost-to-Merge-Stones) |  Hard  |          ❤️          |
 | 1004  |                Max Consecutive Ones III                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1004-Max-Consecutive-Ones-III) | Medium |                     |
 | 1013  |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |                     |
 | 1103  |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |                     |
