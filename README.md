@@ -160,7 +160,7 @@ My LeetCode solution by Go.
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |                     |
 | 0702  |        Search in a Sorted Array of Unknown Size         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0702-Search-in-a-Sorted-Array-of-Unknown-Size) | Medium |                     |
 | 0704  |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |                     |
-| 0718  |           Maximum Length of Repeated Subarray           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0718-Maximum-Length-of-Repeated-Subarray) | Medium |                     |
+| 0718  |           Maximum Length of Repeated Subarray           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0718-Maximum-Length-of-Repeated-Subarray) | Medium |  ❤️【最长公共子串】  |
 | 0724  |                    Find Pivot Index                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0724-Find-Pivot-Index) |  Easy  |                     |
 | 0739  |                   Daily Temperatures                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0739-Daily-Temperatures) | Medium |          ❤️          |
 | 0744  |        Find Smallest Letter Greater Than Target         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0744-Find-Smallest-Letter-Greater-Than-Target) |  Easy  |                     |
@@ -180,6 +180,7 @@ My LeetCode solution by Go.
 | 1013  |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |                     |
 | 1103  |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |                     |
 | 1137  |                 N-th Tribonacci Number                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1137-N-th-Tribonacci-Number) |  Easy  |                     |
+| 1143  |               Longest Common Subsequence                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1143-Longest-Common-Subsequence) | Medium | ❤️【最长公共子序列】 |
 | 1160  |       Find Words That Can Be Formed by Characters       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1160-Find-Words-That-Can-Be-Formed-by-Characters) |  Easy  |                     |
 | 1246  |                   Palindrome Removal                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1246-Palindrome-Removal) |  Hard  |     ❤️【区间DP】     |
 | 1312  |   Minimum Insertion Steps to Make a String Palindrome   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1312-Minimum-Insertion-Steps-to-Make-a-String-Palindrome) |  Hard  |          ❤️          |
