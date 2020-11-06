@@ -178,6 +178,7 @@ My LeetCode solution by Go.
 | 1000  |              Minimum Cost to Merge Stones               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1000-Minimum-Cost-to-Merge-Stones) |  Hard  |          ❤️          |
 | 1004  |                Max Consecutive Ones III                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1004-Max-Consecutive-Ones-III) | Medium |                     |
 | 1013  |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy  |                     |
+| 1062  |               Longest Repeating Substring               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1062-Longest-Repeating-Substring) | Medium |                     |
 | 1103  |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy  |                     |
 | 1137  |                 N-th Tribonacci Number                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1137-N-th-Tribonacci-Number) |  Easy  |                     |
 | 1143  |               Longest Common Subsequence                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1143-Longest-Common-Subsequence) | Medium | ❤️【最长公共子序列】 |

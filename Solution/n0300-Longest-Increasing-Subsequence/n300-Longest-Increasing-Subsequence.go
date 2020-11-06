@@ -39,7 +39,7 @@ func lengthOfLIS1(nums []int) int {
 	d := make([]int, length)
 	l := 0
 	for _, v := range nums {
-		i := binarySearchInsertPosition(&d, l, v) // 注意是在结果数组 d 中使用二分法
+		i := binarySearchInsertPosition(d, l, v)
 		d[i] = v
 		if i == l {
 			l++
@@ -48,13 +48,13 @@ func lengthOfLIS1(nums []int) int {
 	return l
 }
 
-func binarySearchInsertPosition(nums *[]int, length int, target int) int {
-	low, high := 0, length
+func binarySearchInsertPosition(nums []int, length int, target int) int {
+	low, high := 0, length - 1
 	for low <= high {
 		mid := low + ((high - low) >> 1)
-		if target < (*nums)[mid] {
+		if target < nums[mid] {
 			high = mid - 1
-		} else if target > (*nums)[mid] {
+		} else if target > nums[mid] {
 			low = mid + 1
 		} else {
 			return mid
