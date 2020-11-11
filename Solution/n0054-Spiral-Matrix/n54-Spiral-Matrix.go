@@ -101,9 +101,3 @@ func Next(row, col int) func() (int, int) {
 		return x, y
 	}
 }
-
-//func main() {
-//	matrix := [][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
-//	res := spiralOrder1(matrix)
-//	fmt.Println(res)
-//}

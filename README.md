@@ -36,6 +36,7 @@ My LeetCode solution by Go.
 | 0047  |                     Permutations II                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations-II) | Medium |                     |
 | 0050  |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |          ❤️          |
 | 0053  |                    Maximum Subarray                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0053-Maximum-Subarray) |  Easy  |                     |
+| 0054  |                      Spiral Matrix                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0054-Spiral-Matrix) | Medium |                     |
 | 0055  |                        Jump Game                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0055-Jump-Game) | Medium |                     |
 | 0056  |                     Merge Intervals                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0056-Merge-Intervals) | Medium |                     |
 | 0057  |                     Insert Interval                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0057-Insert-Interval) |  Hard  |                     |
@@ -83,6 +84,7 @@ My LeetCode solution by Go.
 | 0138  |              Copy List with Random Pointer              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0138-Copy-List-with-Random-Pointer) | Medium |          ❤️          |
 | 0141  |                    Linked List Cycle                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0141-Linked-List-Cycle) |  Easy  |                     |
 | 0142  |                  Linked List Cycle II                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0142-Linked-List-Cycle-II) | Medium |                     |
+| 0148  |                        Sort List                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0148-Sort-List) | Medium |    ❤️【链表排序】    |
 | 0152  |                Maximum Product Subarray                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0152-Maximum-Product-Subarray) | Medium |                     |
 | 0153  |          Find Minimum in Rotated Sorted Array           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0153-Find-Minimum-in-Rotated-Sorted-Array) | Medium |          ❤️          |
 | 0154  |         Find Minimum in Rotated Sorted Array II         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0154-Find-Minimum-in-Rotated-Sorted-Array-II) |  Hard  |          ❤️          |
