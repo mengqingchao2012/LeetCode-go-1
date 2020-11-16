@@ -12,6 +12,7 @@ My LeetCode solution by Go.
 | 0003  |     Longest Substring Without Repeating Characters      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0003-Longest-Substring-Without-Repeating-Characters) | Medium |                     |
 | 0004  |               Median of Two Sorted Arrays               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0004-Median-of-Two-Sorted-Arrays) |  Hard  |                     |
 | 0005  |              Longest Palindromic Substring              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0005-Longest-Palindromic-Substring) | Medium |          ❤️          |
+| 0007  |                     Reverse Integer                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0007-Reverse-Integer) |  Easy  |                     |
 | 0014  |                  Longest Common Prefix                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0014-Longest-Common-Prefix) |  Easy  |                     |
 | 0015  |                          3Sum                           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0015-3Sum) | Medium |                     |
 | 0016  |                      3Sum Closest                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0016-3Sum-Closest) | Medium |                     |
