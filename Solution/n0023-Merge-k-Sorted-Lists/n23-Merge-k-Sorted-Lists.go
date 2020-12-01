@@ -57,13 +57,13 @@ func mergeTwoSortedLists(l1, l2 *utils.ListNode) *utils.ListNode {
 //方法二：构造小顶堆，Time：O(nlogk), Space：O(k), n是总节点数，k是链表的个数
 func mergeKLists1(lists []*utils.ListNode) *utils.ListNode {
 	if len(lists) == 0 {
-		return nil
+		return nil // 注意这里返回的是 nil，nil != &ListNode{}
 	}
 
 	temp := &minHeap{}
 	heap.Init(temp)
 	for _, list := range lists {
-		if list != nil {
+		if list != nil { // 注意这里的判断，只有在 list 不为空时才能加入堆中
 			heap.Push(temp, list)
 		}
 	}
