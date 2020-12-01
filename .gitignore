@@ -13,3 +13,7 @@
 
 #idea
 .idea
+
+#rust
+target
+.lock
