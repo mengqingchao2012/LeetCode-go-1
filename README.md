@@ -139,6 +139,7 @@ My LeetCode solution by Go.
 | 0373  |             Find K Pairs with Smallest Sums             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0373-Find-K-Pairs-with-Smallest-Sums) | Medium |                     |
 | 0378  |         Kth Smallest Element in a Sorted Matrix         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0378-Kth-Smallest-Element-in-a-Sorted-Matrix) | Medium |          ❤️          |
 | 0392  |                     Is Subsequence                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0392-Is-Subsequence) |  Easy  |                     |
+| 0402  |                     Remove K Digits                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0402-Remove-K-Digits) | Medium |          ❤️          |
 | 0409  |                   Longest Palindrome                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0409-Longest-Palindrome) |  Easy  |                     |
 | 0416  |               Partition Equal Subset Sum                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0416-Partition-Equal-Subset-Sum) | Medium |    ❤️【0/1背包】     |
 | 0424  |         Longest Repeating Character Replacement         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0424-Longest-Repeating-Character-Replacement) | Medium |          ❤️          |
