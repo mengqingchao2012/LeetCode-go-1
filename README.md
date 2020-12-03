@@ -102,6 +102,7 @@ My LeetCode solution by Go.
 | 0199  |               Binary Tree Right Side View               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0199-Binary-Tree-Side-View) | Medium |                     |
 | 0202  |                      Happy Number                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0202-Happy-Number) |  Easy  |                     |
 | 0203  |               Remove Linked List Elements               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0203-Remove-Linked-List-Elements) |  Easy  |                     |
+| 0204  |                      Count Primes                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0204-Count-Primes) |  Easy  |     ❤️【质数筛】     |
 | 0209  |                Minimum Size Subarray Sum                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0209-Minimum-Size-Subarray-Sum) | Medium |                     |
 | 0206  |                   Reverse Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0206-Reverse-Linked-List) |  Easy  |                     |
 | 0213  |                     House Robber II                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0213-House-Robber-II) | Medium |                     |
