@@ -162,6 +162,7 @@ My LeetCode solution by Go.
 | 0637  |            Average of Levels in Binary Tree             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0637-Average-of-Levels-in-Binary-Tree) |  Easy  |                     |
 | 0647  |                 Palindromic Substrings                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0647-Palindromic-Substrings) | Medium |                     |
 | 0658  |                 Find K Closest Elements                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0658-Find-K-Closest-Elements) | Medium |                     |
+| 0659  |        Split Array into Consecutive Subsequences        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0659-Split-Array-into-Consecutive-Subsequences) | Medium |                     |
 | 0665  |                  Non-decreasing Array                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0665-Non-decreasing-Array) |  Easy  |                     |
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |                     |
 | 0702  |        Search in a Sorted Array of Unknown Size         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0702-Search-in-a-Sorted-Array-of-Unknown-Size) | Medium |                     |
