@@ -1,5 +1,6 @@
-mod n0022_Generate_Parentheses;
-mod n0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
+mod n0022_generate_parentheses;
+mod n0034_find_first_and_last_position_of_element_in_sorted_array;
+mod n0621_task_scheduler;
 mod n1143_longest_common_subsequence;
 
 pub struct Solution;
