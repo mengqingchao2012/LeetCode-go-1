@@ -36,6 +36,7 @@ My LeetCode solution by Go.
 | 0045  |                      Jump Game II                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0045-Jump-Game-II) |  Hard  |                     |
 | 0046  |                      Permutations                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations) | Medium |                     |
 | 0047  |                     Permutations II                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0046-Permutations-II) | Medium |                     |
+| 0049  |                     Group Anagrams                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0049-Group-Anagrams) | Medium |                     |
 | 0050  |                        Pow(x, n)                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0050-Pow(x,n)) | Medium |          ❤️          |
 | 0053  |                    Maximum Subarray                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0053-Maximum-Subarray) |  Easy  |                     |
 | 0054  |                      Spiral Matrix                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0054-Spiral-Matrix) | Medium |                     |
@@ -138,6 +139,7 @@ My LeetCode solution by Go.
 | 0350  |              Intersection of Two Arrays II              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0350-Intersection-of-Two-ArraysII) |  Easy  |                     |
 | 0367  |                  Valid Perfect Square                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0367-Valid-Perfect-Square) |  Easy  |                     |
 | 0373  |             Find K Pairs with Smallest Sums             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0373-Find-K-Pairs-with-Smallest-Sums) | Medium |                     |
+| 0376  |                   Wiggle Subsequence                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0376-Wiggle-Subsequence) | Medium |          ❤️          |
 | 0378  |         Kth Smallest Element in a Sorted Matrix         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0378-Kth-Smallest-Element-in-a-Sorted-Matrix) | Medium |          ❤️          |
 | 0392  |                     Is Subsequence                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0392-Is-Subsequence) |  Easy  |                     |
 | 0402  |                     Remove K Digits                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0402-Remove-K-Digits) | Medium |          ❤️          |
@@ -175,6 +177,7 @@ My LeetCode solution by Go.
 | 0754  |                     Reach a Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0754-Reach-a-Number) | Medium |                     |
 | 0796  |                      Rotate String                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0796-Rotate-String) |  Easy  |                     |
 | 0832  |                    Flipping an Image                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0832-Flipping-an-Image) |  Easy  |                     |
+| 0842  |           Split Array into Fibonacci Sequence           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0842-Split-Array-into-Fibonacci-Sequence) | Medium |                     |
 | 0844  |                Backspace String Compare                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0844-Backspace-String-Compare) |  Easy  |                     |
 | 0852  |             Peak Index in a Mountain Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0852-Peak-Index-in-a-Mountain-Array) |  Easy  |                     |
 | 0876  |                Middle of the Linked List                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0876-Middle-of-the-Linked-List) |  Easy  |                     |
