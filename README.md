@@ -56,6 +56,8 @@ My LeetCode solution by Go.
 | 0078  |                         Subsets                         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0078-Subsets) | Medium |      ❤️【回溯】      |
 | 0079  |                       Word Search                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0079-Word-Search) | Medium |                     |
 | 0081  |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |                     |
+| 0084  |             Largest Rectangle in Histogram              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0084-Largest-Rectangle-in-Histogram) |  Hard  |     ❤️【单调栈】     |
+| 0085  |                    Maximal Rectangle                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0085-Maximal-Rectangle) |  Hard  |  ❤️【复用84题解法】  |
 | 0090  |                       Subsets II                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0090-Subsets-II) | Medium |          ❤️          |
 | 0091  |                       Decode Ways                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0091-Decode-Ways) | Medium |                     |
 | 0092  |                 Reverse Linked List II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0092-Reverse-Linked-List-II) | Medium |          ❤️          |
@@ -129,7 +131,9 @@ My LeetCode solution by Go.
 | 0295  |              Find Median from Data Stream               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0295-Find-Median-from-Data-Stream) |  Hard  |          ❤️          |
 | 0300  |             Longest Increasing Subsequence              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0300-Longest-Increasing-Subsequence) | Medium |                     |
 | 0303  |               Range Sum Query - Immutable               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0303-Range-Sum-Query-Immutable) |  Easy  |                     |
+| 0307  |                Range Sum Query - Mutable                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0307-Range-Sum-Query-Mutable) | Medium |    【树状数组】     |
 | 0312  |                     Burst Balloons                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0312-Burst-Balloons) |  Hard  |     ❤️【区间dp】     |
+| 0316  |                Remove Duplicate Letters                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0316-Remove-Duplicate-Letters) | Medium |                     |
 | 0322  |                       Coin Change                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0322-Coin-Change) | Medium |          ❤️          |
 | 0328  |                  Odd Even Linked List                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0328-Odd-Even-Linked-List) | Medium |          ❤️          |
 | 0337  |                    House Robber III                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0337-House-Robber-III) | Medium |          ❤️          |
@@ -169,6 +173,7 @@ My LeetCode solution by Go.
 | 0700  |             Search in a Binary Search Tree              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0700-n0700-Search-in-a-Binary-Search-Tree) |  Easy  |                     |
 | 0702  |        Search in a Sorted Array of Unknown Size         | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0702-Search-in-a-Sorted-Array-of-Unknown-Size) | Medium |                     |
 | 0704  |                      Binary-Search                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0704-Binary-Search) |  Easy  |                     |
+| 0714  |  Best Time to Buy and Sell Stock with Transaction Fee   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0714-Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee) | Medium |                     |
 | 0718  |           Maximum Length of Repeated Subarray           | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0718-Maximum-Length-of-Repeated-Subarray) | Medium |  ❤️【最长公共子串】  |
 | 0724  |                    Find Pivot Index                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0724-Find-Pivot-Index) |  Easy  |                     |
 | 0739  |                   Daily Temperatures                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0739-Daily-Temperatures) | Medium |          ❤️          |
