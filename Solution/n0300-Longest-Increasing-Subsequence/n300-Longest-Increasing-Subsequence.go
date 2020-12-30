@@ -12,7 +12,7 @@ func lengthOfLIS(nums []int) int {
 	}
 
 	max := 1
-	d := make([]int, length)
+	d := make([]int, length) // 表示以第 i 个数字结尾的最长递增子序列的长度
 	d[0] = 1
 	for i := 1; i < length; i++ {
 		cur := 0
