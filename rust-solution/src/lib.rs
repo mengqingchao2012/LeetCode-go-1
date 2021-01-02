@@ -1,5 +1,6 @@
 mod n0022_generate_parentheses;
 mod n0034_find_first_and_last_position_of_element_in_sorted_array;
+mod n0239_sliding_window_maximum;
 mod n0621_task_scheduler;
 mod n1143_longest_common_subsequence;
 
