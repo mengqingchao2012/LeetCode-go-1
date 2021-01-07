@@ -58,6 +58,7 @@ My LeetCode solution by Go.
 | 0081  |            Search In Rotated Sorted Array II            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0081-Search-In-Rotated-Sorted-Array-II) | Medium |                     |
 | 0084  |             Largest Rectangle in Histogram              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0084-Largest-Rectangle-in-Histogram) |  Hard  |     ❤️【单调栈】     |
 | 0085  |                    Maximal Rectangle                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0085-Maximal-Rectangle) |  Hard  |  ❤️【复用84题解法】  |
+| 0086  |                     Partition List                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0086-Partition-List) | Medium |                     |
 | 0090  |                       Subsets II                        | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0090-Subsets-II) | Medium |          ❤️          |
 | 0091  |                       Decode Ways                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0091-Decode-Ways) | Medium |                     |
 | 0092  |                 Reverse Linked List II                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0092-Reverse-Linked-List-II) | Medium |          ❤️          |
@@ -162,6 +163,7 @@ My LeetCode solution by Go.
 | 0538  |               Convert BST to Greater Tree               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0538-Convert-BST-to-Greater-Tree) |  Easy  |                     |
 | 0540  |            Single Element in a Sorted Array             | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0540-Single-Element-in-a-Sorted-Array) | Medium |          ❤️          |
 | 0543  |                 Diameter of Binary Tree                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0543-Diameter-of-Binary-Tree) |  Easy  |                     |
+| 0547  |                   Number of Provinces                   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0547-Number-of-Provinces) | Medium |     【并查集】      |
 | 0560  |                  Subarray Sum Equals K                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0560-Subarray-Sum-Equals-K) | Medium |          ❤️          |
 | 0567  |                  Permutation in String                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0567-Permutation-in-String) | Medium |                     |
 | 0605  |                    Can Place Flowers                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0605-Can-Place-Flowers) |  Easy  |                     |

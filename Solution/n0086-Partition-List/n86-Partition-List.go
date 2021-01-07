@@ -1,14 +1,16 @@
 package main
 
-import "LeetCode-go/utils"
+import (
+	. "LeetCode-go/utils"
+)
 
-func partition(head *utils.ListNode, x int) *utils.ListNode {
+func partition(head *ListNode, x int) *ListNode {
 	if head == nil {
 		return nil
 	}
 
-	smaller := &utils.ListNode{}
-	greater := &utils.ListNode{}
+	smaller := &ListNode{}
+	greater := &ListNode{}
 	ps := smaller
 	pg := greater
 
