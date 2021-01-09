@@ -3,5 +3,6 @@ mod n0034_find_first_and_last_position_of_element_in_sorted_array;
 mod n0239_sliding_window_maximum;
 mod n0621_task_scheduler;
 mod n1143_longest_common_subsequence;
+mod n0547_number_of_provinces;
 
 pub struct Solution;

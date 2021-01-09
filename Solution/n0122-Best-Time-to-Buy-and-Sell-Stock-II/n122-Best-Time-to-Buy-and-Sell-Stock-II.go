@@ -9,22 +9,20 @@ func maxProfit(prices []int) int {
 		return 0
 	}
 
-	// 第一维表示天数，第二维表示是否持有股票
-	MP := make([][]int, n)
-	MP[0] = make([]int, 2)
-
-	MP[0][0], MP[0][1] = 0, -prices[0]
-	res := 0
+	// dp[i][0] 表示第 i 天手上不持有股票时的最大利润
+	// dp[i][1] 表示第 i 天手上持有股票时的最大利润
+	dp := make([][2]int, n)
+	for i := 0; i < n; i++ {
+		dp[i] = [2]int{}
+	}
+	dp[0][0] = 0
+	dp[0][1] = -prices[0]
 
 	for i := 1; i < n; i++ {
-		MP[i] = make([]int, 2)
-
-		MP[i][0] = MultiMax(MP[i - 1][0], MP[i - 1][1] + prices[i])
-		MP[i][1] = MultiMax(MP[i - 1][0] - prices[i], MP[i - 1][1])
-
-		res = MultiMax(res, MP[i][0], MP[i][1])
+		dp[i][0] = Max(dp[i - 1][0], dp[i - 1][1] + prices[i])
+		dp[i][1] = Max(dp[i - 1][1], dp[i - 1][0] - prices[i])
 	}
-	return res
+	return dp[n - 1][0]
 }
 
 // 贪心：只要后一天的价格高于当天价格，就执行一次买入卖出
