@@ -101,3 +101,32 @@ func Next(row, col int) func() (int, int) {
 		return x, y
 	}
 }
+
+// 更泛化的解法，使用偏移量
+func spiralOrder2(matrix [][]int) []int {
+	rows := len(matrix)
+	if rows == 0 {
+		return []int{}
+	}
+	cols := len(matrix[0])
+
+	dx, dy := [4]int{-1, 0, 1, 0}, [4]int{0, 1, 0, -1}
+	x, y, direction := 0, 0, 1
+	seen := make([][]bool, rows)
+	for i := 0; i < rows; i++ {
+		seen[i] = make([]bool, cols)
+	}
+
+	res := make([]int, 0, rows * cols)
+	for i := 0; i < rows * cols; i++ {
+		res = append(res, matrix[x][y])
+		seen[x][y] = true
+		a, b := x + dx[direction], y + dy[direction]
+		if a < 0 || a >= rows || b < 0 || b >= cols || seen[a][b] {
+			direction = (direction + 1) % 4
+			a, b = x + dx[direction], y + dy[direction]
+		}
+		x, y = a, b
+	}
+	return res
+}

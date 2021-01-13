@@ -35,7 +35,7 @@ func minimumTotal1(triangle [][]int) int {
 	copy(dp[m - 1], triangle[m - 1])
 
 	for i := m - 2; i >= 0; i-- {
-		dp[i] = make([]int, m)
+		dp[i] = make([]int, i + 1)
 		for j := 0; j <= i; j++ {
 			dp[i][j] = Min(dp[i + 1][j + 1], dp[i + 1][j]) + triangle[i][j]
 		}
