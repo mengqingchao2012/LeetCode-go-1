@@ -105,6 +105,7 @@ My LeetCode solution by Go.
 | 0191  |                    Number of 1 Bits                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0191-Number-of-1-Bits) |  Easy  |                           |
 | 0198  |                      House Robber                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0198-House-Robber) |  Easy  |                           |
 | 0199  |               Binary Tree Right Side View               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0199-Binary-Tree-Side-View) | Medium |                           |
+| 0200  |                    Number of Islands                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0200-Number-of-Islands) | Medium |      【flood fill】       |
 | 0202  |                      Happy Number                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0202-Happy-Number) |  Easy  |                           |
 | 0203  |               Remove Linked List Elements               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0203-Remove-Linked-List-Elements) |  Easy  |                           |
 | 0204  |                      Count Primes                       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0204-Count-Primes) |  Easy  |        ❤️【质数筛】        |
@@ -194,6 +195,7 @@ My LeetCode solution by Go.
 | 0852  |             Peak Index in a Mountain Array              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0852-Peak-Index-in-a-Mountain-Array) |  Easy  |                           |
 | 0876  |                Middle of the Linked List                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0876-Middle-of-the-Linked-List) |  Easy  |                           |
 | 0938  |                    Range Sum of BST                     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0938-Range-Sum-of-BST) |  Easy  |                           |
+| 0947  |       Most Stones Removed with Same Row or Column       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0947-Most-Stones-Removed-with-Same-Row-or-Column) | Medium |        【并查集】         |
 | 0973  |               K Closest Points to Origin                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0973-K-Closest-Points-to-Origin) | Medium |                           |
 | 0977  |                Squares of a Sorted Array                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0977-Squares-of-a-Sorted-Array) |  Easy  |                           |
 | 0986  |               Interval List Intersections               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n0986-Interval-List-Intersections) | Medium |             ❤️             |
