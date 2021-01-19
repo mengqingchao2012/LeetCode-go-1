@@ -210,6 +210,7 @@ My LeetCode solution by Go.
 | 1202  |               Smallest String With Swaps                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1202-Smallest-String-With-Swaps) | Medium |        【并查集】         |
 | 1246  |                   Palindrome Removal                    | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1246-Palindrome-Removal) |  Hard  |        ❤️【区间DP】        |
 | 1312  |   Minimum Insertion Steps to Make a String Palindrome   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1312-Minimum-Insertion-Steps-to-Make-a-String-Palindrome) |  Hard  |             ❤️             |
+| 1584  |             Min Cost to Connect All Points              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1584-Min-Cost-to-Connect-All-Points) | Medium |      【最小生成树】       |
 | 53-02 |                     Missing-Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-53-02-Missing-Number) |  Easy  |                           |
 | 57-02 |               Continuous Squence With Sum               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-57-02-Continuous-Squence-With-Sum) |  Easy  |                           |
 
