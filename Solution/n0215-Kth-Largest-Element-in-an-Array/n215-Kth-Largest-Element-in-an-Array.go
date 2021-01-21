@@ -3,38 +3,36 @@ package main
 import "container/heap"
 
 // 方法一：快速选择法（线性求第K大）
-func partition(nums []int, low, high int) int {
-	pivot, l, r := nums[low], low, high // 注意 pivot 的选择是 nums[low]，不能写成 nums[0]
-	for l < r {                         // 注意是小于，l == r 时循环退出
-		for l < r && nums[r] < pivot {
-			r--
-		}
-		if l < r {
-			nums[l], nums[r] = nums[r], nums[l]
-		}
-		for l < r && nums[l] >= pivot {
-			l++
-		} // 注意大于等于 pivot 的元素放到左边
-		if l < r {
-			nums[l], nums[r] = nums[r], nums[l]
-		}
-	}
-	return l
+func findKthLargest(nums []int, k int) int {
+	n := len(nums)
+	res := quickSelect(nums, 0, n - 1, k)
+	return res
 }
 
-func findKthLargest(nums []int, k int) int {
-	low, high := 0, len(nums)-1
-	for low <= high { // 注意这里是小于等于
-		p := partition(nums, low, high)
-		if p == k-1 {
-			return nums[p]
-		} else if p > k-1 {
-			high = p - 1
-		} else {
-			low = p + 1
-		}
+func quickSelect(nums []int, left, right, k int) int {
+	if left == right {
+		return nums[left]
 	}
-	return -1
+
+	// 注意：因为是要求第 k 大的数，所以选择将数组按照降序排序，这样第 k 大的数会落在最终结果的前半部分
+	pivot, i, j := nums[left + ((right - left) >> 1)], left, right
+	for {
+		for nums[i] > pivot { i++ }
+		for nums[j] < pivot { j-- }
+		if i >= j {
+			break
+		}
+		nums[i], nums[j] = nums[j], nums[i]
+		i++; j--
+	}
+
+	// 分界点将数组分成两部分，前半部分的所有数都 >= pivot，后半部分的所有数都 <= pivot
+	sl := j - left + 1 // 计算出前半部分共有多少个数
+	if k <= sl { // 如果前半部分数的个数小于等于 k，说明第 k 大的数肯定在前半部分，则递归的到前半部分进行查找
+		return quickSelect(nums, left, j, k)
+	} else { // 否则到后半部分进行查找，要注意此时由于查找数的区间变了，最终的 k 要减去前半部分的数的个数
+		return quickSelect(nums, j + 1, right, k - sl)
+	}
 }
 
 // 方法二：最小堆

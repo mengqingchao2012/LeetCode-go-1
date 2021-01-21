@@ -1,44 +1,41 @@
 package main
 
 //Time：O(nlogn)，Space：O(n)
-func merge(nums *[]int, low, mid, high int) {
-	i, j := low, mid+1
-	var temp []int
-	for i <= mid && j <= high {
-		if (*nums)[i] <= (*nums)[j] {
-			temp = append(temp, (*nums)[i])
+func mergeSort(nums []int, left, right int) {
+	if left >= right {
+		return
+	}
+
+	mid := left + ((right - left) >> 1)
+	mergeSort(nums, left, mid)
+	mergeSort(nums, mid + 1, right)
+
+	i, j := left, mid + 1
+	tmp := make([]int, 0, right - left + 1)
+	for i <= mid && j <= right {
+		if nums[i] <= nums[j] {
+			tmp = append(tmp, nums[i])
 			i++
 		} else {
-			temp = append(temp, (*nums)[j])
+			tmp = append(tmp, nums[j])
 			j++
 		}
 	}
 
 	if i <= mid {
-		temp = append(temp, (*nums)[i:]...)
+		tmp = append(tmp, nums[i : mid + 1]...)
 	}
-
-	if j <= mid {
-		temp = append(temp, (*nums)[j:]...)
+	if j <= right {
+		tmp = append(tmp, nums[j : right + 1]...)
 	}
-
-	copy((*nums)[low:high+1], temp)
-}
-
-func mergeSort(nums *[]int, low, high int) {
-	if low < high {
-		mid := low + ((high - low) >> 1)
-		mergeSort(nums, low, mid)
-		mergeSort(nums, mid+1, high)
-		merge(nums, low, mid, high)
-	}
+	copy(nums[left : right + 1], tmp)
 }
 
 func SortRecursive(arr []int) {
 	if len(arr) == 0 {
 		return
 	}
-	mergeSort(&arr, 0, len(arr)-1)
+	mergeSort(arr, 0, len(arr)-1)
 }
 
 //func main() {
