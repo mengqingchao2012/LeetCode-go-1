@@ -207,6 +207,7 @@ My LeetCode solution by Go.
 | 1013  |     Partition Array Into Three Parts With Equal Sum     | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1013-Partition-Array-Into-Three-Parts-With-Equal-Sum) |  Easy   |                           |
 | 1062  |               Longest Repeating Substring               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1062-Longest-Repeating-Substring) | Medium  |                           |
 | 1103  |              Distribute Candies to People               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1103-Distribute-Candies-to-People) |  Easy   |                           |
+| 1128  |            Number of Equivalent Domino Pairs            | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1128-Number-of-Equivalent-Domino-Pairs) |  Easy   |                           |
 | 1137  |                 N-th Tribonacci Number                  | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1137-N-th-Tribonacci-Number) |  Easy   |                           |
 | 1143  |               Longest Common Subsequence                | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1143-Longest-Common-Subsequence) | Medium  |    ❤️【最长公共子序列】    |
 | 1160  |       Find Words That Can Be Formed by Characters       | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1160-Find-Words-That-Can-Be-Formed-by-Characters) |  Easy   |                           |

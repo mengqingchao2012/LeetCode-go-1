@@ -56,3 +56,34 @@ func postorderTraversal1(root *TreeNode) []int {
 	}
 	return res
 }
+
+func postorderTraversal2(root *TreeNode) []int {
+	if root == nil {
+		return []int{}
+	}
+
+	res := []int{}
+	stack := []*TreeNode{}
+	pre := &TreeNode{}
+
+	for root != nil || len(stack) != 0 {
+		for root != nil {
+			stack = append(stack, root)
+			root = root.Left
+		}
+
+		topIdx := len(stack) - 1
+		top := stack[topIdx]
+
+		if top.Right == nil || top.Right == pre {
+			stack[topIdx] = nil
+			stack = stack[:topIdx]
+			pre = top
+			res = append(res, top.Val)
+			root = nil
+		} else {
+			root = top.Right
+		}
+	}
+	return res
+}
