@@ -1,64 +1,61 @@
 package main
 
-import (
-	. "LeetCode-go/utils"
-)
-
 // 方法一：dp
 func lengthOfLIS(nums []int) int {
-	length := len(nums)
-	if length == 0 { //注意不要漏掉判断数组为空的情况
-		return 0
+	n := len(nums)
+	if n == 1 {
+		return 1
 	}
 
-	max := 1
-	d := make([]int, length) // 表示以第 i 个数字结尾的最长递增子序列的长度
-	d[0] = 1
-	for i := 1; i < length; i++ {
-		cur := 0
+	// dp[i] 表示以第 i 个数字结尾的最长增长子序列的长度
+	dp := make([]int, n)
+	// 将 dp 中的每个元素都更新为 1，因为单个字符的最长递增子序列就是它本身
+	for i := 0; i < n; i++ {
+		dp[i] = 1
+	}
+
+	res := 1
+	for i := 1; i < n; i++ {
 		for j := 0; j < i; j++ {
-			if nums[i] > nums[j] {
-				cur = d[j] + 1
-			} else {
-				cur = 1
+			if nums[i] > nums[j] && dp[i] <= dp[j] {
+				dp[i] = dp[j] + 1
 			}
-			d[i] = Max(cur, d[i])
 		}
-		max = Max(max, d[i])
+		if dp[i] > res {
+			res = dp[i]
+		}
 	}
-	return max
+	return res
 }
 
-// 方法二：dp + 二分
+// 方法二：贪心 + 二分
 func lengthOfLIS1(nums []int) int {
-	length := len(nums)
-	if length == 0 {
-		return 0
+	n := len(nums)
+	if n == 1 {
+		return 1
 	}
 
-	d := make([]int, length)
-	l := 0
+	subq := make([]int, n + 1) // 表示最终生成的最长递增子序列
+	maxLen := 0 // 表示递增子序列的长度
 	for _, v := range nums {
-		i := binarySearchInsertPosition(d, l, v)
-		d[i] = v
-		if i == l {
-			l++
+		l, r := 0, maxLen
+		for l < r { // 注意：是在 subq 中进行二分
+			mid := (l + r + 1) >> 1
+			if subq[mid] < v {
+				l = mid
+			} else {
+				r = mid - 1
+			}
 		}
+		maxLen = Max(maxLen, r + 1)
+		subq[r + 1] = v
 	}
-	return l
+	return maxLen
 }
 
-func binarySearchInsertPosition(nums []int, length int, target int) int {
-	low, high := 0, length - 1
-	for low <= high {
-		mid := low + ((high - low) >> 1)
-		if target < nums[mid] {
-			high = mid - 1
-		} else if target > nums[mid] {
-			low = mid + 1
-		} else {
-			return mid
-		}
+func Max(a, b int) int {
+	if a > b {
+		return a
 	}
-	return low
+	return b
 }
