@@ -216,6 +216,7 @@ My LeetCode solution by Go.
 | 1312  |   Minimum Insertion Steps to Make a String Palindrome   | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1312-Minimum-Insertion-Steps-to-Make-a-String-Palindrome) |  Hard   |             ❤️             |
 | 1319  |     Number of Operations to Make Network Connected      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1319-Number-of-Operations-to-Make-Network-Connected) | Mediium |        【并查集】         |
 | 1584  |             Min Cost to Connect All Points              | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1584-Min-Cost-to-Connect-All-Points) | Medium  |      【最小生成树】       |
+| 1631  |                Path With Minimum Effort                 | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/n1631-Path-With-Minimum-Effort) | Medium  |             ❤️             |
 | 53-02 |                     Missing-Number                      | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-53-02-Missing-Number) |  Easy   |                           |
 | 57-02 |               Continuous Squence With Sum               | [Go](https://github.com/YangKian/LeetCode-go/tree/master/Solution/offer-57-02-Continuous-Squence-With-Sum) |  Easy   |                           |
 
